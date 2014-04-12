@@ -9,7 +9,7 @@ import android.view.Window;
 public class SplashActivity extends Activity {
 
 	// DELAY IN MILISECONDS BEFORE LAUNCHING MAIN
-	private static int DELAY = 2000;
+	private static int DELAY = 500;// 2000;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
