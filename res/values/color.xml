@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#C21D24</color>
+    <color name="primary_pressed">#FB1711</color>
+    <color name="secondary">#FC9919</color>
+    <color name="secondary_pressed">#FC9919</color>
+    <color name="tertiary">#3D7FE3</color>
+    <color name="tertiary_pressed">#3D7FE3</color>
+
+</resources>
