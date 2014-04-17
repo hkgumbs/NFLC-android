@@ -1016,22 +1016,26 @@ containing a value of this type.
         public static final int icon_dow=0x7f02006f;
         public static final int icon_fav_empty=0x7f020070;
         public static final int icon_fav_full=0x7f020071;
-        public static final int icon_pur=0x7f020072;
-        public static final int icon_set=0x7f020073;
-        public static final int img_splash=0x7f020074;
-        public static final int irn=0x7f020075;
-        public static final int ita=0x7f020076;
-        public static final int jpn=0x7f020077;
-        public static final int kor=0x7f020078;
-        public static final int mex=0x7f020079;
-        public static final int ned=0x7f02007a;
-        public static final int nga=0x7f02007b;
-        public static final int por=0x7f02007c;
-        public static final int rus=0x7f02007d;
-        public static final int selector_primary=0x7f02007e;
-        public static final int sui=0x7f02007f;
-        public static final int uru=0x7f020080;
-        public static final int usa=0x7f020081;
+        public static final int icon_left=0x7f020072;
+        public static final int icon_play=0x7f020073;
+        public static final int icon_pur=0x7f020074;
+        public static final int icon_right=0x7f020075;
+        public static final int icon_set=0x7f020076;
+        public static final int icon_stop=0x7f020077;
+        public static final int img_splash=0x7f020078;
+        public static final int irn=0x7f020079;
+        public static final int ita=0x7f02007a;
+        public static final int jpn=0x7f02007b;
+        public static final int kor=0x7f02007c;
+        public static final int mex=0x7f02007d;
+        public static final int ned=0x7f02007e;
+        public static final int nga=0x7f02007f;
+        public static final int por=0x7f020080;
+        public static final int rus=0x7f020081;
+        public static final int selector_primary=0x7f020082;
+        public static final int sui=0x7f020083;
+        public static final int uru=0x7f020084;
+        public static final int usa=0x7f020085;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1150,10 +1154,11 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int activity_main=0x7f030017;
-        public static final int activity_splash=0x7f030018;
-        public static final int fragment_list=0x7f030019;
-        public static final int list_item=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int activity_play=0x7f030018;
+        public static final int activity_splash=0x7f030019;
+        public static final int fragment_list=0x7f03001a;
+        public static final int list_item=0x7f03001b;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
     }
     public static final class menu {
         public static final int splash=0x7f0d0000;
