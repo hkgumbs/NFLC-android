@@ -15,12 +15,17 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class TeamActivity extends ActionBarActivity implements ListView.OnItemClickListener, OnClickListener {
 
 	String[] chantTitles;
 	String title;
 	int iconId;
+
+	MediaPlayer player;
+	ImageView button;
+	boolean playing;
 
 	@Override
 	protected void onCreate(Bundle b) {
@@ -64,33 +69,54 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	@Override
 	public void onClick(final View v) {
-		// play button listener
+
+		if (!playing)
+			startAudio(v);
+
+		else if (!stopAudio(v))
+			startAudio(v);
+
+	}
+
+	private boolean startAudio(final View v) {
 		try {
-			MediaPlayer player = new MediaPlayer();
-			player.setDataSource("http://storage.googleapis.com/testbucket1111/samples/sample1.wav");
+			player = new MediaPlayer();
+			player.setDataSource((String) v.getTag());
 			player.prepare();
 			player.setOnCompletionListener(new OnCompletionListener() {
 				@Override
 				public void onCompletion(MediaPlayer mp) {
-					// TODO Auto-generated method stub
-
+					stopAudio(v);
 				}
 			});
+
+			button = (ImageView) v;
+			button.setImageResource(R.drawable.icon_stop);
+			playing = true;
+
 		} catch (IllegalStateException e) {
-			// TODO Auto-generated catch block
+			Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
 			e.printStackTrace();
+			return false;
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
 			e.printStackTrace();
+			return false;
 		}
 
-		if (!player.isPlaying()) {
-			player.start();
-			((ImageView) v).setImageResource(R.drawable.icon_stop);
-		} else {
-			player.stop();
-			((ImageView) v).setImageResource(R.drawable.icon_play);
-		}
+		return true;
+	}
 
+	private boolean stopAudio(View v) {
+		player.stop();
+		player.release();
+		player = null;
+		button.setImageResource(R.drawable.icon_play);
+		playing = false;
+
+		boolean result = v.equals(button);
+		button = null;
+
+		return result;
 	}
 }

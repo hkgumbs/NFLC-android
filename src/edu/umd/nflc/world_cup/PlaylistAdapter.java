@@ -45,7 +45,7 @@ public class PlaylistAdapter extends BaseAdapter implements Constants {
 
 		View playButton = convertView.findViewById(R.id.play);
 		playButton.setOnClickListener(listener);
-		playButton.setTag(titles[position]);
+		playButton.setTag("http://storage.googleapis.com/testbucket1111/samples/sample1.wav");
 		
 		return convertView;
 	}
