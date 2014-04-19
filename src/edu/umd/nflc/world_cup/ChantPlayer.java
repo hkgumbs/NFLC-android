@@ -40,6 +40,7 @@ public class ChantPlayer {
 	 */
 	private boolean startAudio(final ImageView v, String source) {
 		try {
+			player = new MediaPlayer();
 			player.setDataSource(source);
 			player.prepare();
 			player.setOnCompletionListener(new OnCompletionListener() {
