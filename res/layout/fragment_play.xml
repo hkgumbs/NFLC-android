@@ -11,9 +11,9 @@
         android:padding="10dp" >
 
         <TextView
+            android:id="@+id/lyric"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hello hello hello hello hello hello hello hello hello hello"
             android:textSize="18sp" />
     </ScrollView>
 
@@ -35,28 +35,28 @@
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
             android:layout_weight="1"
             android:background="@android:drawable/list_selector_background"
             android:contentDescription="@string/previous"
+            android:padding="15dp"
             android:src="@drawable/icon_previous" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
             android:layout_weight="1"
             android:background="@android:drawable/list_selector_background"
             android:contentDescription="@string/play"
+            android:padding="15dp"
             android:src="@drawable/icon_play" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="15dp"
             android:layout_weight="1"
             android:background="@android:drawable/list_selector_background"
             android:contentDescription="@string/next"
+            android:padding="15dp"
             android:src="@drawable/icon_next" />
     </LinearLayout>
 

@@ -1,11 +1,6 @@
 package edu.umd.nflc.world_cup;
 
-import java.io.IOException;
-
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
-import android.media.MediaPlayer;
-import android.media.MediaPlayer.OnCompletionListener;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
@@ -13,19 +8,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
-import android.widget.ImageView;
+import android.widget.ImageButton;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class TeamActivity extends ActionBarActivity implements ListView.OnItemClickListener, OnClickListener {
 
 	String[] chantTitles;
 	String title;
 	int iconId;
-
-	MediaPlayer player;
-	ImageView button;
-	boolean playing;
+	final ChantPlayer player = new ChantPlayer();
 
 	@Override
 	protected void onCreate(Bundle b) {
@@ -69,54 +60,8 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	@Override
 	public void onClick(final View v) {
-
-		if (!playing)
-			startAudio(v);
-
-		else if (!stopAudio(v))
-			startAudio(v);
-
+		// TODO make modular
+		player.invoke(0, 0, (ImageButton) v);
 	}
 
-	private boolean startAudio(final View v) {
-		try {
-			player = new MediaPlayer();
-			player.setDataSource((String) v.getTag());
-			player.prepare();
-			player.setOnCompletionListener(new OnCompletionListener() {
-				@Override
-				public void onCompletion(MediaPlayer mp) {
-					stopAudio(v);
-				}
-			});
-
-			button = (ImageView) v;
-			button.setImageResource(R.drawable.icon_stop);
-			playing = true;
-
-		} catch (IllegalStateException e) {
-			Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
-			e.printStackTrace();
-			return false;
-		} catch (IOException e) {
-			Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
-			e.printStackTrace();
-			return false;
-		}
-
-		return true;
-	}
-
-	private boolean stopAudio(View v) {
-		player.stop();
-		player.release();
-		player = null;
-		button.setImageResource(R.drawable.icon_play);
-		playing = false;
-
-		boolean result = v.equals(button);
-		button = null;
-
-		return result;
-	}
 }
