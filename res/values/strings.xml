@@ -5,21 +5,37 @@
     <string name="action_settings">Settings</string>
     <string name="browse">Browse</string>
     <string name="favorites">Favorites</string>
+    <string name="hello_world">Hello world!</string>
     <string name="menu_opened">Menu opened!</string>
     <string name="menu_closed">Menu closed!</string>
+    <string name="play">Play track</string>
     <string name="purcheses">Purchases</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="previous">Previous track</string>
+    <string name="next">Next track</string>
 
+    <string-array name="test_chants">
+        <item>Yankee doodle</item>
+        <item>Go America!</item>
+        <item>Score the goal</item>
+        <item>GOOOOOOOOOOOAAAAAAAAAAAAALLLLLLLLLLLLL!!!!!!!!!!!!</item>
+        <item>Goal.</item>
+        <item>Golaso..</item>
+        <item>Freddy Edu</item>
+    </string-array>
+
+    <!-- Nav drawer -->
     <string-array name="page_titles">
         <item>@string/browse</item>
         <item>@string/favorites</item>
         <item>@string/purcheses</item>
     </string-array>
     <string-array name="page_icons">
-        <item>@drawable/icon_bro</item>
-        <item>@drawable/icon_fav_full</item>
-        <item>@drawable/icon_pur</item>
+        <item>@drawable/icon_browse</item>
+        <item>@drawable/icon_fav</item>
+        <item>@drawable/icon_buy</item>
     </string-array>
+
+    <!-- Teams -->
     <string-array name="team_names">
         <item>Algeria</item>
         <item>Argentina</item>

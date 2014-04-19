@@ -1,0 +1,46 @@
+package edu.umd.nflc.world_cup;
+
+import android.graphics.drawable.Drawable;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.TextView;
+
+public class PlaylistAdapter extends BaseAdapter implements Constants {
+
+	private final String[] titles;
+	private final LayoutInflater inflater;
+
+	public PlaylistAdapter(LayoutInflater inflater, String[] titles, Drawable icon) {
+		this.titles = titles;
+		this.inflater = inflater;
+	}
+
+	@Override
+	public int getCount() {
+		return titles.length;
+	}
+
+	@Override
+	public Object getItem(int position) {
+		return titles[position];
+	}
+
+	@Override
+	public long getItemId(int position) {
+		return position;
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+
+		if (convertView == null)
+			convertView = inflater.inflate(R.layout.list_item_compound, null);
+
+		TextView label = (TextView) convertView.findViewById(R.id.text);
+		label.setText(titles[position]);
+		return convertView;
+	}
+
+}

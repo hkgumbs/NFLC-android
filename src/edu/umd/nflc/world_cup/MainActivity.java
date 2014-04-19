@@ -1,5 +1,6 @@
 package edu.umd.nflc.world_cup;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
@@ -43,7 +44,7 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 		drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		drawerList = (ListView) findViewById(R.id.left_drawer);
-		drawerList.setAdapter(new ListAdapter(getLayoutInflater(), pageTitles, pageIcons, true));
+		drawerList.setAdapter(new TypedArrayAdapter(getLayoutInflater(), pageTitles, pageIcons));
 		drawerList.setOnItemClickListener(this);
 
 		drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.drawable.ic_drawer, R.string.menu_opened,
@@ -156,15 +157,19 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 			View frame = inflater.inflate(R.layout.fragment_list, container, false);
 			ListView content = (ListView) frame.findViewById(R.id.content);
-			content.setAdapter(new ListAdapter(inflater, teamNames, teamFlags, true));
+			content.setAdapter(new TypedArrayAdapter(inflater, teamNames, teamFlags));
 			content.setOnItemClickListener(this);
 
 			return frame;
 		}
 
 		@Override
-		public void onItemClick(AdapterView<?> arg0, View arg1, int arg2, long arg3) {
+		public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 			// TODO Auto-generated method stub
+			Intent i = new Intent(getActivity(), TeamActivity.class);
+			i.putExtra("title", teamNames[position]);
+			i.putExtra("iconId", teamFlags.getResourceId(position, 0));
+			startActivity(i);
 		}
 
 	}

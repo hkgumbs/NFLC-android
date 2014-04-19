@@ -26,6 +26,14 @@
             android:name="edu.umd.nflc.world_cup.MainActivity"
             android:label="@string/app_name" >
         </activity>
+        <activity
+            android:name="edu.umd.nflc.world_cup.PlayActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="edu.umd.nflc.world_cup.TeamActivity"
+            android:label="@string/app_name" >
+        </activity>
     </application>
 
 </manifest>
