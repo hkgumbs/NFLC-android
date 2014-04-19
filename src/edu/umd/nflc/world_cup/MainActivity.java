@@ -125,7 +125,7 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 			FragmentManager fragmentManager = getSupportFragmentManager();
 			fragmentManager.beginTransaction().replace(R.id.content_frame, pageFragments[position]).commit();
 
-			// Bold current item in list & unbold brevious
+			// Bold current item in list & unbold previous
 			((TextView) drawerList.getChildAt(position)).setTypeface(null, Typeface.BOLD);
 			((TextView) drawerList.getChildAt(currentPage)).setTypeface(null, Typeface.NORMAL);
 			currentPage = position;

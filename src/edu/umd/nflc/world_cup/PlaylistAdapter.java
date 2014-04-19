@@ -1,8 +1,8 @@
 package edu.umd.nflc.world_cup;
 
-import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
@@ -11,10 +11,12 @@ public class PlaylistAdapter extends BaseAdapter implements Constants {
 
 	private final String[] titles;
 	private final LayoutInflater inflater;
+	private final OnClickListener listener;
 
-	public PlaylistAdapter(LayoutInflater inflater, String[] titles, Drawable icon) {
+	public PlaylistAdapter(LayoutInflater inflater, String[] titles, OnClickListener listener) {
 		this.titles = titles;
 		this.inflater = inflater;
+		this.listener = listener;
 	}
 
 	@Override
@@ -40,6 +42,11 @@ public class PlaylistAdapter extends BaseAdapter implements Constants {
 
 		TextView label = (TextView) convertView.findViewById(R.id.text);
 		label.setText(titles[position]);
+
+		View playButton = convertView.findViewById(R.id.play);
+		playButton.setOnClickListener(listener);
+		playButton.setTag(titles[position]);
+		
 		return convertView;
 	}
 
