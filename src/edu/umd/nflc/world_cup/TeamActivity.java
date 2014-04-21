@@ -38,6 +38,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		if (!sp.getBoolean(Integer.toString(teamId), false)) {
 			View button = getLayoutInflater().inflate(R.layout.button_buy, root);
 			addContentView(button, new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+			button.setOnClickListener(this);
 		}
 		setContentView(root);
 
@@ -90,7 +91,16 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	@Override
 	public void onClick(final View v) {
-		player.toggleSong(teamId, (Integer) v.getTag(), (ImageButton) v);
+		switch (v.getId()) {
+		case R.id.play:
+			player.toggleSong(teamId, (Integer) v.getTag(), (ImageButton) v);
+			break;
+
+		case R.id.buy:
+			// TODO payment processing stuff
+			break;
+		}
+
 	}
 
 }
