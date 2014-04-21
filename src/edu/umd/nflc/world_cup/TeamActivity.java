@@ -1,43 +1,71 @@
 package edu.umd.nflc.world_cup;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
 import android.widget.AdapterView;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 public class TeamActivity extends ActionBarActivity implements ListView.OnItemClickListener, OnClickListener {
 
-	String[] chantTitles;
-	String title;
+	String[] songNames;
+	String teamName;
+	int teamId;
 	int iconId;
+
 	final ChantPlayer player = new ChantPlayer();
 
 	@Override
 	protected void onCreate(Bundle b) {
 		super.onCreate(b);
-		// might change this to master-detail layout later
-		setContentView(R.layout.fragment_list);
 
-		chantTitles = getResources().getStringArray(R.array.test_chants);
+		ViewGroup root = (ViewGroup) getLayoutInflater().inflate(R.layout.fragment_list, null);
 
-		ListView content = (ListView) findViewById(R.id.content);
-		content.setAdapter(new PlaylistAdapter(getLayoutInflater(), chantTitles, this));
+		// show buy button if not bought
+		SharedPreferences sp = getPreferences(Context.MODE_PRIVATE);
+		if (!sp.getBoolean(Integer.toString(teamId), false)) {
+			View button = getLayoutInflater().inflate(R.layout.button_buy, root);
+			addContentView(button, new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+		}
+		setContentView(root);
+
+		// TODO get song list from Bas' class
+		songNames = getResources().getStringArray(R.array.test_chants);
+
+		ListView content = (ListView) findViewById(R.id.list);
+		content.setAdapter(new PlaylistAdapter(getLayoutInflater(), songNames, this));
 		content.setOnItemClickListener(this);
 
-		title = getIntent().getExtras().getString("title");
+		teamName = getIntent().getExtras().getString("teamName");
+		teamId = getIntent().getExtras().getInt("teamID");
 		iconId = getIntent().getExtras().getInt("iconId");
 
 		ActionBar ab = getSupportActionBar();
-		ab.setTitle(title);
+		ab.setTitle(teamName);
 		ab.setIcon(iconId);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
+
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		super.onCreateOptionsMenu(menu);
+		MenuInflater inflater = getMenuInflater();
+		inflater.inflate(R.menu.main, menu);
+		return true;
 	}
 
 	@Override
@@ -53,15 +81,16 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 		Intent i = new Intent(this, PlayActivity.class);
-		i.putExtra("title", chantTitles[position]);
+		i.putExtra("songName", songNames[position]);
+		i.putExtra("songId", position);
+		i.putExtra("teamId", teamId);
 		i.putExtra("iconId", iconId);
 		startActivity(i);
 	}
 
 	@Override
 	public void onClick(final View v) {
-		// TODO make modular
-		player.invoke(0, 0, (ImageButton) v);
+		player.toggleSong(teamId, (Integer) v.getTag(), (ImageButton) v);
 	}
 
 }

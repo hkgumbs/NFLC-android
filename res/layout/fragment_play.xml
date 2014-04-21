@@ -7,23 +7,24 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:padding="10dp" >
+        android:layout_weight="1" >
 
         <TextView
-            android:id="@+id/lyric"
+            android:id="@+id/lyrics"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/loading"
             android:textSize="18sp" />
     </ScrollView>
 
     <TextView
+        android:id="@+id/size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
         android:background="@android:color/darker_gray"
         android:gravity="center"
-        android:text="1.3 MB"
         android:textSize="12sp" />
 
     <LinearLayout
@@ -33,28 +34,31 @@
         android:orientation="horizontal" >
 
         <ImageButton
+            android:id="@+id/previous"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@android:drawable/list_selector_background"
+            android:background="@drawable/selector_primary"
             android:contentDescription="@string/previous"
             android:padding="15dp"
             android:src="@drawable/icon_previous" />
 
         <ImageButton
+            android:id="@+id/play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@android:drawable/list_selector_background"
+            android:background="@drawable/selector_primary"
             android:contentDescription="@string/play"
             android:padding="15dp"
             android:src="@drawable/icon_play" />
 
         <ImageButton
+            android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@android:drawable/list_selector_background"
+            android:background="@drawable/selector_primary"
             android:contentDescription="@string/next"
             android:padding="15dp"
             android:src="@drawable/icon_next" />

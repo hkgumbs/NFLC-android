@@ -156,7 +156,7 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 			// TODO filter array based on page
 
 			View frame = inflater.inflate(R.layout.fragment_list, container, false);
-			ListView content = (ListView) frame.findViewById(R.id.content);
+			ListView content = (ListView) frame.findViewById(R.id.list);
 			content.setAdapter(new TypedArrayAdapter(inflater, teamNames, teamFlags));
 			content.setOnItemClickListener(this);
 
@@ -167,7 +167,8 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 		public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 			// TODO Auto-generated method stub
 			Intent i = new Intent(getActivity(), TeamActivity.class);
-			i.putExtra("title", teamNames[position]);
+			i.putExtra("teamName", teamNames[position]);
+			i.putExtra("teamId", position);
 			i.putExtra("iconId", teamFlags.getResourceId(position, 0));
 			startActivity(i);
 		}

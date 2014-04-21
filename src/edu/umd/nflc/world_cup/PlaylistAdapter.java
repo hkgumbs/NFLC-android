@@ -7,7 +7,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
-public class PlaylistAdapter extends BaseAdapter implements Constants {
+public class PlaylistAdapter extends BaseAdapter {
+
+	static final int ICON_SIZE = 64;
 
 	private final String[] titles;
 	private final LayoutInflater inflater;

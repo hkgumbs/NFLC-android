@@ -4,11 +4,15 @@
     <string name="app_name">World Cup</string>
     <string name="action_settings">Settings</string>
     <string name="browse">Browse</string>
+    <string name="download">Download</string>
+    <string name="favorite">Favorite</string>
     <string name="favorites">Favorites</string>
     <string name="hello_world">Hello world!</string>
+    <string name="loading">Loading&#8230;</string>
     <string name="menu_opened">Menu opened!</string>
     <string name="menu_closed">Menu closed!</string>
     <string name="play">Play track</string>
+    <string name="purchase">Purchase</string>
     <string name="purcheses">Purchases</string>
     <string name="previous">Previous track</string>
     <string name="next">Next track</string>
@@ -31,8 +35,8 @@
     </string-array>
     <string-array name="page_icons">
         <item>@drawable/icon_browse</item>
-        <item>@drawable/icon_fav</item>
-        <item>@drawable/icon_buy</item>
+        <item>@drawable/icon_unfav</item>
+        <item>@drawable/icon_buy_dark</item>
     </string-array>
 
     <!-- Teams -->
