@@ -14,7 +14,6 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.AdapterView;
-import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
@@ -24,8 +23,8 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	String teamName;
 	int teamId;
 	int iconId;
-
-	final ChantPlayer player = new ChantPlayer();
+	
+	PlaylistAdapter adapter;
 
 	@Override
 	protected void onCreate(Bundle b) {
@@ -46,7 +45,8 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		songNames = getResources().getStringArray(R.array.test_chants);
 
 		ListView content = (ListView) findViewById(R.id.list);
-		content.setAdapter(new PlaylistAdapter(getLayoutInflater(), songNames, this));
+		adapter = new PlaylistAdapter(getLayoutInflater(), songNames);
+		content.setAdapter(adapter);
 		content.setOnItemClickListener(this);
 
 		teamName = getIntent().getExtras().getString("teamName");
@@ -59,6 +59,12 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
 
+	}
+	
+	@Override
+	public void onStop() {
+		super.onStop();
+		adapter.release();
 	}
 
 	@Override
@@ -91,16 +97,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	@Override
 	public void onClick(final View v) {
-		switch (v.getId()) {
-		case R.id.play:
-			player.toggleSong(teamId, (Integer) v.getTag(), (ImageButton) v);
-			break;
-
-		case R.id.buy:
-			// TODO payment processing stuff
-			break;
-		}
-
+		// TODO payment processing stuff
 	}
 
 }
