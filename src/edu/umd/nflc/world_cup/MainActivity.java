@@ -67,6 +67,7 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 		drawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
+		setTitle(pageTitles[currentPage]);
 
 		// Set current page to display bold in drawer
 		drawerList.post(new Runnable() {
@@ -165,7 +166,6 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 		@Override
 		public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-			// TODO Auto-generated method stub
 			Intent i = new Intent(getActivity(), TeamActivity.class);
 			i.putExtra("teamName", teamNames[position]);
 			i.putExtra("teamId", position);

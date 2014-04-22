@@ -20,11 +20,12 @@ import android.widget.ListView;
 public class TeamActivity extends ActionBarActivity implements ListView.OnItemClickListener, OnClickListener {
 
 	String[] songNames;
+	String[] songSources;
 	String teamName;
 	int teamId;
 	int iconId;
-	
-	PlaylistAdapter adapter;
+
+	ChantPlayer chants;
 
 	@Override
 	protected void onCreate(Bundle b) {
@@ -44,9 +45,12 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		// TODO get song list from Bas' class
 		songNames = getResources().getStringArray(R.array.test_chants);
 
+		// TODO get song sources from Bas' class
+		songSources = getResources().getStringArray(R.array.test_sources);
+
 		ListView content = (ListView) findViewById(R.id.list);
-		adapter = new PlaylistAdapter(getLayoutInflater(), songNames);
-		content.setAdapter(adapter);
+		chants = new ChantPlayer(songSources);
+		content.setAdapter(new PlaylistAdapter(this, songNames, chants));
 		content.setOnItemClickListener(this);
 
 		teamName = getIntent().getExtras().getString("teamName");
@@ -60,11 +64,11 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		getSupportActionBar().setHomeButtonEnabled(true);
 
 	}
-	
+
 	@Override
 	public void onStop() {
 		super.onStop();
-		adapter.release();
+		chants.release();
 	}
 
 	@Override
@@ -87,8 +91,8 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+		chants.stop();
 		Intent i = new Intent(this, PlayActivity.class);
-		i.putExtra("songName", songNames[position]);
 		i.putExtra("songId", position);
 		i.putExtra("teamId", teamId);
 		i.putExtra("iconId", iconId);

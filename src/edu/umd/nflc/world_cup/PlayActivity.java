@@ -1,47 +1,69 @@
 package edu.umd.nflc.world_cup;
 
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.View.OnClickListener;
-import android.widget.ImageButton;
 import android.widget.TextView;
 
-public class PlayActivity extends ActionBarActivity implements OnClickListener {
+public class PlayActivity extends ActionBarActivity implements OnPageChangeListener {
 
-	String songName;
-	int songId;
-	int teamId;
-	int iconId;
+	private String[] songNames;
+	private String[] songSources;
 
-	final ChantPlayer player = new ChantPlayer();
+	private static int numSongs;
+	private static int teamId;
+
+	private static ChantPlayer chants;
+	private static PagerAdapter adapter;
+	private static ViewPager pager;
 
 	@Override
 	protected void onCreate(Bundle b) {
 		super.onCreate(b);
-		setContentView(R.layout.fragment_play);
+		setContentView(R.layout.activity_play);
 
-		songName = getIntent().getExtras().getString("songName");
-		songId = getIntent().getExtras().getInt("songId");
 		teamId = getIntent().getExtras().getInt("teamId");
-		iconId = getIntent().getExtras().getInt("iconId");
+		int iconId = getIntent().getExtras().getInt("iconId");
+		int songId = getIntent().getExtras().getInt("songId");
 
-		ActionBar ab = getSupportActionBar();
-		ab.setTitle(songName);
-		ab.setIcon(iconId);
+		// TODO get song list from Bas' class
+		songNames = getResources().getStringArray(R.array.test_chants);
+
+		// TODO get song sources from Bas' class
+		songSources = getResources().getStringArray(R.array.test_sources);
+
+		numSongs = songNames.length;
+
+		ActionBar actionBar = getSupportActionBar();
+		actionBar.setIcon(iconId);
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 		getSupportActionBar().setHomeButtonEnabled(true);
 
-		player.getLyrics(teamId, songId, (TextView) findViewById(R.id.lyrics));
-		player.getSongSize(teamId, songId, (TextView) findViewById(R.id.size));
+		chants = new ChantPlayer(songSources);
+		adapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
+		pager = (ViewPager) findViewById(R.id.pager);
+		pager.setAdapter(adapter);
+		pager.setOnPageChangeListener(this);
+		pager.setCurrentItem(songId);
+	}
 
-		findViewById(R.id.previous).setOnClickListener(this);
-		findViewById(R.id.play).setOnClickListener(this);
-		findViewById(R.id.next).setOnClickListener(this);
+	@Override
+	public void onStop() {
+		super.onStop();
+		chants.release();
 	}
 
 	@Override
@@ -63,18 +85,81 @@ public class PlayActivity extends ActionBarActivity implements OnClickListener {
 	}
 
 	@Override
-	public void onClick(View v) {
+	public void onPageScrollStateChanged(int arg0) {
+	}
 
-		switch (v.getId()) {
-		case R.id.previous:
-			break;
+	@Override
+	public void onPageScrolled(int arg0, float arg1, int arg2) {
+	}
 
-		case R.id.play:
-			player.toggleSong(teamId, songId, (ImageButton) v);
-			break;
+	@Override
+	public void onPageSelected(int position) {
+		setTitle(songNames[position]);
+	}
 
-		case R.id.next:
-			break;
+	private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
+		public ScreenSlidePagerAdapter(FragmentManager fm) {
+			super(fm);
+		}
+
+		@Override
+		public Fragment getItem(int position) {
+			Fragment fragment = new ContentFragment();
+			Bundle arg = new Bundle();
+			arg.putInt("songId", position);
+			fragment.setArguments(arg);
+			return fragment;
+		}
+
+		@Override
+		public int getCount() {
+			return songNames.length;
+		}
+	}
+
+	public static class ContentFragment extends Fragment implements OnClickListener {
+
+		@Override
+		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+			super.onCreateView(inflater, container, savedInstanceState);
+			int songId = getArguments().getInt("songId");
+
+			View frame = inflater.inflate(R.layout.fragment_play, container, false);
+			ChantPlayer.getLyrics(teamId, songId, (TextView) frame.findViewById(R.id.lyrics));
+			ChantPlayer.getSongSize(teamId, songId, (TextView) frame.findViewById(R.id.size));
+
+			View loading = frame.findViewById(R.id.loading);
+			View error = frame.findViewById(R.id.error);
+			View play = frame.findViewById(R.id.play);
+			play.setTag(songId);
+			play.setOnClickListener(chants);
+			chants.prepare(songId, loading, play, error);
+
+			View previous = frame.findViewById(R.id.previous);
+			View next = frame.findViewById(R.id.next);
+			previous.setTag(songId - 1);
+			next.setTag(songId + 1);
+
+			if (songId == 0) {
+				previous.setVisibility(View.INVISIBLE);
+				previous.setEnabled(false);
+			} else
+				previous.setOnClickListener(this);
+
+			if (songId == numSongs - 1) {
+				next.setVisibility(View.INVISIBLE);
+				next.setEnabled(false);
+			} else
+				next.setOnClickListener(this);
+
+			return frame;
+		}
+
+		@Override
+		public void onClick(View v) {
+			chants.stop();
+			int page = (Integer) v.getTag();
+			pager.setCurrentItem(page);
 		}
 
 	}

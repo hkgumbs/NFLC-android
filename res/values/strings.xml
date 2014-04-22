@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="browse">Browse</string>
     <string name="download">Download</string>
+    <string name="error">Error</string>
     <string name="favorite">Favorite</string>
     <string name="favorites">Favorites</string>
     <string name="hello_world">Hello world!</string>
@@ -17,6 +18,16 @@
     <string name="previous">Previous track</string>
     <string name="next">Next track</string>
 
+    <!-- Test songs -->
+    <string-array name="test_sources">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+    </string-array>
     <string-array name="test_chants">
         <item>Yankee doodle</item>
         <item>Go America!</item>
