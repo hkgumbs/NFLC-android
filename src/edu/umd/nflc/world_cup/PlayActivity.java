@@ -41,10 +41,13 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 
 		// TODO get song list from Bas' class
 		songNames = getResources().getStringArray(R.array.test_chants);
+//		LookupURL lookup = new LookupURL();
+//		songNames = lookup.getSongList(teamId).toArray(new String[]{});
 
 		// TODO get song sources from Bas' class
 		songSources = getResources().getStringArray(R.array.test_sources);
-
+//		songSources = lookup.getAllAudioURLs(teamId).toArray(new String[]{});
+//		
 		numSongs = songNames.length;
 
 		ActionBar actionBar = getSupportActionBar();

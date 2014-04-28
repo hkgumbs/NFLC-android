@@ -1,0 +1,10 @@
+<countries>
+    
+    <country name="Algeria">
+    	<song name="Oh Algeria" audio="http://storage.googleapis.com/testbucket1111/samples/sample2.wav" text="http://storage.googleapis.com/testbucket1111/samples/sample1.txt" />
+    	<song name="Oh Algeria1" audio="http://storage.googleapis.com/testbucket1111/samples/sample2.wav" text="http://storage.googleapis.com/testbucket1111/samples/sample1.txt" />
+    	<song name="Oh Algeria2" audio="http://storage.googleapis.com/testbucket1111/samples/sample2.wav" text="http://storage.googleapis.com/testbucket1111/samples/sample1.txt" />
+    </country>
+    
+    
+</countries>

@@ -61,12 +61,15 @@ public class ChantPlayer implements OnClickListener {
 	 * @param songId
 	 * @param container
 	 */
-	public static void getLyrics(int teamId, int songId, final TextView container) {
+	public static void getLyrics(final int teamId, final int songId, final TextView container) {
 
 		new AsyncTask<Void, Void, String>() {
 			@Override
 			protected String doInBackground(Void... params) {
 				// TODO get url OR get file path for lyrics
+//				LookupURL lookup = new LookupURL();
+//				String source = lookup.getText(teamId, songId);
+//				
 				String source = "http://storage.googleapis.com/testbucket1111/samples/sample1.txt";
 
 				try {
