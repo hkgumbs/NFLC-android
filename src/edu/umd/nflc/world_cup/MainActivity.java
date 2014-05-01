@@ -1,6 +1,5 @@
 package edu.umd.nflc.world_cup;
 
-import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
@@ -11,10 +10,8 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -79,13 +76,8 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 		/* COUNTRY LIST */
 		pageFragments = new Fragment[pageTitles.length];
-		for (int i = 0; i < pageTitles.length; i++) {
-			Fragment fragment = new ContentFragment();
-			Bundle arg = new Bundle();
-			arg.putInt("page", i);
-			fragment.setArguments(arg);
-			pageFragments[i] = fragment;
-		}
+		for (int i = 0; i < pageTitles.length; i++) 
+			pageFragments[i] = MainFragments.get(pageTitles[i]);
 
 		FragmentManager fragmentManager = getSupportFragmentManager();
 		fragmentManager.beginTransaction().replace(R.id.content_frame, pageFragments[currentPage]).commit();
@@ -140,39 +132,6 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 		drawerLayout.closeDrawer(drawerList);
 	}
 
-	public static class ContentFragment extends Fragment implements ListView.OnItemClickListener {
-
-		int page;
-		private String[] teamNames;
-		private TypedArray teamFlags;
-
-		@Override
-		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-			super.onCreateView(inflater, container, savedInstanceState);
-			page = getArguments().getInt("page");
-
-			teamNames = getResources().getStringArray(R.array.team_names);
-			teamFlags = getResources().obtainTypedArray(R.array.team_flags);
-
-			// TODO filter array based on page
-
-			View frame = inflater.inflate(R.layout.fragment_list, container, false);
-			ListView content = (ListView) frame.findViewById(R.id.list);
-			content.setAdapter(new TypedArrayAdapter(inflater, teamNames, teamFlags));
-			content.setOnItemClickListener(this);
-
-			return frame;
-		}
-
-		@Override
-		public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-			Intent i = new Intent(getActivity(), TeamActivity.class);
-			i.putExtra("teamName", teamNames[position]);
-			i.putExtra("teamId", position);
-			i.putExtra("iconId", teamFlags.getResourceId(position, 0));
-			startActivity(i);
-		}
-
-	}
+	
 
 }

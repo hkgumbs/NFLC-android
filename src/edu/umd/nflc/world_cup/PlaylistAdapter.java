@@ -9,16 +9,16 @@ import android.widget.TextView;
 
 public class PlaylistAdapter extends BaseAdapter {
 
-	static final int ICON_SIZE = 64;
-
 	private final String[] titles;
 	private final ChantPlayer chants;
 	private final LayoutInflater inflater;
+	private final int limit;
 
-	public PlaylistAdapter(Context context, String[] titles, ChantPlayer chants) {
+	public PlaylistAdapter(Context context, String[] titles, ChantPlayer chants, int limit) {
 		this.titles = titles;
 		this.chants = chants;
 		this.inflater = LayoutInflater.from(context);
+		this.limit = limit;
 	}
 
 	@Override
@@ -45,13 +45,16 @@ public class PlaylistAdapter extends BaseAdapter {
 		TextView label = (TextView) convertView.findViewById(R.id.text);
 		label.setText(titles[position]);
 
-		View loading = convertView.findViewById(R.id.loading);
-		View error = convertView.findViewById(R.id.error);
-		View playButton = convertView.findViewById(R.id.play);
-		playButton.setOnClickListener(chants);
-		playButton.setTag(position);
+		if (position < limit) {
+			View loading = convertView.findViewById(R.id.loading);
+			View error = convertView.findViewById(R.id.error);
+			View playButton = convertView.findViewById(R.id.play);
+			
+			playButton.setOnClickListener(chants);
+			playButton.setTag(position);
 
-		chants.prepare(position, loading, playButton, error);
+			chants.prepare(position, loading, playButton, error);
+		}
 
 		return convertView;
 	}

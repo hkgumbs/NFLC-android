@@ -18,26 +18,6 @@
     <string name="previous">Previous track</string>
     <string name="next">Next track</string>
 
-    <!-- Test songs -->
-    <string-array name="test_sources">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-    </string-array>
-    <string-array name="test_chants">
-        <item>Yankee doodle</item>
-        <item>Go America!</item>
-        <item>Score the goal</item>
-        <item>GOOOOOOOOOOOAAAAAAAAAAAAALLLLLLLLLLLLL!!!!!!!!!!!!</item>
-        <item>Goal.</item>
-        <item>Golaso..</item>
-        <item>Freddy Edu</item>
-    </string-array>
-
     <!-- Nav drawer -->
     <string-array name="page_titles">
         <item>@string/browse</item>
