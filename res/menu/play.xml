@@ -6,7 +6,7 @@
         android:checkable="false"
         android:checked="false"
         android:enabled="true"
-        android:icon="@drawable/icon_unfav"
+        android:icon="@drawable/icon_fav_dark"
         android:orderInCategory="1"
         android:title="@string/favorite"
         android:visible="true"

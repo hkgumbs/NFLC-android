@@ -44,7 +44,6 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	private static ChantPlayer chants;
 	private static PagerAdapter adapter;
 	private static ViewPager pager;
-	private Menu menu;
 
 	Lookup lookup;
 
@@ -66,12 +65,12 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 
 		ActionBar actionBar = getSupportActionBar();
 		actionBar.setIcon(iconIds[current]);
-		actionBar.setTitle(songNames[current]);
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		actionBar.setHomeButtonEnabled(true);
+		setTitle(songNames[current]);
 
-		chants = new ChantPlayer(songSources);
 		adapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
+		chants = ChantPlayer.get(songSources);
 		pager = (ViewPager) findViewById(R.id.pager);
 		pager.setAdapter(adapter);
 		pager.setOnPageChangeListener(this);
@@ -89,7 +88,21 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 		super.onCreateOptionsMenu(menu);
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.play, menu);
-		this.menu = menu;
+		return true;
+	}
+
+	@Override
+	public boolean onPrepareOptionsMenu(Menu menu) {
+		super.onPrepareOptionsMenu(menu);
+
+		String key = "favorited_" + teamIds[current] + "," + songIds[current];
+		if (getPreferences(Context.MODE_PRIVATE).contains(key))
+			menu.findItem(R.id.favorite).setIcon(R.drawable.icon_fav_light);
+		else
+			menu.findItem(R.id.favorite).setIcon(R.drawable.icon_fav_dark);
+
+		// TODO downloaded indicator
+
 		return true;
 	}
 
@@ -99,21 +112,36 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 		case android.R.id.home:
 			finish();
 			return true;
-		
-		case R.id.favorite:
-			String key = "favorited_" + teamIds[current] + "," +  songIds[current];
-			boolean oldValue = getPreferences(Context.MODE_PRIVATE).getBoolean(key, false);
-			getPreferences(Context.MODE_PRIVATE).edit().putBoolean(key, !oldValue).commit();
 
-			if (oldValue)
-				menu.findItem(R.id.favorite).setIcon(R.drawable.icon_unfav);
-			else
-				menu.findItem(R.id.favorite).setIcon(R.drawable.icon_fav);
-			
-			Toast.makeText(this, "" + oldValue, Toast.LENGTH_SHORT).show();;
+		case R.id.favorite:
+			String key = "favorited_" + teamIds[current] + "," + songIds[current];
+			boolean favorite = getPreferences(Context.MODE_PRIVATE).contains(key);
+
+			if (favorite) {
+				getPreferences(Context.MODE_PRIVATE).edit().remove(key).commit();
+				item.setIcon(R.drawable.icon_fav_dark);
+
+			} else {
+				getPreferences(Context.MODE_PRIVATE).edit().putBoolean(key, true).commit();
+				item.setIcon(R.drawable.icon_fav_light);
+			}
+
+			Toast.makeText(this,
+					"This chant has been " + (favorite ? "removed from" : "added to") + " your favorites!",
+					Toast.LENGTH_SHORT).show();
 			return true;
+
+		default:
+			return super.onOptionsItemSelected(item);
 		}
-		return super.onOptionsItemSelected(item);
+	}
+
+	@Override
+	public void onPageSelected(int position) {
+		current = position;
+		setTitle(songNames[current]);
+		getSupportActionBar().setIcon(iconIds[current]);
+		supportInvalidateOptionsMenu();
 	}
 
 	@Override
@@ -122,16 +150,6 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 
 	@Override
 	public void onPageScrolled(int arg0, float arg1, int arg2) {
-	}
-
-	@Override
-	public void onPageSelected(int position) {
-		setTitle(songNames[position]);
-		getSupportActionBar().setIcon(iconIds[current]);
-		current = position;
-		String key = "favorited_" + teamIds[current] + songIds[current];
-		if (getPreferences(Context.MODE_PRIVATE).getBoolean(key, false))
-			menu.findItem(R.id.favorite).setIcon(R.drawable.icon_unfav);
 	}
 
 	private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {

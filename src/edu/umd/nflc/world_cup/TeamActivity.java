@@ -93,7 +93,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		songSources = lookup.getAllSources(0);
 
 		ListView content = (ListView) findViewById(R.id.list);
-		chants = new ChantPlayer(songSources);
+		chants = ChantPlayer.get(songSources);
 		int songLimit = purchased ? songNames.length : 3;
 		content.setAdapter(new PlaylistAdapter(this, songNames, chants, songLimit));
 		content.setOnItemClickListener(this);
@@ -108,7 +108,8 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	@Override
 	public void onStop() {
 		super.onStop();
-		chants.release();
+		if (isFinishing())
+			chants.release();
 	}
 
 	@Override
