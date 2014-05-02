@@ -902,30 +902,24 @@
     
     <!-- USA -->
     <string-array name="usa_songs">
-        <item>Oh! Usa 1</item>
-        <item>Oh! Usa 2</item>
-        <item>Oh! Usa 3</item>
-        <item>Oh! Usa 4</item>
-        <item>Oh! Usa 5</item>
-        <item>Oh! Usa 6</item>
-        <item>Oh! Usa 7</item>
+        <item>The Yanks Are Coming</item>
+        <item>USA Chant 1</item>
+        <item>USA Chant 2</item>
+        <item>USA Chant 3</item>
+        <item>USA National Anthem</item>
     </string-array>
     <string-array name="usa_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audio/TheYanksAreComing.mp3</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audio/USAChant1.mp3</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audio/USAChant2.mp3</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audio/USAChant3.mp3</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audio/USANationalAnthem.mp3</item>
     </string-array>
     <string-array name="usa_lyrics">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/lyrics/USANationalAnthem.txt</item>
     </string-array>
 </resources>

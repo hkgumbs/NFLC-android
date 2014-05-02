@@ -87,10 +87,10 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		setContentView(root);
 
 		// TODO change from 0
-		songNames = lookup.getAllSongs(0);
+		songNames = lookup.getAllSongs(teamId);
 
 		// TODO change from 0
-		songSources = lookup.getAllSources(0);
+		songSources = lookup.getAllSources(teamId);
 
 		ListView content = (ListView) findViewById(R.id.list);
 		chants = new ChantPlayer(songSources);
