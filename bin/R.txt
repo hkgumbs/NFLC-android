@@ -239,6 +239,10 @@ int dimen abc_dropdownitem_text_padding_right 0x7f08000f
 int dimen abc_panel_menu_list_width 0x7f08000b
 int dimen abc_search_view_preferred_width 0x7f08000d
 int dimen abc_search_view_text_min_width 0x7f08000c
+int dimen action_bar_subtitle_bottom_margin 0x7f080016
+int dimen action_bar_subtitle_text_size 0x7f080014
+int dimen action_bar_subtitle_top_margin 0x7f080015
+int dimen action_bar_title_text_size 0x7f080013
 int dimen activity_horizontal_margin 0x7f080011
 int dimen activity_vertical_margin 0x7f080012
 int drawable abc_ab_bottom_solid_dark_holo 0x7f020000
@@ -399,7 +403,7 @@ int id content_frame 0x7f05003d
 int id default_activity_button 0x7f050028
 int id dialog 0x7f05000e
 int id disableHome 0x7f050008
-int id download 0x7f05004b
+int id download 0x7f05004c
 int id drawer_layout 0x7f05003c
 int id dropdown 0x7f05000f
 int id edit_query 0x7f050030
@@ -407,7 +411,7 @@ int id end 0x7f050013
 int id error 0x7f050048
 int id expand_activities_button 0x7f050026
 int id expanded_menu 0x7f05002c
-int id favorite 0x7f05004a
+int id favorite 0x7f05004b
 int id home 0x7f050014
 int id homeAsUp 0x7f050005
 int id icon 0x7f05002a
@@ -447,8 +451,9 @@ int id showTitle 0x7f050006
 int id size 0x7f050043
 int id split_action_bar 0x7f05001e
 int id submit_area 0x7f050039
+int id subtitle 0x7f050049
 int id tabMode 0x7f050002
-int id text 0x7f050049
+int id text 0x7f05004a
 int id title 0x7f05002b
 int id top_action_bar 0x7f050020
 int id up 0x7f050021
@@ -484,9 +489,10 @@ int layout activity_splash 0x7f030019
 int layout button_buy 0x7f03001a
 int layout fragment_list 0x7f03001b
 int layout fragment_play 0x7f03001c
-int layout list_item_compound 0x7f03001d
-int layout list_item_simple 0x7f03001e
-int layout support_simple_spinner_dropdown_item 0x7f03001f
+int layout list_item_complex 0x7f03001d
+int layout list_item_compound 0x7f03001e
+int layout list_item_simple 0x7f03001f
+int layout support_simple_spinner_dropdown_item 0x7f030020
 int menu play 0x7f0d0000
 int menu team 0x7f0d0001
 int string abc_action_bar_home_description 0x7f0a0001

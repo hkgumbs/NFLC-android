@@ -1053,6 +1053,22 @@ containing a value of this type.
  Minimum width of the search view text entry area. 
          */
         public static final int abc_search_view_text_min_width=0x7f08000c;
+        /**  Bottom margin for action bar subtitles 
+ Bottom margin for action bar subtitles 
+         */
+        public static final int action_bar_subtitle_bottom_margin=0x7f080016;
+        /**  Text size for action bar subtitles 
+ Text size for action bar subtitles 
+         */
+        public static final int action_bar_subtitle_text_size=0x7f080014;
+        /**  Top margin for action bar subtitles 
+ Top margin for action bar subtitles 
+         */
+        public static final int action_bar_subtitle_top_margin=0x7f080015;
+        /**  Text size for action bar titles 
+ Text size for action bar titles 
+         */
+        public static final int action_bar_title_text_size=0x7f080013;
         /**  Default screen margins, per the Android Design guidelines. 
          */
         public static final int activity_horizontal_margin=0x7f080011;
@@ -1219,7 +1235,7 @@ containing a value of this type.
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
-        public static final int download=0x7f05004b;
+        public static final int download=0x7f05004c;
         public static final int drawer_layout=0x7f05003c;
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050030;
@@ -1227,7 +1243,7 @@ containing a value of this type.
         public static final int error=0x7f050048;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
-        public static final int favorite=0x7f05004a;
+        public static final int favorite=0x7f05004b;
         public static final int home=0x7f050014;
         public static final int homeAsUp=0x7f050005;
         public static final int icon=0x7f05002a;
@@ -1267,8 +1283,9 @@ containing a value of this type.
         public static final int size=0x7f050043;
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
+        public static final int subtitle=0x7f050049;
         public static final int tabMode=0x7f050002;
-        public static final int text=0x7f050049;
+        public static final int text=0x7f05004a;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
@@ -1330,9 +1347,10 @@ containing a value of this type.
         public static final int button_buy=0x7f03001a;
         public static final int fragment_list=0x7f03001b;
         public static final int fragment_play=0x7f03001c;
-        public static final int list_item_compound=0x7f03001d;
-        public static final int list_item_simple=0x7f03001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int list_item_complex=0x7f03001d;
+        public static final int list_item_compound=0x7f03001e;
+        public static final int list_item_simple=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
     }
     public static final class menu {
         public static final int play=0x7f0d0000;

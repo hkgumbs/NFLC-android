@@ -84,6 +84,12 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 	}
 
 	@Override
+	public void onSaveInstanceState(Bundle savedInstanceState) {
+		super.onSaveInstanceState(savedInstanceState);
+		savedInstanceState.putInt("page", currentPage);
+	}
+
+	@Override
 	protected void onPostCreate(Bundle savedInstanceState) {
 		super.onPostCreate(savedInstanceState);
 		// Sync the toggle state after onRestoreInstanceState has occurred.

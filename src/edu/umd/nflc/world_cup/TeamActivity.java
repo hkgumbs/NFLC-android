@@ -80,11 +80,11 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		content.setAdapter(new PlaylistAdapter(this, songNames, chants, songLimit));
 		content.setOnItemClickListener(this);
 
-		ActionBar ab = getSupportActionBar();
-		ab.setTitle(teamName);
-		ab.setIcon(iconId);
-		ab.setDisplayHomeAsUpEnabled(true);
-		ab.setHomeButtonEnabled(true);
+		ActionBar actionBar = getSupportActionBar();
+		actionBar.setTitle(teamName);
+		actionBar.setIcon(iconId);
+		actionBar.setDisplayHomeAsUpEnabled(true);
+		actionBar.setHomeButtonEnabled(true);
 	}
 
 	@Override

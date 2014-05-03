@@ -17,6 +17,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBar.OnNavigationListener;
 import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -25,10 +26,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class PlayActivity extends ActionBarActivity implements OnPageChangeListener {
+public class PlayActivity extends ActionBarActivity implements OnPageChangeListener, OnNavigationListener {
+
+	private static final String[] TYPES = new String[] { "Lyrics", "Translation", "Transliteration" };
 
 	private static String[] songNames;
 	private static String[] songSources;
@@ -38,19 +42,18 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	private static int[] iconIds;
 	private static int numSongs;
 	private static int current;
+	private static int type;
 
+	private static ActionBar actionBar;
+	private static ActionBarAdapter arrayAdapter;
 	private static ChantPlayer chants;
-	private static PagerAdapter adapter;
+	private static PagerAdapter pagerAdapter;
 	private static ViewPager pager;
-
-	Lookup lookup;
 
 	@Override
 	protected void onCreate(Bundle b) {
 		super.onCreate(b);
 		setContentView(R.layout.activity_play);
-
-		lookup = new Lookup(this);
 
 		iconIds = getIntent().getIntArrayExtra("iconIds");
 		teamIds = getIntent().getIntArrayExtra("teamIds");
@@ -60,17 +63,22 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 		songLyrics = getIntent().getStringArrayExtra("songLyrics");
 		current = getIntent().getExtras().getInt("current");
 		numSongs = songNames.length;
+		type = b == null ? 0 : b.getInt("type");
 
-		ActionBar actionBar = getSupportActionBar();
-		actionBar.setIcon(iconIds[current]);
+		arrayAdapter = new ActionBarAdapter();
+		actionBar = getSupportActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		actionBar.setHomeButtonEnabled(true);
-		setTitle(songNames[current]);
+		actionBar.setIcon(iconIds[current]);
+		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
+		actionBar.setDisplayShowTitleEnabled(false);
+		actionBar.setListNavigationCallbacks(arrayAdapter, this);
+		actionBar.setSubtitle(TYPES[type]);
 
-		adapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
+		pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
 		chants = ChantPlayer.get(songSources);
 		pager = (ViewPager) findViewById(R.id.pager);
-		pager.setAdapter(adapter);
+		pager.setAdapter(pagerAdapter);
 		pager.setOnPageChangeListener(this);
 		pager.setCurrentItem(current);
 	}
@@ -79,6 +87,12 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	public void onStop() {
 		super.onStop();
 		chants.release();
+	}
+
+	@Override
+	public void onSaveInstanceState(Bundle savedInstanceState) {
+		super.onSaveInstanceState(savedInstanceState);
+		savedInstanceState.putInt("type", type);
 	}
 
 	@Override
@@ -138,9 +152,18 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	}
 
 	@Override
+	public boolean onNavigationItemSelected(int itemPosition, long itemId) {
+		type = itemPosition;
+
+		// TODO change text
+
+		return true;
+	}
+
+	@Override
 	public void onPageSelected(int position) {
 		current = position;
-		setTitle(songNames[current]);
+		arrayAdapter.notifyDataSetChanged();
 		getSupportActionBar().setIcon(iconIds[current]);
 		supportInvalidateOptionsMenu();
 	}
@@ -151,6 +174,42 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 
 	@Override
 	public void onPageScrolled(int arg0, float arg1, int arg2) {
+	}
+
+	private class ActionBarAdapter extends ArrayAdapter<String> {
+
+		public ActionBarAdapter() {
+			super(PlayActivity.this, android.R.layout.simple_spinner_dropdown_item, TYPES);
+		}
+
+		@Override
+		public View getView(int position, View convertView, ViewGroup parent) {
+			LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+			ViewHolder holder;
+			if (convertView == null) {
+				convertView = inflater.inflate(R.layout.list_item_complex, null);
+				holder = new ViewHolder();
+				holder.title = (TextView) convertView.findViewById(R.id.title);
+				holder.subtitle = (TextView) convertView.findViewById(R.id.subtitle);
+
+				convertView.setTag(holder);
+
+			} else {
+				holder = (ViewHolder) convertView.getTag();
+			}
+
+			holder.title.setText(songNames[current]);
+			holder.subtitle.setText(TYPES[position]);
+
+			return convertView;
+		}
+
+		class ViewHolder {
+			TextView title;
+			TextView subtitle;
+		}
+
 	}
 
 	private class ScreenSlidePagerAdapter extends FragmentStatePagerAdapter {
@@ -196,7 +255,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 						String line;
 						while ((line = in.readLine()) != null)
 							result.append(line + "\n");
-						
+
 						in.close();
 						return result.toString();
 
