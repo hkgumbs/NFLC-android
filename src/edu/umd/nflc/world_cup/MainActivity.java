@@ -8,6 +8,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,6 +28,7 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	// Country list fragments
 	private Fragment[] pageFragments;
+	private ActionBar actionBar;
 
 	@Override
 	protected void onCreate(Bundle b) {
@@ -62,9 +64,11 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 		drawerLayout.setDrawerListener(drawerToggle);
 		drawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-		getSupportActionBar().setHomeButtonEnabled(true);
-		setTitle(pageTitles[currentPage]);
+
+		actionBar = getSupportActionBar();
+		actionBar.setDisplayHomeAsUpEnabled(true);
+		actionBar.setHomeButtonEnabled(true);
+		actionBar.setTitle(pageTitles[currentPage]);
 
 		// Set current page to display bold in drawer
 		drawerList.post(new Runnable() {
@@ -87,6 +91,14 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 	public void onSaveInstanceState(Bundle savedInstanceState) {
 		super.onSaveInstanceState(savedInstanceState);
 		savedInstanceState.putInt("page", currentPage);
+	}
+
+	@Override
+	public void onBackPressed() {
+		if (currentPage != 0)
+			onItemClick(null, null, 0, 0);
+		else
+			finish();
 	}
 
 	@Override
@@ -126,7 +138,7 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 			// Highlight the selected item, update the title, and close the
 			// drawer
 			drawerList.setItemChecked(position, true);
-			setTitle(pageTitles[position]);
+			actionBar.setTitle(pageTitles[position]);
 		}
 
 		drawerLayout.closeDrawer(drawerList);
