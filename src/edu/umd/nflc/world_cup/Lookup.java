@@ -1,7 +1,11 @@
 package edu.umd.nflc.world_cup;
 
+import java.io.File;
+
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.os.Environment;
+import android.util.Log;
 
 public class Lookup {
 
@@ -271,6 +275,46 @@ public class Lookup {
 	public String getLyrics(int country, int song) {
 
 		return getAllLyrics(country)[song];
+	}
+
+	// File IO stuff
+
+	/* Checks if external storage is available for read and write */
+	private boolean isExternalStorageWritable() {
+		String state = Environment.getExternalStorageState();
+		if (Environment.MEDIA_MOUNTED.equals(state)) {
+			return true;
+		}
+		return false;
+	}
+
+	/* Checks if external storage is available to at least read */
+	private boolean isExternalStorageReadable() {
+		String state = Environment.getExternalStorageState();
+		if (Environment.MEDIA_MOUNTED.equals(state) || Environment.MEDIA_MOUNTED_READ_ONLY.equals(state)) {
+			return true;
+		}
+		return false;
+	}
+
+	/**
+	 * Get folder to save files to or read files from
+	 * 
+	 * based on http://developer.android.com/guide/topics/data/data-storage
+	 * .html#filesExternal
+	 * 
+	 * @param country
+	 *            name of folder
+	 * @param environment
+	 *            either Environment.DIRECTORY_MUSIC or
+	 *            Environment.DIRECTORY_DOCUMENTS
+	 * @return
+	 */
+	private File getFolder(String country, String environment) {
+		File file = new File(Environment.getExternalStoragePublicDirectory(environment), country);
+		if (!file.mkdirs())
+			Log.e(country, "Directory not created");
+		return file;
 	}
 
 }

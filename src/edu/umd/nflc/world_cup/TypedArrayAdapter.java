@@ -9,8 +9,6 @@ import android.widget.TextView;
 
 public class TypedArrayAdapter extends BaseAdapter {
 
-	static final int ICON_SIZE = 64;
-
 	private final String[] titles;
 	private final LayoutInflater inflater;
 	private final int[] icons;
@@ -46,8 +44,7 @@ public class TypedArrayAdapter extends BaseAdapter {
 			row = (TextView) convertView;
 
 		Drawable icon = inflater.getContext().getResources().getDrawable(icons[position]);
-		int customWidth = icon.getIntrinsicWidth() * ICON_SIZE / icon.getIntrinsicHeight();
-		icon.setBounds(0, 0, customWidth, ICON_SIZE);
+		icon.setBounds(0, 0, icon.getIntrinsicWidth(), icon.getIntrinsicHeight());
 		row.setCompoundDrawables(icon, null, null, null);
 
 		row.setText(titles[position]);
