@@ -86,6 +86,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	@Override
 	public void onStop() {
 		super.onStop();
+		chants.stop();
 		chants.release();
 	}
 

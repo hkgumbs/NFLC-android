@@ -1,10 +1,9 @@
 package edu.umd.nflc.world_cup;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -84,10 +83,9 @@ public class MainFragments {
 
 			Lookup lookup = new Lookup(getActivity());
 
-			List<String> favorites = new ArrayList<String>();
 			Map<String, ?> preferences = getActivity().getSharedPreferences("favorited", Context.MODE_PRIVATE).getAll();
-			for (String value : preferences.keySet())
-				favorites.add(value);
+			List<String> favorites = new ArrayList<String>(preferences.keySet());
+			Collections.sort(favorites);
 
 			teamIds = new int[favorites.size()];
 			songNames = new String[favorites.size()];
@@ -118,6 +116,7 @@ public class MainFragments {
 		@Override
 		public void onDestroyView() {
 			super.onDestroyView();
+			chants.stop();
 			chants.release();
 		}
 
@@ -149,8 +148,10 @@ public class MainFragments {
 
 			Lookup lookup = new Lookup(getActivity());
 
-			Set<String> purchased = getActivity().getSharedPreferences("purchased", Context.MODE_PRIVATE).getAll()
-					.keySet();
+			Map<String, ?> preferences = getActivity().getSharedPreferences("purchased", Context.MODE_PRIVATE).getAll();
+			List<String> purchased = new ArrayList<String>(preferences.keySet());
+			Collections.sort(purchased);
+
 			teamNames = new String[purchased.size()];
 			teamIds = new int[purchased.size()];
 			icons = new int[purchased.size()];
