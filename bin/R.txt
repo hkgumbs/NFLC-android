@@ -79,8 +79,6 @@ int array netherlands_songs 0x7f0c0045
 int array nigeria_audios 0x7f0c0049
 int array nigeria_lyrics 0x7f0c004a
 int array nigeria_songs 0x7f0c0048
-int array page_icons 0x7f0c0061
-int array page_titles 0x7f0c0060
 int array portugal_audios 0x7f0c004c
 int array portugal_lyrics 0x7f0c004d
 int array portugal_songs 0x7f0c004b
@@ -96,8 +94,8 @@ int array spain_songs 0x7f0c0054
 int array switzerland_audios 0x7f0c0058
 int array switzerland_lyrics 0x7f0c0059
 int array switzerland_songs 0x7f0c0057
-int array team_flags 0x7f0c0063
-int array team_names 0x7f0c0062
+int array team_flags 0x7f0c0061
+int array team_names 0x7f0c0060
 int array uruguay_audios 0x7f0c005b
 int array uruguay_lyrics 0x7f0c005c
 int array uruguay_songs 0x7f0c005a

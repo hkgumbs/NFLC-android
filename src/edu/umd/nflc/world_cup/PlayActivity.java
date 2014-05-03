@@ -1,11 +1,9 @@
 package edu.umd.nflc.world_cup;
 
-import java.io.ByteArrayOutputStream;
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
+import java.io.InputStreamReader;
 import java.net.MalformedURLException;
-import java.net.ProtocolException;
 import java.net.URL;
 import java.text.DecimalFormat;
 
@@ -95,11 +93,14 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	public boolean onPrepareOptionsMenu(Menu menu) {
 		super.onPrepareOptionsMenu(menu);
 
-		String key = "favorited_" + teamIds[current] + "," + songIds[current];
-		if (getPreferences(Context.MODE_PRIVATE).contains(key))
+		String key = teamIds[current] + "," + songIds[current];
+		if (getSharedPreferences("favorited", Context.MODE_PRIVATE).contains(key)) {
+			getSharedPreferences("favorited", Context.MODE_PRIVATE).edit().putBoolean(key, true).commit();
 			menu.findItem(R.id.favorite).setIcon(R.drawable.icon_fav_light);
-		else
+		} else {
+			getSharedPreferences("favorited", Context.MODE_PRIVATE).edit().remove(key).commit();
 			menu.findItem(R.id.favorite).setIcon(R.drawable.icon_fav_dark);
+		}
 
 		// TODO downloaded indicator
 
@@ -114,15 +115,15 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 			return true;
 
 		case R.id.favorite:
-			String key = "favorited_" + teamIds[current] + "," + songIds[current];
-			boolean favorite = getPreferences(Context.MODE_PRIVATE).contains(key);
+			String key = teamIds[current] + "," + songIds[current];
+			boolean favorite = getSharedPreferences("favorited", Context.MODE_PRIVATE).contains(key);
 
 			if (favorite) {
-				getPreferences(Context.MODE_PRIVATE).edit().remove(key).commit();
+				getSharedPreferences("favorited", Context.MODE_PRIVATE).edit().remove(key).commit();
 				item.setIcon(R.drawable.icon_fav_dark);
 
 			} else {
-				getPreferences(Context.MODE_PRIVATE).edit().putBoolean(key, true).commit();
+				getSharedPreferences("favorited", Context.MODE_PRIVATE).edit().putBoolean(key, true).commit();
 				item.setIcon(R.drawable.icon_fav_light);
 			}
 
@@ -186,31 +187,22 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 				@Override
 				protected String doInBackground(Void... params) {
 
-					String source = songLyrics[position];
-
 					try {
-						URL u = new URL(source);
-						HttpURLConnection c = (HttpURLConnection) u.openConnection();
-						c.setRequestMethod("GET");
-						c.connect();
-						InputStream in = c.getInputStream();
-						final ByteArrayOutputStream bo = new ByteArrayOutputStream();
-						byte[] buffer = new byte[1024];
-						in.read(buffer); // Read from Buffer.
-						bo.write(buffer); // Write Into Buffer.
-						String result = bo.toString();
+						String source = songLyrics[position];
+						URL url = new URL(source);
+
+						BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+						StringBuilder result = new StringBuilder();
+						String line;
+						while ((line = in.readLine()) != null)
+							result.append(line + "\n");
+						
 						in.close();
-						bo.close();
-						return result;
+						return result.toString();
 
 					} catch (MalformedURLException e) {
-						e.printStackTrace();
-						return null;
-					} catch (ProtocolException e) {
-						e.printStackTrace();
 						return null;
 					} catch (IOException e) {
-						e.printStackTrace();
 						return null;
 					}
 

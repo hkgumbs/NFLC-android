@@ -3,7 +3,6 @@ package edu.umd.nflc.world_cup;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
@@ -22,7 +21,8 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class TeamActivity extends ActionBarActivity implements ListView.OnItemClickListener, View.OnClickListener {
+public class TeamActivity extends ActionBarActivity implements ListView.OnItemClickListener, View.OnClickListener,
+		DialogInterface.OnClickListener {
 
 	String[] songNames;
 	String[] songSources;
@@ -50,7 +50,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		ViewGroup root = (ViewGroup) getLayoutInflater().inflate(R.layout.fragment_list, null);
 
 		// show buy button if not bought
-		purchased = getPreferences(Context.MODE_PRIVATE).getBoolean("purchased_" + teamId, false);
+		purchased = getSharedPreferences("purchased", Context.MODE_PRIVATE).contains(Integer.toString(teamId));
 		if (!purchased) {
 			String price = "Buy now for $1.99"; // TODO
 			View container = getLayoutInflater().inflate(R.layout.button_buy, root);
@@ -64,25 +64,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 					+ "&#8226; All of this country's chants<br />&#8226; Lyrics for each chant<br />"
 					+ "&#8226; Option for offline access<br />&#8226; Translations and transliterations");
 			dialog = new AlertDialog.Builder(this).setTitle(price).setMessage(description)
-					.setPositiveButton("Buy", new OnClickListener() {
-
-						@Override
-						public void onClick(DialogInterface dialog, int which) {
-
-							if (getPreferences(Context.MODE_PRIVATE).edit().putBoolean("purchased_" + teamId, true)
-									.commit()) {
-
-								// TODO payment processing stuff
-
-								finish();
-								startActivity(getIntent());
-
-							} else
-								Toast.makeText(TeamActivity.this, "Something went wrong! Try again later.",
-										Toast.LENGTH_LONG).show();
-						}
-
-					}).setNegativeButton(android.R.string.cancel, null).create();
+					.setPositiveButton("Buy", this).setNegativeButton(android.R.string.cancel, null).create();
 		}
 		setContentView(root);
 
@@ -167,6 +149,21 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		dialog.show();
 	}
 
+	@Override
+	public void onClick(DialogInterface dialog, int which) {
+
+		if (getSharedPreferences("purchased", Context.MODE_PRIVATE).edit().putBoolean(Integer.toString(teamId), true)
+				.commit()) {
+
+			// TODO payment processing stuff
+
+			finish();
+			startActivity(getIntent());
+
+		} else
+			Toast.makeText(TeamActivity.this, "Something went wrong! Try again later.", Toast.LENGTH_LONG).show();
+	}
+
 	private int[] toArray(int value, int size) {
 		int[] array = new int[size];
 		for (int i = 0; i < size; i++)
@@ -180,4 +177,5 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 			array[i] = i;
 		return array;
 	}
+
 }

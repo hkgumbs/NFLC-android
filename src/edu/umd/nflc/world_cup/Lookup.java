@@ -1,6 +1,7 @@
 package edu.umd.nflc.world_cup;
 
 import android.content.Context;
+import android.content.res.TypedArray;
 
 public class Lookup {
 
@@ -8,6 +9,30 @@ public class Lookup {
 
 	public Lookup(Context context) {
 		this.context = context;
+	}
+
+	public String[] getAllTeams() {
+		return context.getResources().getStringArray(R.array.team_names);
+	}
+
+	public String getTeam(int country) {
+		return getAllTeams()[country];
+	}
+
+	public int[] getAllFlagIds() {
+		TypedArray flags = context.getResources().obtainTypedArray(R.array.team_flags);
+		int[] ids = new int[flags.length()];
+		for (int i = 0; i < ids.length; i++)
+			ids[i] = flags.getResourceId(i, 0);
+		flags.recycle();
+		return ids;
+	}
+
+	public int getFlagId(int country) {
+		TypedArray flags = context.getResources().obtainTypedArray(R.array.team_flags);
+		int id = flags.getResourceId(country, 0);
+		flags.recycle();
+		return id;
 	}
 
 	public String[] getAllSongs(int country) {
@@ -245,7 +270,7 @@ public class Lookup {
 
 	public String getLyrics(int country, int song) {
 
-		return getAllSources(country)[song];
+		return getAllLyrics(country)[song];
 	}
 
 }

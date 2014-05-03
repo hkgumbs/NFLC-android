@@ -1,6 +1,5 @@
 package edu.umd.nflc.world_cup;
 
-import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,9 +13,9 @@ public class TypedArrayAdapter extends BaseAdapter {
 
 	private final String[] titles;
 	private final LayoutInflater inflater;
-	private final TypedArray icons;
+	private final int[] icons;
 
-	public TypedArrayAdapter(LayoutInflater inflater, String[] titles, TypedArray icons) {
+	public TypedArrayAdapter(LayoutInflater inflater, String[] titles, int[] icons) {
 		this.titles = titles;
 		this.inflater = inflater;
 		this.icons = icons;
@@ -46,7 +45,7 @@ public class TypedArrayAdapter extends BaseAdapter {
 		else
 			row = (TextView) convertView;
 
-		Drawable icon = icons.getDrawable(position);
+		Drawable icon = inflater.getContext().getResources().getDrawable(icons[position]);
 		int customWidth = icon.getIntrinsicWidth() * ICON_SIZE / icon.getIntrinsicHeight();
 		icon.setBounds(0, 0, customWidth, ICON_SIZE);
 		row.setCompoundDrawables(icon, null, null, null);

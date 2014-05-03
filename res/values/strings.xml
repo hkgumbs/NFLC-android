@@ -18,18 +18,6 @@
     <string name="previous">Previous track</string>
     <string name="next">Next track</string>
 
-    <!-- Nav drawer -->
-    <string-array name="page_titles">
-        <item>@string/browse</item>
-        <item>@string/favorites</item>
-        <item>@string/purcheses</item>
-    </string-array>
-    <string-array name="page_icons">
-        <item>@drawable/icon_browse</item>
-        <item>@drawable/icon_fav_dark</item>
-        <item>@drawable/icon_buy_dark</item>
-    </string-array>
-
     <!-- Teams -->
     <string-array name="team_names">
         <item>Algeria</item>

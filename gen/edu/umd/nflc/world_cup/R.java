@@ -142,10 +142,6 @@ public final class R {
         /**  NIGERIA 
          */
         public static final int nigeria_songs=0x7f0c0048;
-        public static final int page_icons=0x7f0c0061;
-        /**  Nav drawer 
-         */
-        public static final int page_titles=0x7f0c0060;
         public static final int portugal_audios=0x7f0c004c;
         public static final int portugal_lyrics=0x7f0c004d;
         /**  PORTUGAL 
@@ -171,10 +167,10 @@ public final class R {
         /**  SWITZERLAND 
          */
         public static final int switzerland_songs=0x7f0c0057;
-        public static final int team_flags=0x7f0c0063;
+        public static final int team_flags=0x7f0c0061;
         /**  Teams 
          */
-        public static final int team_names=0x7f0c0062;
+        public static final int team_names=0x7f0c0060;
         public static final int uruguay_audios=0x7f0c005b;
         public static final int uruguay_lyrics=0x7f0c005c;
         /**  URUGUAY 

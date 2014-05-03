@@ -1,7 +1,6 @@
 package edu.umd.nflc.world_cup;
 
 import android.content.res.Configuration;
-import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -20,7 +19,7 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	// Nav drawer
 	private String[] pageTitles;
-	private TypedArray pageIcons;
+	private int[] pageIcons;
 	private int currentPage;
 	private DrawerLayout drawerLayout;
 	private ListView drawerList;
@@ -36,8 +35,9 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 		/* NAV DRAWER INIT */
 		currentPage = b == null ? 0 : b.getInt("page");
-		pageTitles = getResources().getStringArray(R.array.page_titles);
-		pageIcons = getResources().obtainTypedArray(R.array.page_icons);
+		pageTitles = new String[] { getString(R.string.browse), getString(R.string.favorites),
+				getString(R.string.purcheses) };
+		pageIcons = new int[] { R.drawable.icon_browse, R.drawable.icon_fav_dark, R.drawable.icon_buy_dark };
 
 		drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		drawerList = (ListView) findViewById(R.id.left_drawer);
@@ -76,17 +76,11 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 		/* COUNTRY LIST */
 		pageFragments = new Fragment[pageTitles.length];
-		for (int i = 0; i < pageTitles.length; i++) 
+		for (int i = 0; i < pageTitles.length; i++)
 			pageFragments[i] = MainFragments.get(pageTitles[i]);
 
 		FragmentManager fragmentManager = getSupportFragmentManager();
 		fragmentManager.beginTransaction().replace(R.id.content_frame, pageFragments[currentPage]).commit();
-	}
-
-	@Override
-	public void onStop() {
-		super.onStop();
-		pageIcons.recycle();
 	}
 
 	@Override
@@ -131,7 +125,5 @@ public class MainActivity extends ActionBarActivity implements ListView.OnItemCl
 
 		drawerLayout.closeDrawer(drawerList);
 	}
-
-	
 
 }
