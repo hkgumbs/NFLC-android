@@ -45,7 +45,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	private static int type;
 
 	private static ActionBar actionBar;
-	private static ActionBarAdapter arrayAdapter;
+	private static ActionBarAdapter actionBarAdapter;
 	private static ChantPlayer chants;
 	private static PagerAdapter pagerAdapter;
 	private static ViewPager pager;
@@ -65,14 +65,14 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 		numSongs = songNames.length;
 		type = b == null ? 0 : b.getInt("type");
 
-		arrayAdapter = new ActionBarAdapter();
+		actionBarAdapter = new ActionBarAdapter();
 		actionBar = getSupportActionBar();
 		actionBar.setDisplayHomeAsUpEnabled(true);
 		actionBar.setHomeButtonEnabled(true);
 		actionBar.setIcon(iconIds[current]);
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
 		actionBar.setDisplayShowTitleEnabled(false);
-		actionBar.setListNavigationCallbacks(arrayAdapter, this);
+		actionBar.setListNavigationCallbacks(actionBarAdapter, this);
 		actionBar.setSubtitle(TYPES[type]);
 
 		pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
@@ -163,8 +163,9 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 
 	@Override
 	public void onPageSelected(int position) {
+		chants.stop();
 		current = position;
-		arrayAdapter.notifyDataSetChanged();
+		actionBarAdapter.notifyDataSetChanged();
 		getSupportActionBar().setIcon(iconIds[current]);
 		supportInvalidateOptionsMenu();
 	}
@@ -329,7 +330,6 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 
 		@Override
 		public void onClick(View v) {
-			chants.stop();
 			int position = (Integer) v.getTag();
 			pager.setCurrentItem(position);
 		}
