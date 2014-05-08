@@ -1,9 +1,11 @@
 package edu.umd.nflc.world_cup;
 
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
@@ -68,10 +70,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		}
 		setContentView(root);
 
-		// TODO change from 0
 		songNames = lookup.getAllSongs(teamId);
-
-		// TODO change from 0
 		songSources = lookup.getAllSources(teamId);
 
 		ListView content = (ListView) findViewById(R.id.list);
@@ -103,7 +102,15 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	}
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
+	public boolean onPrepareOptionsMenu(Menu menu) {
+		super.onPrepareOptionsMenu(menu);
+		if (lookup.isDownloaded(teamId))
+			menu.findItem(R.id.download).setIcon(R.drawable.icon_delete);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(final MenuItem item) {
 		switch (item.getItemId()) {
 		case android.R.id.home:
 			finish();
@@ -111,10 +118,50 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		case R.id.download:
 			if (!purchased)
 				dialog.show();
+
 			else {
-				// TODO toggle save
+				new AsyncTask<Void, Void, Boolean>() {
+
+					boolean download;
+					ProgressDialog progress;
+
+					@Override
+					public void onPreExecute() {
+						download = lookup.isDownloaded(teamId);
+						progress = new ProgressDialog(TeamActivity.this);
+						progress.setMessage(download ? "Deleting..." : "Downloading...");
+						progress.show();
+					}
+
+					@Override
+					protected Boolean doInBackground(Void... params) {
+						// return download ? lookup.delete(teamId) :
+						// lookup.download(teamId);
+						return true;
+					}
+
+					@Override
+					public void onPostExecute(Boolean result) {
+						String message;
+						if (!result) // error case
+							message = (download ? "Deletion" : "Download") + " failed! Try again later.";
+
+						else {
+							item.setIcon(download ? R.drawable.icon_download : R.drawable.icon_delete);
+							message = "All of this team's chants have been "
+									+ (download ? "deleted from" : "downloaded to") + " your device!";
+						}
+
+						progress.dismiss();
+						Toast.makeText(TeamActivity.this, message, Toast.LENGTH_SHORT).show();
+					}
+
+				}.execute();
+
 			}
+
 			break;
+
 		default:
 			return super.onOptionsItemSelected(item);
 		}

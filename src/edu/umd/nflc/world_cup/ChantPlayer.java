@@ -74,9 +74,8 @@ public class ChantPlayer implements OnClickListener {
 			break;
 
 		case NOT_PREPARED:
-			loading.setVisibility(View.VISIBLE);
-			players[songId].prepareAsync();
 			prepared[songId] = PREPARING;
+			players[songId].prepareAsync();
 
 		case PREPARING:
 			loading.setVisibility(View.VISIBLE);

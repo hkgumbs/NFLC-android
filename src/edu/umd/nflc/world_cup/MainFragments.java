@@ -106,6 +106,10 @@ public class MainFragments {
 
 			View frame = inflater.inflate(R.layout.fragment_list, container, false);
 			ListView content = (ListView) frame.findViewById(R.id.list);
+			
+			lookup.mergeDownloaded(songSources, teamIds, songIds, Lookup.SONG);
+			lookup.mergeDownloaded(songLyrics, teamIds, songIds, Lookup.LYRICS);
+			
 			chants = ChantPlayer.get(songSources);
 			content.setAdapter(new PlaylistAdapter(getActivity(), songNames, chants, songSources.length));
 			content.setOnItemClickListener(this);
