@@ -2,10 +2,9 @@ package edu.umd.nflc.world_cup;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
 import java.net.URL;
-import java.nio.channels.Channels;
-import java.nio.channels.ReadableByteChannel;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Environment;
@@ -14,15 +13,11 @@ import android.util.Log;
 public class Lookup {
 
 	public static final int LYRICS = 0;
-	public static final int SONG = 1; // TODO delete
-	public static final String[] FILENAMES = new String[] { "lyrics.txt", "song.wav" }; // TODO
-																						// delete
-	// public static final int TRANSLATION = 1;
-	// public static final int TRANSLITERATION = 2;
-	// public static final int SONG = 3;
-	// public static final String[] FILENAMES = new String[] { "lyrics.txt",
-	// "translation.txt", "transliteration.txt",
-	// "song.mp3" };
+	public static final int TRANSLATION = 1;
+	public static final int TRANSLITERATION = 2;
+	public static final int SONG = 3;
+	public static final String[] FILENAMES = new String[] { "lyrics.txt", "translation.txt", "transliteration.txt",
+			"song.mp3" };
 
 	private final Context context;
 
@@ -49,16 +44,31 @@ public class Lookup {
 				URL[] urls = new URL[FILENAMES.length];
 				urls[LYRICS] = new URL(getLyrics(country, song));
 				urls[SONG] = new URL(getSource(country, song));
-				// urls[TRANSLATION] = new URL(getTranslation(country, song));
-				// urls[TRANSLITERATION] = new URL(getTransliteration(country,
-				// song));
+				urls[TRANSLATION] = new URL(getTranslation(country, song));
+				urls[TRANSLITERATION] = new URL(getTransliterations(country, song));
 
 				for (int i = 0; i < urls.length; i++) {
+
+					HttpURLConnection connection = (HttpURLConnection) urls[i].openConnection();
+					connection.connect();
+					// expect HTTP 200 OK, so we don't mistakenly save error
+					// report
+					// instead of the file
+					if (connection.getResponseCode() != HttpURLConnection.HTTP_OK)
+						return false;
+
 					File file = new File(getFolder(country, song), FILENAMES[i]);
-					ReadableByteChannel rbc = Channels.newChannel(urls[i].openStream());
-					FileOutputStream fos = new FileOutputStream(file);
-					fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
-					fos.close();
+					FileOutputStream output = new FileOutputStream(file);
+
+					InputStream input = connection.getInputStream();
+					byte data[] = new byte[1024];
+					int count;
+					while ((count = input.read(data)) != -1)
+						output.write(data, 0, count);
+
+					connection.disconnect();
+					output.close();
+
 				}
 
 				return true;
@@ -93,9 +103,11 @@ public class Lookup {
 		if (isExternalStorageMounted()) {
 			File folder = getFolder(country, song);
 			File[] children = folder.listFiles();
-			for (int i = 0; i < children.length; i++)
+			for (int i = 0; i < children.length; i++) {
+				Log.d("files", children[i].getName());
 				if (children[i].getName().equals(FILENAMES[fileType]))
 					return children[i].getAbsolutePath();
+			}
 		}
 		return null;
 	}
@@ -169,30 +181,30 @@ public class Lookup {
 			return context.getResources().getStringArray(R.array.chile_songs);
 		case 8: // COLOMBIA
 			return context.getResources().getStringArray(R.array.colombia_songs);
-		case 9: // COSTA RICA
+		case 9: // IVORY COAST (COTE D'IVORE)
+			return context.getResources().getStringArray(R.array.cote_d_songs);
+		case 10: // COSTA RICA
 			return context.getResources().getStringArray(R.array.costa_rica_songs);
-		case 10: // CROATIA
+		case 11: // CROATIA
 			return context.getResources().getStringArray(R.array.croatia_songs);
-		case 11: // ECUADOR
+		case 12: // ECUADOR
 			return context.getResources().getStringArray(R.array.ecuador_songs);
-		case 12: // ENGLAND
+		case 13: // ENGLAND
 			return context.getResources().getStringArray(R.array.england_songs);
-		case 13: // FRANCE
+		case 14: // FRANCE
 			return context.getResources().getStringArray(R.array.france_songs);
-		case 14: // GERMANY
+		case 15: // GERMANY
 			return context.getResources().getStringArray(R.array.germany_songs);
-		case 15: // GHANA
+		case 16: // GHANA
 			return context.getResources().getStringArray(R.array.ghana_songs);
-		case 16: // GREECE
+		case 17: // GREECE
 			return context.getResources().getStringArray(R.array.greece_songs);
-		case 17: // HONDURAS
+		case 18: // HONDURAS
 			return context.getResources().getStringArray(R.array.honduras_songs);
-		case 18: // IRAN
+		case 19: // IRAN
 			return context.getResources().getStringArray(R.array.iran_songs);
-		case 19: // ITALY
+		case 20: // ITALY
 			return context.getResources().getStringArray(R.array.italy_songs);
-		case 20: // IVORY COAST
-			return context.getResources().getStringArray(R.array.ivory_coast_songs);
 		case 21: // JAPAN
 			return context.getResources().getStringArray(R.array.japan_songs);
 		case 22: // MEXICO
@@ -215,11 +227,9 @@ public class Lookup {
 			return context.getResources().getStringArray(R.array.uruguay_songs);
 		case 31: // USA
 			return context.getResources().getStringArray(R.array.usa_songs);
-
 		default:
 			return null;
 		}
-
 	}
 
 	public String[] getAllSources(int country) {
@@ -229,73 +239,103 @@ public class Lookup {
 		switch (country) {
 		case 0: // ALGERIA
 			result = context.getResources().getStringArray(R.array.algeria_audios);
+			break;
 		case 1: // ARGENTINA
 			result = context.getResources().getStringArray(R.array.argentina_audios);
+			break;
 		case 2: // AUSTRALIA
 			result = context.getResources().getStringArray(R.array.australia_audios);
+			break;
 		case 3: // BELGIUM
 			result = context.getResources().getStringArray(R.array.belgium_audios);
+			break;
 		case 4: // BOSNIA AND HERZEGOVINA
 			result = context.getResources().getStringArray(R.array.bosnia_audios);
+			break;
 		case 5: // BRAZIL
 			result = context.getResources().getStringArray(R.array.brazil_audios);
+			break;
 		case 6: // CAMEROON
 			result = context.getResources().getStringArray(R.array.cameroon_audios);
+			break;
 		case 7: // CHILE
 			result = context.getResources().getStringArray(R.array.chile_audios);
+			break;
 		case 8: // COLOMBIA
 			result = context.getResources().getStringArray(R.array.colombia_audios);
-		case 9: // COSTA RICA
+			break;
+		case 9: // IVORY COAST (COTE D'IVORE)
+			result = context.getResources().getStringArray(R.array.cote_d_audios);
+			break;
+		case 10: // COSTA RICA
 			result = context.getResources().getStringArray(R.array.costa_rica_audios);
-		case 10: // CROATIA
+			break;
+		case 11: // CROATIA
 			result = context.getResources().getStringArray(R.array.croatia_audios);
-		case 11: // ECUADOR
+			break;
+		case 12: // ECUADOR
 			result = context.getResources().getStringArray(R.array.ecuador_audios);
-		case 12: // ENGLAND
+			break;
+		case 13: // ENGLAND
 			result = context.getResources().getStringArray(R.array.england_audios);
-		case 13: // FRANCE
+			break;
+		case 14: // FRANCE
 			result = context.getResources().getStringArray(R.array.france_audios);
-		case 14: // GERMANY
+			break;
+		case 15: // GERMANY
 			result = context.getResources().getStringArray(R.array.germany_audios);
-		case 15: // GHANA
+			break;
+		case 16: // GHANA
 			result = context.getResources().getStringArray(R.array.ghana_audios);
-		case 16: // GREECE
+			break;
+		case 17: // GREECE
 			result = context.getResources().getStringArray(R.array.greece_audios);
-		case 17: // HONDURAS
+			break;
+		case 18: // HONDURAS
 			result = context.getResources().getStringArray(R.array.honduras_audios);
-		case 18: // IRAN
+			break;
+		case 19: // IRAN
 			result = context.getResources().getStringArray(R.array.iran_audios);
-		case 19: // ITALY
+			break;
+		case 20: // ITALY
 			result = context.getResources().getStringArray(R.array.italy_audios);
-		case 20: // IVORY COAST
-			result = context.getResources().getStringArray(R.array.ivory_coast_audios);
+			break;
 		case 21: // JAPAN
 			result = context.getResources().getStringArray(R.array.japan_audios);
+			break;
 		case 22: // MEXICO
 			result = context.getResources().getStringArray(R.array.mexico_audios);
+			break;
 		case 23: // NETHERLANDS
 			result = context.getResources().getStringArray(R.array.netherlands_audios);
+			break;
 		case 24: // NIGERIA
 			result = context.getResources().getStringArray(R.array.nigeria_audios);
+			break;
 		case 25: // PORTUGAL
 			result = context.getResources().getStringArray(R.array.portugal_audios);
+			break;
 		case 26: // RUSSIA
 			result = context.getResources().getStringArray(R.array.russia_audios);
+			break;
 		case 27: // SOUTH KOREA
 			result = context.getResources().getStringArray(R.array.south_korea_audios);
+			break;
 		case 28: // SPAIN
 			result = context.getResources().getStringArray(R.array.spain_audios);
 		case 29: // SWITZERLAND
 			result = context.getResources().getStringArray(R.array.switzerland_audios);
+			break;
 		case 30: // URUGUAY
 			result = context.getResources().getStringArray(R.array.uruguay_audios);
+			break;
 		case 31: // USA
 			result = context.getResources().getStringArray(R.array.usa_audios);
+			break;
 		}
 
-		// mergeDownloaded(result, country, SONG);
+		mergeDownloaded(result, country, SONG);
 		return result;
-
 	}
 
 	public String[] getAllLyrics(int country) {
@@ -305,89 +345,338 @@ public class Lookup {
 		switch (country) {
 		case 0: // ALGERIA
 			result = context.getResources().getStringArray(R.array.algeria_lyrics);
+			break;
 		case 1: // ARGENTINA
 			result = context.getResources().getStringArray(R.array.argentina_lyrics);
+			break;
 		case 2: // AUSTRALIA
 			result = context.getResources().getStringArray(R.array.australia_lyrics);
+			break;
 		case 3: // BELGIUM
 			result = context.getResources().getStringArray(R.array.belgium_lyrics);
+			break;
 		case 4: // BOSNIA AND HERZEGOVINA
 			result = context.getResources().getStringArray(R.array.bosnia_lyrics);
+			break;
 		case 5: // BRAZIL
 			result = context.getResources().getStringArray(R.array.brazil_lyrics);
+			break;
 		case 6: // CAMEROON
 			result = context.getResources().getStringArray(R.array.cameroon_lyrics);
+			break;
 		case 7: // CHILE
 			result = context.getResources().getStringArray(R.array.chile_lyrics);
+			break;
 		case 8: // COLOMBIA
 			result = context.getResources().getStringArray(R.array.colombia_lyrics);
-		case 9: // COSTA RICA
+			break;
+		case 9: // IVORY COAST (COTE D'IVORE)
+			result = context.getResources().getStringArray(R.array.cote_d_lyrics);
+			break;
+		case 10: // COSTA RICA
 			result = context.getResources().getStringArray(R.array.costa_rica_lyrics);
-		case 10: // CROATIA
+			break;
+		case 11: // CROATIA
 			result = context.getResources().getStringArray(R.array.croatia_lyrics);
-		case 11: // ECUADOR
+			break;
+		case 12: // ECUADOR
 			result = context.getResources().getStringArray(R.array.ecuador_lyrics);
-		case 12: // ENGLAND
+			break;
+		case 13: // ENGLAND
 			result = context.getResources().getStringArray(R.array.england_lyrics);
-		case 13: // FRANCE
+			break;
+		case 14: // FRANCE
 			result = context.getResources().getStringArray(R.array.france_lyrics);
-		case 14: // GERMANY
+			break;
+		case 15: // GERMANY
 			result = context.getResources().getStringArray(R.array.germany_lyrics);
-		case 15: // GHANA
+			break;
+		case 16: // GHANA
 			result = context.getResources().getStringArray(R.array.ghana_lyrics);
-		case 16: // GREECE
+			break;
+		case 17: // GREECE
 			result = context.getResources().getStringArray(R.array.greece_lyrics);
-		case 17: // HONDURAS
+			break;
+		case 18: // HONDURAS
 			result = context.getResources().getStringArray(R.array.honduras_lyrics);
-		case 18: // IRAN
+			break;
+		case 19: // IRAN
 			result = context.getResources().getStringArray(R.array.iran_lyrics);
-		case 19: // ITALY
+			break;
+		case 20: // ITALY
 			result = context.getResources().getStringArray(R.array.italy_lyrics);
-		case 20: // IVORY COAST
-			result = context.getResources().getStringArray(R.array.ivory_coast_lyrics);
+			break;
 		case 21: // JAPAN
 			result = context.getResources().getStringArray(R.array.japan_lyrics);
+			break;
 		case 22: // MEXICO
 			result = context.getResources().getStringArray(R.array.mexico_lyrics);
+			break;
 		case 23: // NETHERLANDS
 			result = context.getResources().getStringArray(R.array.netherlands_lyrics);
+			break;
 		case 24: // NIGERIA
 			result = context.getResources().getStringArray(R.array.nigeria_lyrics);
+			break;
 		case 25: // PORTUGAL
 			result = context.getResources().getStringArray(R.array.portugal_lyrics);
+			break;
 		case 26: // RUSSIA
 			result = context.getResources().getStringArray(R.array.russia_lyrics);
+			break;
 		case 27: // SOUTH KOREA
 			result = context.getResources().getStringArray(R.array.south_korea_lyrics);
+			break;
 		case 28: // SPAIN
 			result = context.getResources().getStringArray(R.array.spain_lyrics);
+			break;
 		case 29: // SWITZERLAND
 			result = context.getResources().getStringArray(R.array.switzerland_lyrics);
+			break;
 		case 30: // URUGUAY
 			result = context.getResources().getStringArray(R.array.uruguay_lyrics);
+			break;
 		case 31: // USA
 			result = context.getResources().getStringArray(R.array.usa_lyrics);
+			break;
 		}
 
-		// mergeDownloaded(result, country, LYRICS);
+		mergeDownloaded(result, country, LYRICS);
 		return result;
+	}
 
+	public String[] getAllTranslations(int country) {
+
+		String[] result = null;
+
+		switch (country) {
+		case 0: // ALGERIA
+			result = context.getResources().getStringArray(R.array.algeria_translation);
+			break;
+		case 1: // ARGENTINA
+			result = context.getResources().getStringArray(R.array.argentina_translation);
+			break;
+		case 2: // AUSTRALIA
+			result = context.getResources().getStringArray(R.array.australia_translation);
+			break;
+		case 3: // BELGIUM
+			result = context.getResources().getStringArray(R.array.belgium_translation);
+			break;
+		case 4: // BOSNIA AND HERZEGOVINA
+			result = context.getResources().getStringArray(R.array.bosnia_translation);
+			break;
+		case 5: // BRAZIL
+			result = context.getResources().getStringArray(R.array.brazil_translation);
+			break;
+		case 6: // CAMEROON
+			result = context.getResources().getStringArray(R.array.cameroon_translation);
+			break;
+		case 7: // CHILE
+			result = context.getResources().getStringArray(R.array.chile_translation);
+			break;
+		case 8: // COLOMBIA
+			result = context.getResources().getStringArray(R.array.colombia_translation);
+			break;
+		case 9: // IVORY COAST (COTE D'IVORE)
+			result = context.getResources().getStringArray(R.array.cote_d_translation);
+			break;
+		case 10: // COSTA RICA
+			result = context.getResources().getStringArray(R.array.costa_rica_translation);
+			break;
+		case 11: // CROATIA
+			result = context.getResources().getStringArray(R.array.croatia_translation);
+			break;
+		case 12: // ECUADOR
+			result = context.getResources().getStringArray(R.array.ecuador_translation);
+			break;
+		case 13: // ENGLAND
+			result = context.getResources().getStringArray(R.array.england_translation);
+			break;
+		case 14: // FRANCE
+			result = context.getResources().getStringArray(R.array.france_translation);
+			break;
+		case 15: // GERMANY
+			result = context.getResources().getStringArray(R.array.germany_translation);
+			break;
+		case 16: // GHANA
+			result = context.getResources().getStringArray(R.array.ghana_translation);
+			break;
+		case 17: // GREECE
+			result = context.getResources().getStringArray(R.array.greece_translation);
+			break;
+		case 18: // HONDURAS
+			result = context.getResources().getStringArray(R.array.honduras_translation);
+			break;
+		case 19: // IRAN
+			result = context.getResources().getStringArray(R.array.iran_translation);
+			break;
+		case 20: // ITALY
+			result = context.getResources().getStringArray(R.array.italy_translation);
+			break;
+		case 21: // JAPAN
+			result = context.getResources().getStringArray(R.array.japan_translation);
+			break;
+		case 22: // MEXICO
+			result = context.getResources().getStringArray(R.array.mexico_translation);
+			break;
+		case 23: // NETHERLANDS
+			result = context.getResources().getStringArray(R.array.netherlands_translation);
+			break;
+		case 24: // NIGERIA
+			result = context.getResources().getStringArray(R.array.nigeria_translation);
+			break;
+		case 25: // PORTUGAL
+			result = context.getResources().getStringArray(R.array.portugal_translation);
+			break;
+		case 26: // RUSSIA
+			result = context.getResources().getStringArray(R.array.russia_translation);
+			break;
+		case 27: // SOUTH KOREA
+			result = context.getResources().getStringArray(R.array.south_korea_translation);
+			break;
+		case 28: // SPAIN
+			result = context.getResources().getStringArray(R.array.spain_translation);
+		case 29: // SWITZERLAND
+			result = context.getResources().getStringArray(R.array.switzerland_translation);
+			break;
+		case 30: // URUGUAY
+			result = context.getResources().getStringArray(R.array.uruguay_translation);
+			break;
+		case 31: // USA
+			result = context.getResources().getStringArray(R.array.usa_translation);
+			break;
+		}
+
+		mergeDownloaded(result, country, TRANSLATION);
+		return result;
+	}
+
+	public String[] getAllTransliterations(int country) {
+
+		String[] result = null;
+
+		switch (country) {
+		case 0: // ALGERIA
+			result = context.getResources().getStringArray(R.array.algeria_transliteration);
+			break;
+		case 1: // ARGENTINA
+			result = context.getResources().getStringArray(R.array.argentina_transliteration);
+			break;
+		case 2: // AUSTRALIA
+			result = context.getResources().getStringArray(R.array.australia_transliteration);
+			break;
+		case 3: // BELGIUM
+			result = context.getResources().getStringArray(R.array.belgium_transliteration);
+			break;
+		case 4: // BOSNIA AND HERZEGOVINA
+			result = context.getResources().getStringArray(R.array.bosnia_transliteration);
+			break;
+		case 5: // BRAZIL
+			result = context.getResources().getStringArray(R.array.brazil_transliteration);
+			break;
+		case 6: // CAMEROON
+			result = context.getResources().getStringArray(R.array.cameroon_transliteration);
+			break;
+		case 7: // CHILE
+			result = context.getResources().getStringArray(R.array.chile_transliteration);
+			break;
+		case 8: // COLOMBIA
+			result = context.getResources().getStringArray(R.array.colombia_transliteration);
+			break;
+		case 9: // IVORY COAST (COTE D'IVORE)
+			result = context.getResources().getStringArray(R.array.cote_d_transliteration);
+			break;
+		case 10: // COSTA RICA
+			result = context.getResources().getStringArray(R.array.costa_rica_transliteration);
+			break;
+		case 11: // CROATIA
+			result = context.getResources().getStringArray(R.array.croatia_transliteration);
+			break;
+		case 12: // ECUADOR
+			result = context.getResources().getStringArray(R.array.ecuador_transliteration);
+			break;
+		case 13: // ENGLAND
+			result = context.getResources().getStringArray(R.array.england_transliteration);
+			break;
+		case 14: // FRANCE
+			result = context.getResources().getStringArray(R.array.france_transliteration);
+			break;
+		case 15: // GERMANY
+			result = context.getResources().getStringArray(R.array.germany_transliteration);
+			break;
+		case 16: // GHANA
+			result = context.getResources().getStringArray(R.array.ghana_transliteration);
+			break;
+		case 17: // GREECE
+			result = context.getResources().getStringArray(R.array.greece_transliteration);
+			break;
+		case 18: // HONDURAS
+			result = context.getResources().getStringArray(R.array.honduras_transliteration);
+			break;
+		case 19: // IRAN
+			result = context.getResources().getStringArray(R.array.iran_transliteration);
+			break;
+		case 20: // ITALY
+			result = context.getResources().getStringArray(R.array.italy_transliteration);
+			break;
+		case 21: // JAPAN
+			result = context.getResources().getStringArray(R.array.japan_transliteration);
+			break;
+		case 22: // MEXICO
+			result = context.getResources().getStringArray(R.array.mexico_transliteration);
+			break;
+		case 23: // NETHERLANDS
+			result = context.getResources().getStringArray(R.array.netherlands_transliteration);
+			break;
+		case 24: // NIGERIA
+			result = context.getResources().getStringArray(R.array.nigeria_transliteration);
+			break;
+		case 25: // PORTUGAL
+			result = context.getResources().getStringArray(R.array.portugal_transliteration);
+			break;
+		case 26: // RUSSIA
+			result = context.getResources().getStringArray(R.array.russia_transliteration);
+			break;
+		case 27: // SOUTH KOREA
+			result = context.getResources().getStringArray(R.array.south_korea_transliteration);
+			break;
+		case 28: // SPAIN
+			result = context.getResources().getStringArray(R.array.spain_transliteration);
+			break;
+		case 29: // SWITZERLAND
+			result = context.getResources().getStringArray(R.array.switzerland_transliteration);
+			break;
+		case 30: // URUGUAY
+			result = context.getResources().getStringArray(R.array.uruguay_transliteration);
+			break;
+		case 31: // USA
+			result = context.getResources().getStringArray(R.array.usa_transliteration);
+			break;
+
+		}
+
+		mergeDownloaded(result, country, TRANSLITERATION);
+		return result;
 	}
 
 	public String getSong(int country, int song) {
-
 		return getAllSongs(country)[song];
-
 	}
 
 	public String getSource(int country, int song) {
-
 		return getAllSources(country)[song];
 	}
 
 	public String getLyrics(int country, int song) {
-
 		return getAllLyrics(country)[song];
+	}
+
+	public String getTranslation(int country, int song) {
+		return getAllTranslations(country)[song];
+	}
+
+	public String getTransliterations(int country, int song) {
+		return getAllTransliterations(country)[song];
 	}
 
 	// File IO stuff
@@ -437,8 +726,10 @@ public class Lookup {
 	private void mergeDownloaded(String[] defaultURLs, int country, int type) {
 		for (int i = 0; i < defaultURLs.length; i++) {
 			String path = getDownloaded(country, i, type);
-			if (path != null)
+			if (path != null) {
 				defaultURLs[i] = path;
+				Log.d("downloaded " + i, path);
+			}
 		}
 	}
 

@@ -130,14 +130,13 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 						download = lookup.isDownloaded(teamId);
 						progress = new ProgressDialog(TeamActivity.this);
 						progress.setMessage(download ? "Deleting..." : "Downloading...");
+						progress.setCancelable(false);
 						progress.show();
 					}
 
 					@Override
 					protected Boolean doInBackground(Void... params) {
-						// return download ? lookup.delete(teamId) :
-						// lookup.download(teamId);
-						return true;
+						return download ? lookup.delete(teamId) : lookup.download(teamId);
 					}
 
 					@Override

@@ -29,6 +29,25 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="algeria_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="algeria_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    
 
     <!-- ARGENTINA -->
     <string-array name="argentina_songs">
@@ -50,6 +69,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="argentina_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="argentina_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="argentina_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -87,6 +124,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="australia_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="australia_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- BELGIUM -->
     <string-array name="belgium_songs">
@@ -108,6 +163,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="belgium_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="belgium_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="belgium_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -145,6 +218,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="bosnia_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="bosnia_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- BRAZIL -->
     <string-array name="brazil_songs">
@@ -166,6 +257,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="brazil_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="brazil_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="brazil_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -203,6 +312,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="cameroon_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="cameroon_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- CHILE -->
     <string-array name="chile_songs">
@@ -224,6 +351,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="chile_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="chile_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="chile_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -261,6 +406,71 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="colombia_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="colombia_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    
+     <!-- Côte d’Ivoire -->
+    <string-array name="cote_d_songs">
+        <item>Oh! Ivory Coast 1</item>
+        <item>Oh! Ivory Coast 2</item>
+        <item>Oh! Ivory Coast 3</item>
+        <item>Oh! Ivory Coast 4</item>
+        <item>Oh! Ivory Coast 5</item>
+        <item>Oh! Ivory Coast 6</item>
+        <item>Oh! Ivory Coast 7</item>
+    </string-array>
+    <string-array name="cote_d_audios">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+    </string-array>
+    <string-array name="cote_d_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="cote_d_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="cote_d_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- COSTA RICA -->
     <string-array name="costa_rica_songs">
@@ -282,6 +492,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="costa_rica_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="costa_rica_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="costa_rica_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -319,6 +547,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="croatia_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="croatia_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- ECUADOR -->
     <string-array name="ecuador_songs">
@@ -340,6 +586,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="ecuador_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="ecuador_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="ecuador_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -377,6 +641,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="england_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="england_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- FRANCE -->
     <string-array name="france_songs">
@@ -398,6 +680,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="france_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="france_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="france_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -435,6 +735,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="germany_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="germany_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- GHANA -->
     <string-array name="ghana_songs">
@@ -456,6 +774,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="ghana_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="ghana_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="ghana_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -493,6 +829,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="greece_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="greece_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- HONDURAS -->
     <string-array name="honduras_songs">
@@ -514,6 +868,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="honduras_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="honduras_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="honduras_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -551,6 +923,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="iran_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="iran_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- ITALY -->
     <string-array name="italy_songs">
@@ -580,27 +970,7 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
-    
-    <!-- IVORY COAST -->
-    <string-array name="ivory_coast_songs">
-        <item>Oh! Ivory Coast 1</item>
-        <item>Oh! Ivory Coast 2</item>
-        <item>Oh! Ivory Coast 3</item>
-        <item>Oh! Ivory Coast 4</item>
-        <item>Oh! Ivory Coast 5</item>
-        <item>Oh! Ivory Coast 6</item>
-        <item>Oh! Ivory Coast 7</item>
-    </string-array>
-    <string-array name="ivory_coast_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-    </string-array>
-    <string-array name="ivory_coast_lyrics">
+    <string-array name="italy_translation">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -609,6 +979,15 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="italy_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>  
     
     <!-- JAPAN -->
     <string-array name="japan_songs">
@@ -630,6 +1009,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="japan_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="japan_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="japan_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -667,6 +1064,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="mexico_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="mexico_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- NETHERLANDS -->
     <string-array name="netherlands_songs">
@@ -688,6 +1103,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="netherlands_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="netherlands_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="netherlands_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -725,6 +1158,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="nigeria_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="nigeria_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- PORTUGAL -->
     <string-array name="portugal_songs">
@@ -746,6 +1197,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="portugal_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="portugal_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="portugal_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -783,6 +1252,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="russia_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="russia_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- SOUTH KOREA -->
     <string-array name="south_korea_songs">
@@ -804,6 +1291,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="south_korea_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="south_korea_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="south_korea_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -841,6 +1346,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="spain_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="spain_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- SWITZERLAND -->
     <string-array name="switzerland_songs">
@@ -862,6 +1385,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
     </string-array>
     <string-array name="switzerland_lyrics">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="switzerland_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="switzerland_transliteration">
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
@@ -899,6 +1440,24 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
+    <string-array name="uruguay_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="uruguay_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
     
     <!-- USA -->
     <string-array name="usa_songs">
@@ -921,5 +1480,23 @@
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/usa/lyrics/USANationalAnthem.txt</item>
+    </string-array>
+    <string-array name="usa_translation">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    </string-array>
+    <string-array name="usa_transliteration">
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
     </string-array>
 </resources>
