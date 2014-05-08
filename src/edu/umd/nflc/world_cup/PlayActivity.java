@@ -5,11 +5,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.text.DecimalFormat;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -37,6 +37,9 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 
 	private static final String[] TYPES = new String[] { "Lyrics", "Translation", "Transliteration" };
 
+	private static boolean downloadResult = false;
+	private static boolean favoriteResult = false;
+
 	private static String[] songNames;
 	private static String[] songSources;
 	private static String[] songLyrics;
@@ -53,10 +56,14 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	private static PagerAdapter pagerAdapter;
 	private static ViewPager pager;
 
+	private static Lookup lookup;
+
 	@Override
 	protected void onCreate(Bundle b) {
 		super.onCreate(b);
 		setContentView(R.layout.activity_play);
+
+		lookup = new Lookup(this);
 
 		iconIds = getIntent().getIntArrayExtra("iconIds");
 		teamIds = getIntent().getIntArrayExtra("teamIds");
@@ -120,13 +127,16 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 			menu.findItem(R.id.favorite).setIcon(R.drawable.icon_fav_dark);
 		}
 
-		// TODO downloaded indicator
+		if (lookup.isDownloaded(teamIds[current], songIds[current]))
+			menu.findItem(R.id.download).setIcon(R.drawable.icon_delete);
+		else
+			menu.findItem(R.id.download).setIcon(R.drawable.icon_download);
 
 		return true;
 	}
 
 	@Override
-	public boolean onOptionsItemSelected(MenuItem item) {
+	public boolean onOptionsItemSelected(final MenuItem item) {
 		switch (item.getItemId()) {
 		case android.R.id.home:
 			finish();
@@ -150,6 +160,47 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 					Toast.LENGTH_SHORT).show();
 			return true;
 
+		case R.id.download:
+			new AsyncTask<Void, Void, Boolean>() {
+
+				boolean download;
+				ProgressDialog progress;
+
+				@Override
+				public void onPreExecute() {
+					download = lookup.isDownloaded(teamIds[current], songIds[current]);
+					progress = new ProgressDialog(PlayActivity.this);
+					progress.setMessage(download ? "Deleting..." : "Downloading...");
+					progress.setCancelable(false);
+					progress.show();
+				}
+
+				@Override
+				protected Boolean doInBackground(Void... params) {
+					return download ? lookup.delete(teamIds[current], songIds[current]) : lookup.download(
+							teamIds[current], songIds[current]);
+				}
+
+				@Override
+				public void onPostExecute(Boolean result) {
+					String message;
+					if (!result) // error case
+						message = (download ? "Deletion" : "Download") + " failed! Try again later.";
+
+					else {
+						item.setIcon(download ? R.drawable.icon_download : R.drawable.icon_delete);
+						message = "This chant has been " + (download ? "deleted from" : "downloaded to")
+								+ " your device!";
+						// TODO refresh fragment
+					}
+
+					progress.dismiss();
+					Toast.makeText(PlayActivity.this, message, Toast.LENGTH_SHORT).show();
+				}
+
+			}.execute();
+			return true;
+
 		default:
 			return super.onOptionsItemSelected(item);
 		}
@@ -159,7 +210,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {
 		type = itemPosition;
 
-		// TODO change text
+		// TODO refresh fragment
 
 		return true;
 	}
@@ -255,10 +306,10 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 						String source = songLyrics[position];
 						Reader reader;
 
-						if (source.startsWith("http"))
-							reader = new InputStreamReader(new URL(source).openStream());
-						else
+						if (lookup.isDownloaded(teamIds[current], songIds[current]))
 							reader = new FileReader(source);
+						else
+							reader = new InputStreamReader(new URL(source).openStream());
 
 						BufferedReader in = new BufferedReader(reader);
 						StringBuilder result = new StringBuilder();

@@ -20,6 +20,7 @@ public class ChantPlayer implements OnClickListener {
 	private static final int OK = 2;
 	private static final int ERROR = 3;
 
+	private final int hash;
 	private final MediaPlayer[] players;
 	private Listener[] listeners;
 	private final int[] prepared;
@@ -28,7 +29,7 @@ public class ChantPlayer implements OnClickListener {
 	public int inUse = 1;
 
 	public static ChantPlayer get(String[] sources) {
-		if (lastUsed == null)
+		if (lastUsed == null || different(sources, lastUsed))
 			lastUsed = new ChantPlayer(sources);
 		else
 			lastUsed.inUse++;
@@ -110,6 +111,7 @@ public class ChantPlayer implements OnClickListener {
 		players = new MediaPlayer[sources.length];
 		prepared = new int[sources.length];
 		listeners = new Listener[sources.length];
+		int code = 0;
 
 		for (int i = 0; i < players.length; i++) {
 
@@ -128,8 +130,18 @@ public class ChantPlayer implements OnClickListener {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-
+			
+			code += sources[i].hashCode();
 		}
+		
+		hash = code;
+	}
+
+	private static boolean different(String[] sources, ChantPlayer last) {
+		int i = 0;
+		for (String s : sources)
+			i += s.hashCode();
+		return i != last.hash;
 	}
 
 	private class Listener implements OnPreparedListener, OnErrorListener {

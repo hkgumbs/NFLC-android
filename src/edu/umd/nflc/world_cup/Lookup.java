@@ -8,7 +8,6 @@ import java.net.URL;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Environment;
-import android.util.Log;
 
 public class Lookup {
 
@@ -103,25 +102,14 @@ public class Lookup {
 		if (isExternalStorageMounted()) {
 			File folder = getFolder(country, song);
 			File[] children = folder.listFiles();
-			for (int i = 0; i < children.length; i++) {
-				Log.d("files", children[i].getName());
+			for (int i = 0; i < children.length; i++)
 				if (children[i].getName().equals(FILENAMES[fileType]))
 					return children[i].getAbsolutePath();
-			}
 		}
 		return null;
 	}
 
 	public boolean isDownloaded(int country, int song) {
-		// File folder = getFolder(country, song);
-		// if (folder == null)
-		// return false;
-		//
-		// for (int i = 0; i < FILENAMES.length; i++)
-		// if (!new File(folder, FILENAMES[i]).isFile())
-		// return false;
-		// return true;
-
 		for (int i = 0; i < FILENAMES.length; i++)
 			if (getDownloaded(country, song, i) == null)
 				return false;
@@ -726,10 +714,8 @@ public class Lookup {
 	private void mergeDownloaded(String[] defaultURLs, int country, int type) {
 		for (int i = 0; i < defaultURLs.length; i++) {
 			String path = getDownloaded(country, i, type);
-			if (path != null) {
+			if (path != null)
 				defaultURLs[i] = path;
-				Log.d("downloaded " + i, path);
-			}
 		}
 	}
 

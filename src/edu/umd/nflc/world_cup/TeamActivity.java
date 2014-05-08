@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.AdapterView;
+import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ListView;
@@ -36,6 +37,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	ChantPlayer chants;
 	AlertDialog dialog;
+	BaseAdapter adapter;
 
 	Lookup lookup;
 
@@ -76,7 +78,8 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		ListView content = (ListView) findViewById(R.id.list);
 		chants = ChantPlayer.get(songSources);
 		int songLimit = purchased ? songNames.length : 3;
-		content.setAdapter(new PlaylistAdapter(this, songNames, chants, songLimit));
+		adapter = new PlaylistAdapter(this, songNames, chants, songLimit);
+		content.setAdapter(adapter);
 		content.setOnItemClickListener(this);
 
 		ActionBar actionBar = getSupportActionBar();
@@ -98,12 +101,6 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		super.onCreateOptionsMenu(menu);
 		MenuInflater inflater = getMenuInflater();
 		inflater.inflate(R.menu.team, menu);
-		return true;
-	}
-
-	@Override
-	public boolean onPrepareOptionsMenu(Menu menu) {
-		super.onPrepareOptionsMenu(menu);
 		if (lookup.isDownloaded(teamId))
 			menu.findItem(R.id.download).setIcon(R.drawable.icon_delete);
 		return true;
@@ -141,18 +138,20 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 					@Override
 					public void onPostExecute(Boolean result) {
+						progress.dismiss();
 						String message;
 						if (!result) // error case
 							message = (download ? "Deletion" : "Download") + " failed! Try again later.";
 
-						else {
-							item.setIcon(download ? R.drawable.icon_download : R.drawable.icon_delete);
+						else
 							message = "All of this team's chants have been "
 									+ (download ? "deleted from" : "downloaded to") + " your device!";
-						}
 
-						progress.dismiss();
 						Toast.makeText(TeamActivity.this, message, Toast.LENGTH_SHORT).show();
+
+						finish();
+						startActivity(getIntent().addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
+
 					}
 
 				}.execute();
@@ -204,7 +203,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 			// TODO payment processing stuff
 
 			finish();
-			startActivity(getIntent());
+			startActivity(getIntent().addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
 
 		} else
 			Toast.makeText(TeamActivity.this, "Something went wrong! Try again later.", Toast.LENGTH_LONG).show();
