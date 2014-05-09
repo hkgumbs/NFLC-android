@@ -76,7 +76,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		songSources = lookup.getAllSources(teamId);
 
 		ListView content = (ListView) findViewById(R.id.list);
-		chants = ChantPlayer.get(songSources);
+		chants = new ChantPlayer(songSources);
 		int songLimit = purchased ? songNames.length : 3;
 		adapter = new PlaylistAdapter(this, songNames, chants, songLimit);
 		content.setAdapter(adapter);
@@ -143,14 +143,15 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 						if (!result) // error case
 							message = (download ? "Deletion" : "Download") + " failed! Try again later.";
 
-						else
+						else {
 							message = "All of this team's chants have been "
 									+ (download ? "deleted from" : "downloaded to") + " your device!";
+							finish();
+							startActivity(getIntent());
+							overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+						}
 
 						Toast.makeText(TeamActivity.this, message, Toast.LENGTH_SHORT).show();
-
-						finish();
-						startActivity(getIntent().addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
 
 					}
 
@@ -171,18 +172,24 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		chants.stop();
 
 		if (purchased) {
-			Intent i = new Intent(this, PlayActivity.class);
-			int size = songNames.length;
+			Intent intent = new Intent(this, PlayActivity.class);
 
-			i.putExtra("iconIds", toArray(iconId, size));
-			i.putExtra("teamIds", toArray(teamId, size));
-			i.putExtra("songIds", toArray(size));
-			i.putExtra("songNames", songNames);
-			i.putExtra("songSources", songSources);
-			i.putExtra("songLyrics", lookup.getAllLyrics(teamId));
-			i.putExtra("current", position);
+			int[] iconIds = new int[songNames.length];
+			int[] teamIds = new int[songNames.length];
+			int[] songIds = new int[songNames.length];
 
-			startActivity(i);
+			for (int i = 0; i < songNames.length; i++) {
+				iconIds[i] = iconId;
+				teamIds[i] = teamId;
+				songIds[i] = i;
+			}
+
+			intent.putExtra("iconIds", iconIds);
+			intent.putExtra("teamIds", teamIds);
+			intent.putExtra("songIds", songIds);
+			intent.putExtra("current", position);
+
+			startActivity(intent);
 
 		} else
 			dialog.show();
@@ -207,20 +214,6 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 		} else
 			Toast.makeText(TeamActivity.this, "Something went wrong! Try again later.", Toast.LENGTH_LONG).show();
-	}
-
-	private int[] toArray(int value, int size) {
-		int[] array = new int[size];
-		for (int i = 0; i < size; i++)
-			array[i] = value;
-		return array;
-	}
-
-	private int[] toArray(int size) {
-		int[] array = new int[size];
-		for (int i = 0; i < size; i++)
-			array[i] = i;
-		return array;
 	}
 
 }

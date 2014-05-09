@@ -2,9 +2,13 @@ package edu.umd.nflc.world_cup;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLConnection;
+import java.text.DecimalFormat;
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.os.Environment;
@@ -22,6 +26,37 @@ public class Lookup {
 
 	public Lookup(Context context) {
 		this.context = context;
+	}
+
+	public String getSize(int country, int song) {
+
+		long length = 0;
+
+		if (isDownloaded(country, song)) {
+			File folder = getFolder(country, song);
+			for (File file : folder.listFiles())
+				length += file.length();
+
+		} else {
+			try {
+				URL[] urls = new URL[FILENAMES.length];
+				urls[0] = new URL(getLyrics(country, song));
+				urls[1] = new URL(getTranslation(country, song));
+				urls[2] = new URL(getTransliterations(country, song));
+				urls[3] = new URL(getSource(country, song));
+				
+				for (URL u : urls) {
+					URLConnection conn = u.openConnection();
+					length += conn.getContentLength();
+				}
+				
+			} catch (IOException e) {
+				length = -1;
+			}
+		}
+
+		DecimalFormat df = new DecimalFormat("#.##");
+		return length <= 0 ? null : df.format(length / ((long) 1024)) + " KB";
 	}
 
 	public boolean download(int country) {
@@ -719,11 +754,4 @@ public class Lookup {
 		}
 	}
 
-	public void mergeDownloaded(String[] defaultURLs, int[] countries, int[] songs, int type) {
-		for (int i = 0; i < defaultURLs.length; i++) {
-			String path = getDownloaded(countries[i], songs[i], type);
-			if (path != null)
-				defaultURLs[i] = path;
-		}
-	}
 }

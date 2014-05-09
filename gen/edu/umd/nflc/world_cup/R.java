@@ -1304,7 +1304,7 @@ containing a value of this type.
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050030;
         public static final int end=0x7f050013;
-        public static final int error=0x7f050048;
+        public static final int error=0x7f050047;
         public static final int expand_activities_button=0x7f050026;
         public static final int expanded_menu=0x7f05002c;
         public static final int favorite=0x7f05004b;
@@ -1321,7 +1321,7 @@ containing a value of this type.
         public static final int lyrics=0x7f050042;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
-        public static final int next=0x7f050047;
+        public static final int next=0x7f050048;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
         public static final int pager=0x7f05003f;

@@ -70,7 +70,6 @@ public class MainFragments {
 
 		String[] songNames;
 		String[] songSources;
-		String[] songLyrics;
 		int[] teamIds;
 		int[] songIds;
 		int[] iconIds;
@@ -90,7 +89,6 @@ public class MainFragments {
 			teamIds = new int[favorites.size()];
 			songNames = new String[favorites.size()];
 			songSources = new String[favorites.size()];
-			songLyrics = new String[favorites.size()];
 			songIds = new int[favorites.size()];
 			iconIds = new int[favorites.size()];
 
@@ -100,17 +98,13 @@ public class MainFragments {
 				songIds[i] = Integer.parseInt(value.substring(value.indexOf(",") + 1));
 				songNames[i] = lookup.getSong(teamIds[i], songIds[i]);
 				songSources[i] = lookup.getSource(teamIds[i], songIds[i]);
-				songLyrics[i] = lookup.getLyrics(teamIds[i], songIds[i]);
 				iconIds[i] = lookup.getFlagId(teamIds[i]);
 			}
 
 			View frame = inflater.inflate(R.layout.fragment_list, container, false);
 			ListView content = (ListView) frame.findViewById(R.id.list);
 			
-			lookup.mergeDownloaded(songSources, teamIds, songIds, Lookup.SONG);
-			lookup.mergeDownloaded(songLyrics, teamIds, songIds, Lookup.LYRICS);
-			
-			chants = ChantPlayer.get(songSources);
+			chants = new ChantPlayer(songSources);
 			content.setAdapter(new PlaylistAdapter(getActivity(), songNames, chants, songSources.length));
 			content.setOnItemClickListener(this);
 
@@ -131,9 +125,6 @@ public class MainFragments {
 			i.putExtra("iconIds", iconIds);
 			i.putExtra("teamIds", teamIds);
 			i.putExtra("songIds", songIds);
-			i.putExtra("songNames", songNames);
-			i.putExtra("songSources", songSources);
-			i.putExtra("songLyrics", songLyrics);
 			i.putExtra("current", position);
 
 			startActivity(i);

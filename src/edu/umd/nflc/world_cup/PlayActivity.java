@@ -7,8 +7,6 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.text.DecimalFormat;
-
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
@@ -43,6 +41,8 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	private static String[] songNames;
 	private static String[] songSources;
 	private static String[] songLyrics;
+	private static String[] songTranslations;
+	private static String[] songTransliterations;
 	private static int[] songIds;
 	private static int[] teamIds;
 	private static int[] iconIds;
@@ -63,17 +63,28 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 		super.onCreate(b);
 		setContentView(R.layout.activity_play);
 
-		lookup = new Lookup(this);
-
 		iconIds = getIntent().getIntArrayExtra("iconIds");
 		teamIds = getIntent().getIntArrayExtra("teamIds");
 		songIds = getIntent().getIntArrayExtra("songIds");
-		songNames = getIntent().getStringArrayExtra("songNames");
-		songSources = getIntent().getStringArrayExtra("songSources");
-		songLyrics = getIntent().getStringArrayExtra("songLyrics");
 		current = getIntent().getExtras().getInt("current");
-		numSongs = songNames.length;
+		numSongs = songIds.length;
 		type = b == null ? 0 : b.getInt("type");
+
+		lookup = new Lookup(this);
+
+		songNames = new String[songIds.length];
+		songSources = new String[songIds.length];
+		songLyrics = new String[songIds.length];
+		songTranslations = new String[songIds.length];
+		songTransliterations = new String[songIds.length];
+
+		for (int i = 0; i < songIds.length; i++) {
+			songNames[i] = lookup.getSong(teamIds[i], songIds[i]);
+			songSources[i] = lookup.getSource(teamIds[i], songIds[i]);
+			songLyrics[i] = lookup.getLyrics(teamIds[i], songIds[i]);
+			songTranslations[i] = lookup.getTranslation(teamIds[i], songIds[i]);
+			songTransliterations[i] = lookup.getTransliterations(teamIds[i], songIds[i]);
+		}
 
 		actionBarAdapter = new ActionBarAdapter();
 		actionBar = getSupportActionBar();
@@ -86,7 +97,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 		actionBar.setSubtitle(TYPES[type]);
 
 		pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
-		chants = ChantPlayer.get(songSources);
+		chants = new ChantPlayer(songSources);
 		pager = (ViewPager) findViewById(R.id.pager);
 		pager.setAdapter(pagerAdapter);
 		pager.setOnPageChangeListener(this);
@@ -191,7 +202,6 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 						item.setIcon(download ? R.drawable.icon_download : R.drawable.icon_delete);
 						message = "This chant has been " + (download ? "deleted from" : "downloaded to")
 								+ " your device!";
-						// TODO refresh fragment
 					}
 
 					progress.dismiss();
@@ -210,7 +220,8 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {
 		type = itemPosition;
 
-		// TODO refresh fragment
+		// TODO not sure if this is working
+		pagerAdapter.notifyDataSetChanged();
 
 		return true;
 	}
@@ -306,7 +317,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 						String source = songLyrics[position];
 						Reader reader;
 
-						if (lookup.isDownloaded(teamIds[current], songIds[current]))
+						if (lookup.isDownloaded(teamIds[position], songIds[position]))
 							reader = new FileReader(source);
 						else
 							reader = new InputStreamReader(new URL(source).openStream());
@@ -343,10 +354,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 			new AsyncTask<Void, Void, String>() {
 				@Override
 				protected String doInBackground(Void... params) {
-					// TODO get size of song + lyric text size
-					double size = 1.2345;
-					DecimalFormat df = new DecimalFormat("#.##");
-					return df.format(size) + " MB";
+					return lookup.getSize(teamIds[position], songIds[position]);
 				}
 
 				@Override

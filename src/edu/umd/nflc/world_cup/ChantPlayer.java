@@ -13,28 +13,41 @@ import android.widget.ImageView;
 
 public class ChantPlayer implements OnClickListener {
 
-	private static ChantPlayer lastUsed;
-
 	private static final int NOT_PREPARED = 0;
 	private static final int PREPARING = 1;
 	private static final int OK = 2;
 	private static final int ERROR = 3;
 
-	private final int hash;
 	private final MediaPlayer[] players;
 	private Listener[] listeners;
 	private final int[] prepared;
 	private ImageView lastButton;
 	private int playing = -1;
-	public int inUse = 1;
 
-	public static ChantPlayer get(String[] sources) {
-		if (lastUsed == null || different(sources, lastUsed))
-			lastUsed = new ChantPlayer(sources);
-		else
-			lastUsed.inUse++;
+	public ChantPlayer(String[] sources) {
+		players = new MediaPlayer[sources.length];
+		prepared = new int[sources.length];
+		listeners = new Listener[sources.length];
 
-		return lastUsed;
+		for (int i = 0; i < players.length; i++) {
+
+			players[i] = new MediaPlayer();
+			try {
+				players[i].setDataSource(sources[i]);
+				players[i].setLooping(true);
+				listeners[i] = new Listener();
+
+			} catch (IllegalArgumentException e) {
+				e.printStackTrace();
+			} catch (SecurityException e) {
+				e.printStackTrace();
+			} catch (IllegalStateException e) {
+				e.printStackTrace();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+		}
+
 	}
 
 	@Override
@@ -95,53 +108,13 @@ public class ChantPlayer implements OnClickListener {
 	}
 
 	public void release() {
-		if (--inUse == 0) {
-			new Thread(new Runnable() {
-				@Override
-				public void run() {
-					for (MediaPlayer mp : players)
-						mp.release();
-				}
-			}).start();
-			lastUsed = null;
-		}
-	}
-
-	private ChantPlayer(String[] sources) {
-		players = new MediaPlayer[sources.length];
-		prepared = new int[sources.length];
-		listeners = new Listener[sources.length];
-		int code = 0;
-
-		for (int i = 0; i < players.length; i++) {
-
-			players[i] = new MediaPlayer();
-			try {
-				players[i].setDataSource(sources[i]);
-				players[i].setLooping(true);
-				listeners[i] = new Listener();
-
-			} catch (IllegalArgumentException e) {
-				e.printStackTrace();
-			} catch (SecurityException e) {
-				e.printStackTrace();
-			} catch (IllegalStateException e) {
-				e.printStackTrace();
-			} catch (IOException e) {
-				e.printStackTrace();
+		new Thread(new Runnable() {
+			@Override
+			public void run() {
+				for (MediaPlayer mp : players)
+					mp.release();
 			}
-			
-			code += sources[i].hashCode();
-		}
-		
-		hash = code;
-	}
-
-	private static boolean different(String[] sources, ChantPlayer last) {
-		int i = 0;
-		for (String s : sources)
-			i += s.hashCode();
-		return i != last.hash;
+		}).start();
 	}
 
 	private class Listener implements OnPreparedListener, OnErrorListener {
