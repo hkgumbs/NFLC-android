@@ -425,53 +425,6 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
-     <!-- Côte d’Ivoire -->
-    <string-array name="cote_d_songs">
-        <item>Oh! Ivory Coast 1</item>
-        <item>Oh! Ivory Coast 2</item>
-        <item>Oh! Ivory Coast 3</item>
-        <item>Oh! Ivory Coast 4</item>
-        <item>Oh! Ivory Coast 5</item>
-        <item>Oh! Ivory Coast 6</item>
-        <item>Oh! Ivory Coast 7</item>
-    </string-array>
-    <string-array name="cote_d_audios">
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
-    </string-array>
-    <string-array name="cote_d_lyrics">
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
-    </string-array>
-    <string-array name="cote_d_translations">
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
-    </string-array>
-    <string-array name="cote_d_transliterations">
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
-    </string-array>
-    
     <!-- COSTA RICA -->
     <string-array name="costa_rica_songs">
         <item>Oh! Costa Rica 1</item>
@@ -510,6 +463,53 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     <string-array name="costa_rica_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+    </string-array>
+    
+     <!-- Côte d’Ivoire -->
+    <string-array name="cote_d_songs">
+        <item>Oh! Cote D'Ivore 1</item>
+        <item>Oh! Cote D'Ivore 2</item>
+        <item>Oh! Cote D'Ivore 3</item>
+        <item>Oh! Cote D'Ivore 4</item>
+        <item>Oh! Cote D'Ivore 5</item>
+        <item>Oh! Cote D'Ivore 6</item>
+        <item>Oh! Cote D'Ivore 7</item>
+    </string-array>
+    <string-array name="cote_d_audios">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+    </string-array>
+    <string-array name="cote_d_lyrics">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+    </string-array>
+    <string-array name="cote_d_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+    </string-array>
+    <string-array name="cote_d_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
