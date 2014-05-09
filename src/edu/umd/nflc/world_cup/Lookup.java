@@ -204,10 +204,10 @@ public class Lookup {
 			return context.getResources().getStringArray(R.array.chile_songs);
 		case 8: // COLOMBIA
 			return context.getResources().getStringArray(R.array.colombia_songs);
-		case 9: // IVORY COAST (COTE D'IVORE)
-			return context.getResources().getStringArray(R.array.cote_d_songs);
-		case 10: // COSTA RICA
+		case 9: // COSTA RICA
 			return context.getResources().getStringArray(R.array.costa_rica_songs);
+		case 10: // IVORY COAST (COTE D'IVORE)
+			return context.getResources().getStringArray(R.array.cote_d_songs);
 		case 11: // CROATIA
 			return context.getResources().getStringArray(R.array.croatia_songs);
 		case 12: // ECUADOR
@@ -287,11 +287,11 @@ public class Lookup {
 		case 8: // COLOMBIA
 			result = context.getResources().getStringArray(R.array.colombia_audios);
 			break;
-		case 9: // IVORY COAST (COTE D'IVORE)
-			result = context.getResources().getStringArray(R.array.cote_d_audios);
-			break;
-		case 10: // COSTA RICA
+		case 9: // COSTA RICA
 			result = context.getResources().getStringArray(R.array.costa_rica_audios);
+			break;
+		case 10: // IVORY COAST (COTE D'IVORE)
+			result = context.getResources().getStringArray(R.array.cote_d_audios);
 			break;
 		case 11: // CROATIA
 			result = context.getResources().getStringArray(R.array.croatia_audios);
@@ -393,11 +393,11 @@ public class Lookup {
 		case 8: // COLOMBIA
 			result = context.getResources().getStringArray(R.array.colombia_lyrics);
 			break;
-		case 9: // IVORY COAST (COTE D'IVORE)
-			result = context.getResources().getStringArray(R.array.cote_d_lyrics);
-			break;
-		case 10: // COSTA RICA
+		case 9: // COSTA RICA
 			result = context.getResources().getStringArray(R.array.costa_rica_lyrics);
+			break;
+		case 10: // IVORY COAST (COTE D'IVORE)
+			result = context.getResources().getStringArray(R.array.cote_d_lyrics);
 			break;
 		case 11: // CROATIA
 			result = context.getResources().getStringArray(R.array.croatia_lyrics);
@@ -500,11 +500,11 @@ public class Lookup {
 		case 8: // COLOMBIA
 			result = context.getResources().getStringArray(R.array.colombia_translations);
 			break;
-		case 9: // IVORY COAST (COTE D'IVORE)
-			result = context.getResources().getStringArray(R.array.cote_d_translations);
-			break;
-		case 10: // COSTA RICA
+		case 9: // COSTA RICA
 			result = context.getResources().getStringArray(R.array.costa_rica_translations);
+			break;
+		case 10: // IVORY COAST (COTE D'IVORE)
+			result = context.getResources().getStringArray(R.array.cote_d_translations);
 			break;
 		case 11: // CROATIA
 			result = context.getResources().getStringArray(R.array.croatia_translations);
@@ -606,11 +606,11 @@ public class Lookup {
 		case 8: // COLOMBIA
 			result = context.getResources().getStringArray(R.array.colombia_transliterations);
 			break;
-		case 9: // IVORY COAST (COTE D'IVORE)
-			result = context.getResources().getStringArray(R.array.cote_d_transliterations);
-			break;
-		case 10: // COSTA RICA
+		case 9: // COSTA RICA
 			result = context.getResources().getStringArray(R.array.costa_rica_transliterations);
+			break;
+		case 10: // IVORY COAST (COTE D'IVORE)
+			result = context.getResources().getStringArray(R.array.cote_d_transliterations);
 			break;
 		case 11: // CROATIA
 			result = context.getResources().getStringArray(R.array.croatia_transliterations);
