@@ -12,40 +12,40 @@
         <item>Oh! Algeria 7</item>
     </string-array>
     <string-array name="algeria_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="algeria_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="algeria_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="algeria_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="algeria_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="algeria_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
 
@@ -60,40 +60,40 @@
         <item>Oh! Argentina 7</item>
     </string-array>
     <string-array name="argentina_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="argentina_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="argentina_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="argentina_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="argentina_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="argentina_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- AUSTRALIA -->
@@ -107,40 +107,40 @@
         <item>Oh! Australia 7</item>
     </string-array>
     <string-array name="australia_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="australia_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="australia_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="australia_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="australia_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="australia_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- BELGIUM -->
@@ -154,40 +154,40 @@
         <item>Oh! Belgium 7</item>
     </string-array>
     <string-array name="belgium_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="belgium_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="belgium_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="belgium_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="belgium_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="belgium_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- BOSNIA AND HERZEGOVINA -->
@@ -201,40 +201,40 @@
         <item>Oh! Bosnia 7</item>
     </string-array>
     <string-array name="bosnia_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="bosnia_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="bosnia_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="bosnia_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="bosnia_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="bosnia_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- BRAZIL -->
@@ -248,40 +248,40 @@
         <item>Oh! Brazil 7</item>
     </string-array>
     <string-array name="brazil_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="brazil_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="brazil_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="brazil_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="brazil_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="brazil_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
      <!-- CAMEROON -->
@@ -295,40 +295,40 @@
         <item>Oh! Cameroon 7</item>
     </string-array>
     <string-array name="cameroon_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="cameroon_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="cameroon_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="cameroon_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="cameroon_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="cameroon_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- CHILE -->
@@ -342,40 +342,40 @@
         <item>Oh! Chile 7</item>
     </string-array>
     <string-array name="chile_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="chile_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="chile_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="chile_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="chile_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="chile_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- COLOMBIA -->
@@ -389,40 +389,40 @@
         <item>Oh! Colombia 7</item>
     </string-array>
     <string-array name="colombia_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="colombia_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="colombia_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="colombia_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="colombia_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="colombia_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
      <!-- Côte d’Ivoire -->
@@ -436,40 +436,40 @@
         <item>Oh! Ivory Coast 7</item>
     </string-array>
     <string-array name="cote_d_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="cote_d_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="cote_d_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="cote_d_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="cote_d_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="cote_d_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- COSTA RICA -->
@@ -483,40 +483,40 @@
         <item>Oh! Costa Rica 7</item>
     </string-array>
     <string-array name="costa_rica_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="costa_rica_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="costa_rica_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="costa_rica_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="costa_rica_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="costa_rica_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- CROATIA -->
@@ -530,40 +530,40 @@
         <item>Oh! Croatia 7</item>
     </string-array>
     <string-array name="croatia_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="croatia_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="croatia_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="croatia_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="croatia_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="croatia_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- ECUADOR -->
@@ -577,40 +577,40 @@
         <item>Oh! Ecuador 7</item>
     </string-array>
     <string-array name="ecuador_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="ecuador_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="ecuador_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="ecuador_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="ecuador_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="ecuador_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- ENGLAND -->
@@ -624,40 +624,40 @@
         <item>Oh! England 7</item>
     </string-array>
     <string-array name="england_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="england_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="england_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="england_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="england_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="england_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- FRANCE -->
@@ -671,40 +671,40 @@
         <item>Oh! France 7</item>
     </string-array>
     <string-array name="france_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="france_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="france_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="france_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="france_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="france_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- GERMANY -->
@@ -718,40 +718,40 @@
         <item>Oh! Germany 7</item>
     </string-array>
     <string-array name="germany_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="germany_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="germany_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="germany_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="germany_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="germany_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- GHANA -->
@@ -765,40 +765,40 @@
         <item>Oh! Ghana 7</item>
     </string-array>
     <string-array name="ghana_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="ghana_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="ghana_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="ghana_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="ghana_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="ghana_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- GREECE -->
@@ -812,40 +812,40 @@
         <item>Oh! Greece 7</item>
     </string-array>
     <string-array name="greece_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="greece_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="greece_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="greece_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="greece_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="greece_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- HONDURAS -->
@@ -859,40 +859,40 @@
         <item>Oh! Honduras 7</item>
     </string-array>
     <string-array name="honduras_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="honduras_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="honduras_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="honduras_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="honduras_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="honduras_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- IRAN -->
@@ -906,40 +906,40 @@
         <item>Oh! Iran 7</item>
     </string-array>
     <string-array name="iran_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="iran_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="iran_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="iran_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="iran_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="iran_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- ITALY -->
@@ -953,40 +953,40 @@
         <item>Oh! Italy 7</item>
     </string-array>
     <string-array name="italy_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="italy_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="italy_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="italy_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="italy_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="italy_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>  
     
     <!-- JAPAN -->
@@ -1000,40 +1000,40 @@
         <item>Oh! Japan 7</item>
     </string-array>
     <string-array name="japan_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="japan_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="japan_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="japan_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="japan_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="japan_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- MEXICO -->
@@ -1047,40 +1047,40 @@
         <item>Oh! Mexico 7</item>
     </string-array>
     <string-array name="mexico_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="mexico_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="mexico_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="mexico_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="mexico_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="mexico_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- NETHERLANDS -->
@@ -1094,40 +1094,40 @@
         <item>Oh! Netherlands 7</item>
     </string-array>
     <string-array name="netherlands_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="netherlands_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="netherlands_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="netherlands_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="netherlands_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="netherlands_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- NIGERIA -->
@@ -1141,40 +1141,40 @@
         <item>Oh! Nigeria 7</item>
     </string-array>
     <string-array name="nigeria_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="nigeria_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="nigeria_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="nigeria_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="nigeria_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="nigeria_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- PORTUGAL -->
@@ -1188,40 +1188,40 @@
         <item>Oh! Portugal 7</item>
     </string-array>
     <string-array name="portugal_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="portugal_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="portugal_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="portugal_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="portugal_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="portugal_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- RUSSIA -->
@@ -1235,40 +1235,40 @@
         <item>Oh! Russia 7</item>
     </string-array>
     <string-array name="russia_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="russia_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="russia_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="russia_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="russia_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="russia_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- SOUTH KOREA -->
@@ -1282,40 +1282,40 @@
         <item>Oh! South Korea 7</item>
     </string-array>
     <string-array name="south_korea_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="south_korea_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="south_korea_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="south_korea_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="south_korea_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="south_korea_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- SPAIN -->
@@ -1329,40 +1329,40 @@
         <item>Oh! Spain 7</item>
     </string-array>
     <string-array name="spain_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="spain_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="spain_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="spain_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="spain_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="spain_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- SWITZERLAND -->
@@ -1376,40 +1376,40 @@
         <item>Oh! Switzerland 7</item>
     </string-array>
     <string-array name="switzerland_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="switzerland_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="switzerland_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="switzerland_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="switzerland_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="switzerland_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- URUGUAY -->
@@ -1423,40 +1423,40 @@
         <item>Oh! Uruguay 7</item>
     </string-array>
     <string-array name="uruguay_audios">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-audio.wav</item>
     </string-array>
     <string-array name="uruguay_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="uruguay_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="uruguay_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
-    <string-array name="uruguay_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="uruguay_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
     </string-array>
     
     <!-- USA -->
@@ -1468,35 +1468,31 @@
         <item>USA National Anthem</item>
     </string-array>
     <string-array name="usa_audios">
-        <item>http://storage.googleapis.com/nflc-countries/usa/audio/TheYanksAreComing.mp3</item>
-        <item>http://storage.googleapis.com/nflc-countries/usa/audio/USAChant1.mp3</item>
-        <item>http://storage.googleapis.com/nflc-countries/usa/audio/USAChant2.mp3</item>
-        <item>http://storage.googleapis.com/nflc-countries/usa/audio/USAChant3.mp3</item>
-        <item>http://storage.googleapis.com/nflc-countries/usa/audio/USANationalAnthem.mp3</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audios/TheYanksAreComing.mp3</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audios/USAChant1.mp3</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audios/USAChant2.mp3</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audios/USAChant3.mp3</item>
+        <item>http://storage.googleapis.com/nflc-countries/usa/audios/USANationalAnthem.mp3</item>
     </string-array>
     <string-array name="usa_lyrics">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/usa/lyrics/USANationalAnthem.txt</item>
     </string-array>
-    <string-array name="usa_translation">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="usa_translations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    <string-array name="usa_transliteration">
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
-        <item>http://storage.googleapis.com/testbucket1111/samples/sample1.txt</item>
+    <string-array name="usa_transliterations">
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
 </resources>
