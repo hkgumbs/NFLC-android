@@ -182,6 +182,77 @@ public class Lookup {
 		flags.recycle();
 		return id;
 	}
+	
+	public String lookupSKU(int id) {
+		switch(id) {
+		case 0: // ALGERIA
+			return "android.test.purchased";
+		case 1: // ARGENTINA
+			return "android.test.purchased";
+		case 2: // AUSTRALIA
+			return "android.test.purchased";
+		case 3: // BELGIUM
+			return "android.test.purchased";
+		case 4: // BOSNIA AND HERZEGOVINA
+			return "android.test.purchased";
+		case 5: // BRAZIL
+			return "android.test.purchased";
+		case 6: // CAMEROON
+			return "android.test.purchased";
+		case 7: // CHILE
+			return "android.test.purchased";
+		case 8: // COLOMBIA
+			return "android.test.purchased";
+		case 9: // COSTA RICA
+			return "android.test.purchased";
+		case 10: // IVORY COAST (COTE D'IVORE)
+			return "android.test.purchased";
+		case 11: // CROATIA
+			return "android.test.purchased";
+		case 12: // ECUADOR
+			return "android.test.purchased";
+		case 13: // ENGLAND
+			return "android.test.purchased";
+		case 14: // FRANCE
+			return "android.test.purchased";
+		case 15: // GERMANY
+			return "android.test.purchased";
+		case 16: // GHANA
+			return "android.test.purchased";
+		case 17: // GREECE
+			return "android.test.purchased";
+		case 18: // HONDURAS
+			return "android.test.purchased";
+		case 19: // IRAN
+			return "android.test.purchased";
+		case 20: // ITALY
+			return "android.test.purchased";
+		case 21: // JAPAN
+			return "android.test.purchased";
+		case 22: // MEXICO
+			return "android.test.purchased";
+		case 23: // NETHERLANDS
+			return "android.test.purchased";
+		case 24: // NIGERIA
+			return "android.test.purchased";
+		case 25: // PORTUGAL
+			return "android.test.purchased";
+		case 26: // RUSSIA
+			return "android.test.purchased";
+		case 27: // SOUTH KOREA
+			return "android.test.purchased";
+		case 28: // SPAIN
+			return "android.test.purchased";
+		case 29: // SWITZERLAND
+			return "android.test.purchased";
+		case 30: // URUGUAY
+			return "android.test.purchased";
+		case 31: // USA
+			return "android.test.purchased";
+		default:
+			return null;
+		}
+	}
 
 	public String[] getAllSongs(int country) {
 
