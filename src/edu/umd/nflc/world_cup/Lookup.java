@@ -19,8 +19,7 @@ public class Lookup {
 	public static final int TRANSLATION = 1;
 	public static final int TRANSLITERATION = 2;
 	public static final int SONG = 3;
-	public static final String[] FILENAMES = new String[] { "lyrics.txt", "translation.txt", "transliteration.txt",
-			"song.mp3" };
+	public static final String[] FILENAMES = new String[] { "lyrics.txt", "translation.txt", "transliteration.txt", "song.mp3" };
 
 	private final Context context;
 
@@ -186,69 +185,69 @@ public class Lookup {
 	public String lookupSKU(int id) {
 		switch(id) {
 		case 0: // ALGERIA
-			return "android.test.purchased";
+			return "algeria_package";
 		case 1: // ARGENTINA
-			return "android.test.purchased";
+			return "argentina_package";
 		case 2: // AUSTRALIA
-			return "android.test.purchased";
+			return "australia_package";
 		case 3: // BELGIUM
-			return "android.test.purchased";
+			return "belgium_package";
 		case 4: // BOSNIA AND HERZEGOVINA
-			return "android.test.purchased";
+			return "bosnia_package";
 		case 5: // BRAZIL
-			return "android.test.purchased";
+			return "brazil_package";
 		case 6: // CAMEROON
-			return "android.test.purchased";
+			return "cameroon_package";
 		case 7: // CHILE
-			return "android.test.purchased";
+			return "chile_package";
 		case 8: // COLOMBIA
-			return "android.test.purchased";
+			return "colombia_package";
 		case 9: // COSTA RICA
-			return "android.test.purchased";
+			return "cota_rica_package";
 		case 10: // IVORY COAST (COTE D'IVORE)
-			return "android.test.purchased";
+			return "ivory_coast_package";
 		case 11: // CROATIA
-			return "android.test.purchased";
+			return "croatia_package";
 		case 12: // ECUADOR
-			return "android.test.purchased";
+			return "ecuador_package";
 		case 13: // ENGLAND
-			return "android.test.purchased";
+			return "england_package";
 		case 14: // FRANCE
-			return "android.test.purchased";
+			return "france_package";
 		case 15: // GERMANY
-			return "android.test.purchased";
+			return "germany_package";
 		case 16: // GHANA
-			return "android.test.purchased";
+			return "ghana_package";
 		case 17: // GREECE
-			return "android.test.purchased";
+			return "greece_package";
 		case 18: // HONDURAS
-			return "android.test.purchased";
+			return "honduras_package";
 		case 19: // IRAN
-			return "android.test.purchased";
+			return "iran_package";
 		case 20: // ITALY
-			return "android.test.purchased";
+			return "italy_package";
 		case 21: // JAPAN
-			return "android.test.purchased";
+			return "japan_package";
 		case 22: // MEXICO
-			return "android.test.purchased";
+			return "mexico_package";
 		case 23: // NETHERLANDS
-			return "android.test.purchased";
+			return "netherlands_package";
 		case 24: // NIGERIA
-			return "android.test.purchased";
+			return "nigeria_chants_package";
 		case 25: // PORTUGAL
-			return "android.test.purchased";
+			return "portugal_package";
 		case 26: // RUSSIA
-			return "android.test.purchased";
+			return "russia_package";
 		case 27: // SOUTH KOREA
-			return "android.test.purchased";
+			return "south_korea_package";
 		case 28: // SPAIN
-			return "android.test.purchased";
+			return "spain_package";
 		case 29: // SWITZERLAND
-			return "android.test.purchased";
+			return "switzerland_package";
 		case 30: // URUGUAY
-			return "android.test.purchased";
+			return "uruguay_package";
 		case 31: // USA
-			return "android.test.purchased";
+			return "usa_package";
 		default:
 			return null;
 		}

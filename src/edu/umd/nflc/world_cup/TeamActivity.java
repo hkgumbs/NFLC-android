@@ -26,7 +26,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 import edu.umd.nflc.world_cup.inappbilling.util.IabHelper;
 import edu.umd.nflc.world_cup.inappbilling.util.IabResult;
-import edu.umd.nflc.world_cup.inappbilling.util.Inventory;
 import edu.umd.nflc.world_cup.inappbilling.util.Purchase;
 
 public class TeamActivity extends ActionBarActivity implements ListView.OnItemClickListener, View.OnClickListener,
@@ -45,7 +44,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	BaseAdapter adapter;
 	Lookup lookup;
 	
-	//In-App Billing Variables
+	// In-App Billing Variables
 	private static final String TAG = "edu.umd.nflc.world_cup.inappbilling";
 	IabHelper mHelper;
 	
@@ -55,8 +54,8 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		super.onCreate(b);
 		
 		// Your Google Play License Key for this app should be inserted here
-		//String base64EncodedPublicKey = "<your license key here>";
-		String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvIrPP8KTA3BUmnLregsapdR6EiLVTXF0GgSCNtHSpdmcgLbsTcGBxK14PECQnIL0Gy5gClEIpNBZCMZer1YZMYBoHAMesR3+m2Y7wnVlZpfRX2RDwHNZHV6zQUb+OMF1WmAUhX/EbtYIFFc0GHN/snK4NEUzIpvYMwMEDEvHUc2d0QYCsPJDGKklKomdf3nNT7sZECuFu6hoZROoUhNCY4DGHwRW8JeXdLccmtTvbNxEjkpAuBwqkZtyM6EjqCPH9bIWfhkyE/tBhJv06h7BTLeOfAPeaK5W41Fp+juiWfaN4lC8Rr8o+JrWP8UhKfX0SnNOy5TqPFq1L3yrA0xI9QIDAQAB";
+		// String base64EncodedPublicKey = "<your license key here>";
+		String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlBuvJ8y8E9w7vo1PJ4jpEqE0MbEU6ieeipWiD91N3lCHUGkUDhW28+urRTUPOgVHNCdbrmn2pasRT1GH/+K+Wi2gZR+MztMPLS1fSPfdonIA+c32AJTUOm+Pt2vaIT4qNuJlycl06akSe18ubPasGf4bbbeTe9gur1Ryb80onKGtMPKp9REvGNiC5LJm3Yycqcc8MdJnbAru/OLKzRZ57tMabtZlonQbng7vbpdv77iGo4cObvCoJ3N6ee2ifnHa/mpVke/Yp+yMbNSeijBluJOX7wc3tdmq8erjCfCe9Tz1MGMGTPgSnL5ntV1sjVIARNy1HVhO0CQLZWaJ+/czPQIDAQAB";
 		
 		// Setting up Google Play Billing in the Application
         mHelper = new IabHelper(this, base64EncodedPublicKey);
@@ -80,7 +79,8 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		// show buy button if not bought
 		purchased = getSharedPreferences("purchased", Context.MODE_PRIVATE).contains(Integer.toString(teamId));
 		if (!purchased) {
-			String price = "Buy now for $1.99"; // TODO
+			// TODO generate dynamically
+			String price = "Buy now for $1.99"; 
 			View container = getLayoutInflater().inflate(R.layout.button_buy, root);
 			Button buy = ((Button) container.findViewById(R.id.buy));
 			buy.setText(price);
@@ -223,7 +223,6 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	public void onClick(final View v) {
 		dialog.show();
 	}
-
 	
 	@Override
 	public void onClick(DialogInterface dialog, int which) {
@@ -232,7 +231,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 				.commit()) {
 
 			// Initiating a Google Play In-app Billing Purchase
-			mHelper.launchPurchaseFlow(this, lookup.lookupSKU(teamId), 10001, mPurchaseFinishedListener, "mypurchasetoken");
+			mHelper.launchPurchaseFlow(this, lookup.lookupSKU(teamId), 10001, mPurchaseFinishedListener, "testpurchase1");
 
 		} else
 			Toast.makeText(TeamActivity.this, "Something went wrong! Try again later.", Toast.LENGTH_LONG).show();
@@ -248,7 +247,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	IabHelper.OnIabPurchaseFinishedListener mPurchaseFinishedListener = new IabHelper.OnIabPurchaseFinishedListener() {
 		public void onIabPurchaseFinished(IabResult result, Purchase purchase) {
 		   if (result.isFailure()) {
-		      // Handle error
+			   Log.d(TAG, "In-app Billing failed in PurchaseFinishedListener" + result);
 		      return;
 		   } else if (purchase.getSku().equals(lookup.lookupSKU(teamId))) {
 			finish();
@@ -257,28 +256,5 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	   }
 	};
 	
-//	public void consumeItem() {
-//		mHelper.queryInventoryAsync(mReceivedInventoryListener);
-//	}
-//		
-//	IabHelper.QueryInventoryFinishedListener mReceivedInventoryListener = new IabHelper.QueryInventoryFinishedListener() {
-//		public void onQueryInventoryFinished(IabResult result, Inventory inventory) {
-//			if (result.isFailure()) {
-//				// Handle failure
-//			} else {
-//				mHelper.consumeAsync(inventory.getPurchase(lookup.lookupSKU(teamId)), mConsumeFinishedListener);
-//			}
-//		}
-//	};
-//	
-//	IabHelper.OnConsumeFinishedListener mConsumeFinishedListener = new IabHelper.OnConsumeFinishedListener() {
-//		public void onConsumeFinished(Purchase purchase, IabResult result) {
-//			 if (result.isSuccess()) {		    	 
-//			   	  
-//			 } else {
-//			         // handle error
-//			 }
-//		}
-//	};
 
 }
