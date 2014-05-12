@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <integer-array name="prices">
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+        <item>199</item>
+    </integer-array>
+
     <!-- ALGERIA -->
     <string-array name="algeria_songs">
         <item>Oh! Algeria 1</item>
@@ -24,30 +59,29 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="algeria_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="algeria_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
 
     <!-- ARGENTINA -->
     <string-array name="argentina_songs">
@@ -72,30 +106,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="argentina_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="argentina_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- AUSTRALIA -->
     <string-array name="australia_songs">
         <item>Oh! Australia 1</item>
@@ -119,30 +153,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="australia_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="australia_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- BELGIUM -->
     <string-array name="belgium_songs">
         <item>Oh! Belgium 1</item>
@@ -166,30 +200,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="belgium_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="belgium_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- BOSNIA AND HERZEGOVINA -->
     <string-array name="bosnia_songs">
         <item>Oh! Bosnia 1</item>
@@ -213,30 +247,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="bosnia_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="bosnia_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- BRAZIL -->
     <string-array name="brazil_songs">
         <item>Oh! Brazil 1</item>
@@ -260,31 +294,31 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="brazil_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="brazil_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
-     <!-- CAMEROON -->
+
+    <!-- CAMEROON -->
     <string-array name="cameroon_songs">
         <item>Oh! Cameroon 1</item>
         <item>Oh! Cameroon 2</item>
@@ -307,30 +341,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="cameroon_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="cameroon_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- CHILE -->
     <string-array name="chile_songs">
         <item>Oh! Chile 1</item>
@@ -354,30 +388,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="chile_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="chile_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- COLOMBIA -->
     <string-array name="colombia_songs">
         <item>Oh! Colombia 1</item>
@@ -401,30 +435,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="colombia_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="colombia_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- COSTA RICA -->
     <string-array name="costa_rica_songs">
         <item>Oh! Costa Rica 1</item>
@@ -448,31 +482,31 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="costa_rica_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="costa_rica_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
-     <!-- Côte d’Ivoire -->
+
+    <!-- Côte d’Ivoire -->
     <string-array name="cote_d_songs">
         <item>Oh! Cote DIvore 1</item>
         <item>Oh! Cote DIvore 2</item>
@@ -495,30 +529,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="cote_d_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="cote_d_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- CROATIA -->
     <string-array name="croatia_songs">
         <item>Oh! Croatia 1</item>
@@ -542,30 +576,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="croatia_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="croatia_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- ECUADOR -->
     <string-array name="ecuador_songs">
         <item>Oh! Ecuador 1</item>
@@ -589,30 +623,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="ecuador_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="ecuador_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- ENGLAND -->
     <string-array name="england_songs">
         <item>Oh! England 1</item>
@@ -636,30 +670,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="england_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="england_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- FRANCE -->
     <string-array name="france_songs">
         <item>Oh! France 1</item>
@@ -683,30 +717,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="france_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="france_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- GERMANY -->
     <string-array name="germany_songs">
         <item>Oh! Germany 1</item>
@@ -730,30 +764,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="germany_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="germany_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- GHANA -->
     <string-array name="ghana_songs">
         <item>Oh! Ghana 1</item>
@@ -777,30 +811,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="ghana_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="ghana_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- GREECE -->
     <string-array name="greece_songs">
         <item>Oh! Greece 1</item>
@@ -824,30 +858,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="greece_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="greece_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- HONDURAS -->
     <string-array name="honduras_songs">
         <item>Oh! Honduras 1</item>
@@ -871,30 +905,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="honduras_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="honduras_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- IRAN -->
     <string-array name="iran_songs">
         <item>Oh! Iran 1</item>
@@ -918,30 +952,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="iran_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="iran_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- ITALY -->
     <string-array name="italy_songs">
         <item>Oh! Italy 1</item>
@@ -965,30 +999,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="italy_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="italy_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
-    </string-array>  
-    
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+    </string-array>
+
     <!-- JAPAN -->
     <string-array name="japan_songs">
         <item>Oh! Japan 1</item>
@@ -1012,30 +1046,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="japan_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="japan_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- MEXICO -->
     <string-array name="mexico_songs">
         <item>Oh! Mexico 1</item>
@@ -1059,30 +1093,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="mexico_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="mexico_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- NETHERLANDS -->
     <string-array name="netherlands_songs">
         <item>Oh! Netherlands 1</item>
@@ -1106,30 +1140,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="netherlands_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="netherlands_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- NIGERIA -->
     <string-array name="nigeria_songs">
         <item>Oh! Nigeria 1</item>
@@ -1153,30 +1187,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="nigeria_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="nigeria_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- PORTUGAL -->
     <string-array name="portugal_songs">
         <item>Oh! Portugal 1</item>
@@ -1200,30 +1234,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="portugal_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="portugal_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- RUSSIA -->
     <string-array name="russia_songs">
         <item>Oh! Russia 1</item>
@@ -1247,30 +1281,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="russia_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="russia_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- SOUTH KOREA -->
     <string-array name="south_korea_songs">
         <item>Oh! South Korea 1</item>
@@ -1294,30 +1328,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="south_korea_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="south_korea_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- SPAIN -->
     <string-array name="spain_songs">
         <item>Oh! Spain 1</item>
@@ -1341,30 +1375,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="spain_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="spain_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- SWITZERLAND -->
     <string-array name="switzerland_songs">
         <item>Oh! Switzerland 1</item>
@@ -1388,30 +1422,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="switzerland_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="switzerland_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- URUGUAY -->
     <string-array name="uruguay_songs">
         <item>Oh! Uruguay 1</item>
@@ -1435,30 +1469,30 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="uruguay_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="uruguay_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
-    
+
     <!-- USA -->
     <string-array name="usa_songs">
         <item>The Yanks Are Coming</item>
@@ -1478,21 +1512,22 @@
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/usa/lyrics/USANationalAnthem.txt</item>
     </string-array>
     <string-array name="usa_translations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
     <string-array name="usa_transliterations">
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
-        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item> 
+        <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
         <item>http://storage.googleapis.com/nflc-countries/test-folder/sample-text.txt</item>
     </string-array>
+
 </resources>

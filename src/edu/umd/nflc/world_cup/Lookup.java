@@ -19,7 +19,10 @@ public class Lookup {
 	public static final int TRANSLATION = 1;
 	public static final int TRANSLITERATION = 2;
 	public static final int SONG = 3;
-	public static final String[] FILENAMES = new String[] { "lyrics.txt", "translation.txt", "transliteration.txt", "song.mp3" };
+
+	// Standard filenames for downloaded files
+	public static final String[] FILENAMES = new String[] { "lyrics.txt", "translation.txt", "transliteration.txt",
+			"song.mp3" };
 
 	private final Context context;
 
@@ -27,6 +30,13 @@ public class Lookup {
 		this.context = context;
 	}
 
+	// Returns price for given team pack
+	public float getPrice(int country) {
+		float price = context.getResources().getIntArray(R.array.prices)[country];
+		return price / ((float) 100);
+	}
+
+	// Returns size that files occupy
 	public String getSize(int country, int song) {
 
 		long length = 0;
@@ -43,12 +53,12 @@ public class Lookup {
 				urls[1] = new URL(getTranslation(country, song));
 				urls[2] = new URL(getTransliterations(country, song));
 				urls[3] = new URL(getSource(country, song));
-				
+
 				for (URL u : urls) {
 					URLConnection conn = u.openConnection();
 					length += conn.getContentLength();
 				}
-				
+
 			} catch (IOException e) {
 				length = -1;
 			}
@@ -58,16 +68,7 @@ public class Lookup {
 		return length <= 0 ? null : df.format(length / ((long) 1024)) + " KB";
 	}
 
-	public boolean download(int country) {
-		boolean result = true;
-		int length = getAllSongs(country).length;
-		for (int i = 0; i < length; i++)
-			if (!download(country, i))
-				result = false;
-		return result;
-
-	}
-
+	// download individual song to device
 	public boolean download(int country, int song) {
 		if (isExternalStorageMounted()) {
 			try {
@@ -114,15 +115,18 @@ public class Lookup {
 			return false;
 	}
 
-	public boolean delete(int country) {
+	// Download all songs in country pack
+	public boolean download(int country) {
 		boolean result = true;
 		int length = getAllSongs(country).length;
 		for (int i = 0; i < length; i++)
-			if (!delete(country, i))
+			if (!download(country, i))
 				result = false;
 		return result;
+
 	}
 
+	// Delete indivudal song from device
 	public boolean delete(int country, int song) {
 		boolean result = true;
 		File folder = getFolder(country, song);
@@ -132,7 +136,18 @@ public class Lookup {
 		return result;
 	}
 
-	public String getDownloaded(int country, int song, int fileType) {
+	// Delete all songs in country pack
+	public boolean delete(int country) {
+		boolean result = true;
+		int length = getAllSongs(country).length;
+		for (int i = 0; i < length; i++)
+			if (!delete(country, i))
+				result = false;
+		return result;
+	}
+
+	// Returns file path as string if downloaded, null otherwise
+	private String getDownloaded(int country, int song, int fileType) {
 		if (isExternalStorageMounted()) {
 			File folder = getFolder(country, song);
 			File[] children = folder.listFiles();
@@ -143,6 +158,7 @@ public class Lookup {
 		return null;
 	}
 
+	// Determines whether ALL files in this song are downloaded
 	public boolean isDownloaded(int country, int song) {
 		for (int i = 0; i < FILENAMES.length; i++)
 			if (getDownloaded(country, song, i) == null)
@@ -150,6 +166,7 @@ public class Lookup {
 		return true;
 	}
 
+	// Detemines whether ANY songs in this country are downloaded
 	public boolean isDownloaded(int country) {
 		int length = getAllSongs(country).length;
 		for (int i = 0; i < length; i++)
@@ -158,14 +175,17 @@ public class Lookup {
 		return false;
 	}
 
+	// Returns all team names
 	public String[] getAllTeams() {
 		return context.getResources().getStringArray(R.array.team_names);
 	}
 
+	// Returns specified team name
 	public String getTeam(int country) {
 		return getAllTeams()[country];
 	}
 
+	// Return resource ids for all flags
 	public int[] getAllFlagIds() {
 		TypedArray flags = context.getResources().obtainTypedArray(R.array.team_flags);
 		int[] ids = new int[flags.length()];
@@ -175,15 +195,17 @@ public class Lookup {
 		return ids;
 	}
 
+	// Return resource id for specified flag
 	public int getFlagId(int country) {
 		TypedArray flags = context.getResources().obtainTypedArray(R.array.team_flags);
 		int id = flags.getResourceId(country, 0);
 		flags.recycle();
 		return id;
 	}
-	
-	public String lookupSKU(int id) {
-		switch(id) {
+
+	// Return unique SKU for country
+	public String lookupSKU(int country) {
+		switch (country) {
 		case 0: // ALGERIA
 			return "algeria_package";
 		case 1: // ARGENTINA
@@ -253,6 +275,7 @@ public class Lookup {
 		}
 	}
 
+	// Get all song names for a country
 	public String[] getAllSongs(int country) {
 
 		switch (country) {
@@ -325,6 +348,12 @@ public class Lookup {
 		}
 	}
 
+	// Get specified song name for country
+	public String getSong(int country, int song) {
+		return getAllSongs(country)[song];
+	}
+
+	// Get all song URLs (local or http) for given country
 	public String[] getAllSources(int country) {
 
 		String[] result = null;
@@ -431,6 +460,12 @@ public class Lookup {
 		return result;
 	}
 
+	// Get specified URL for song
+	public String getSource(int country, int song) {
+		return getAllSources(country)[song];
+	}
+
+	// Get all lyrics for country
 	public String[] getAllLyrics(int country) {
 
 		String[] result = null;
@@ -538,6 +573,12 @@ public class Lookup {
 		return result;
 	}
 
+	// Get specified lyrics for song
+	public String getLyrics(int country, int song) {
+		return getAllLyrics(country)[song];
+	}
+
+	// Get all translations for country
 	public String[] getAllTranslations(int country) {
 
 		String[] result = null;
@@ -644,6 +685,12 @@ public class Lookup {
 		return result;
 	}
 
+	// Get specified translation for song
+	public String getTranslation(int country, int song) {
+		return getAllTranslations(country)[song];
+	}
+
+	// Get all transliterations for conutry
 	public String[] getAllTransliterations(int country) {
 
 		String[] result = null;
@@ -752,29 +799,12 @@ public class Lookup {
 		return result;
 	}
 
-	public String getSong(int country, int song) {
-		return getAllSongs(country)[song];
-	}
-
-	public String getSource(int country, int song) {
-		return getAllSources(country)[song];
-	}
-
-	public String getLyrics(int country, int song) {
-		return getAllLyrics(country)[song];
-	}
-
-	public String getTranslation(int country, int song) {
-		return getAllTranslations(country)[song];
-	}
-
+	// Get specified transliteration for song
 	public String getTransliterations(int country, int song) {
 		return getAllTransliterations(country)[song];
 	}
 
-	// File IO stuff
-
-	/* Checks if external storage is available for read and write */
+	// Checks if external storage is available for read and write
 	private boolean isExternalStorageMounted() {
 		String state = Environment.getExternalStorageState();
 		if (Environment.MEDIA_MOUNTED.equals(state)) {
@@ -783,19 +813,7 @@ public class Lookup {
 		return false;
 	}
 
-	/**
-	 * Get folder to save files to or read files from
-	 * 
-	 * based on http://developer.android.com/guide/topics/data/data-storage
-	 * .html#filesExternal
-	 * 
-	 * @param country
-	 *            name of folder
-	 * @param environment
-	 *            either Environment.DIRECTORY_MUSIC or
-	 *            Environment.DIRECTORY_DOCUMENTS
-	 * @return
-	 */
+	// Get folder for specified country
 	private File getFolder(int country) {
 		if (!isExternalStorageMounted())
 			return null;
@@ -806,6 +824,7 @@ public class Lookup {
 		}
 	}
 
+	// Get folder for specified song files
 	private File getFolder(int country, int song) {
 		File parent = getFolder(country);
 		if (parent == null)
@@ -816,6 +835,7 @@ public class Lookup {
 		}
 	}
 
+	// Merge default URL array with local strings
 	private void mergeDownloaded(String[] defaultURLs, int country, int type) {
 		for (int i = 0; i < defaultURLs.length; i++) {
 			String path = getDownloaded(country, i, type);

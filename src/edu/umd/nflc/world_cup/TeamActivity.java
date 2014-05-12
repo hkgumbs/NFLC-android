@@ -34,7 +34,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	String[] songNames;
 	String[] songSources;
 	String teamName;
-	
+
 	int teamId;
 	int iconId;
 	boolean purchased;
@@ -43,32 +43,31 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	AlertDialog dialog;
 	BaseAdapter adapter;
 	Lookup lookup;
-	
+
 	// In-App Billing Variables
 	private static final String TAG = "edu.umd.nflc.world_cup.inappbilling";
 	IabHelper mHelper;
-	
-	
+
 	@Override
 	protected void onCreate(Bundle b) {
 		super.onCreate(b);
-		
+
 		// Your Google Play License Key for this app should be inserted here
 		// String base64EncodedPublicKey = "<your license key here>";
 		String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlBuvJ8y8E9w7vo1PJ4jpEqE0MbEU6ieeipWiD91N3lCHUGkUDhW28+urRTUPOgVHNCdbrmn2pasRT1GH/+K+Wi2gZR+MztMPLS1fSPfdonIA+c32AJTUOm+Pt2vaIT4qNuJlycl06akSe18ubPasGf4bbbeTe9gur1Ryb80onKGtMPKp9REvGNiC5LJm3Yycqcc8MdJnbAru/OLKzRZ57tMabtZlonQbng7vbpdv77iGo4cObvCoJ3N6ee2ifnHa/mpVke/Yp+yMbNSeijBluJOX7wc3tdmq8erjCfCe9Tz1MGMGTPgSnL5ntV1sjVIARNy1HVhO0CQLZWaJ+/czPQIDAQAB";
-		
+
 		// Setting up Google Play Billing in the Application
-        mHelper = new IabHelper(this, base64EncodedPublicKey);
-        mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
-        	public void onIabSetupFinished(IabResult result) {
-        		if (!result.isSuccess()) {
-        			Log.d(TAG, "In-app Billing setup failed: " + result);
-        	    } else {             
-        	      	Log.d(TAG, "In-app Billing is set up OK");
-		        }
-        	}
-        });
-        	
+		mHelper = new IabHelper(this, base64EncodedPublicKey);
+		mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
+			public void onIabSetupFinished(IabResult result) {
+				if (!result.isSuccess()) {
+					Log.d(TAG, "In-app Billing setup failed: " + result);
+				} else {
+					Log.d(TAG, "In-app Billing is set up OK");
+				}
+			}
+		});
+
 		lookup = new Lookup(this);
 		teamName = getIntent().getExtras().getString("teamName");
 		teamId = getIntent().getExtras().getInt("teamId");
@@ -79,11 +78,11 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		// show buy button if not bought
 		purchased = getSharedPreferences("purchased", Context.MODE_PRIVATE).contains(Integer.toString(teamId));
 		if (!purchased) {
-			// TODO generate dynamically
-			String price = "Buy now for $1.99"; 
+			float price = lookup.getPrice(teamId);
+			String priceTag = "Buy now for $" + price;
 			View container = getLayoutInflater().inflate(R.layout.button_buy, root);
 			Button buy = ((Button) container.findViewById(R.id.buy));
-			buy.setText(price);
+			buy.setText(priceTag);
 			buy.setOnClickListener(this);
 			addContentView(container, new LinearLayout.LayoutParams(LayoutParams.WRAP_CONTENT,
 					LayoutParams.WRAP_CONTENT));
@@ -91,7 +90,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 			Spanned description = Html.fromHtml("Buying this country pack will give you access to <br />"
 					+ "&#8226; All of this country's chants<br />&#8226; Lyrics for each chant<br />"
 					+ "&#8226; Option for offline access<br />&#8226; Translations and transliterations");
-			dialog = new AlertDialog.Builder(this).setTitle(price).setMessage(description)
+			dialog = new AlertDialog.Builder(this).setTitle(priceTag).setMessage(description)
 					.setPositiveButton("Buy", this).setNegativeButton(android.R.string.cancel, null).create();
 		}
 		setContentView(root);
@@ -223,7 +222,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 	public void onClick(final View v) {
 		dialog.show();
 	}
-	
+
 	@Override
 	public void onClick(DialogInterface dialog, int which) {
 
@@ -231,30 +230,30 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 				.commit()) {
 
 			// Initiating a Google Play In-app Billing Purchase
-			mHelper.launchPurchaseFlow(this, lookup.lookupSKU(teamId), 10001, mPurchaseFinishedListener, "testpurchase1");
+			mHelper.launchPurchaseFlow(this, lookup.lookupSKU(teamId), 10001, mPurchaseFinishedListener,
+					"testpurchase1");
 
 		} else
 			Toast.makeText(TeamActivity.this, "Something went wrong! Try again later.", Toast.LENGTH_LONG).show();
 	}
-	
+
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-	      if (!mHelper.handleActivityResult(requestCode, resultCode, data)) {     
-	    	super.onActivityResult(requestCode, resultCode, data);
-	      }
+		if (!mHelper.handleActivityResult(requestCode, resultCode, data)) {
+			super.onActivityResult(requestCode, resultCode, data);
+		}
 	}
-	
+
 	IabHelper.OnIabPurchaseFinishedListener mPurchaseFinishedListener = new IabHelper.OnIabPurchaseFinishedListener() {
 		public void onIabPurchaseFinished(IabResult result, Purchase purchase) {
-		   if (result.isFailure()) {
-			   Log.d(TAG, "In-app Billing failed in PurchaseFinishedListener" + result);
-		      return;
-		   } else if (purchase.getSku().equals(lookup.lookupSKU(teamId))) {
-			finish();
-			startActivity(getIntent().addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
-		   }     
-	   }
+			if (result.isFailure()) {
+				Log.d(TAG, "In-app Billing failed in PurchaseFinishedListener" + result);
+				return;
+			} else if (purchase.getSku().equals(lookup.lookupSKU(teamId))) {
+				finish();
+				startActivity(getIntent().addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
+			}
+		}
 	};
-	
 
 }
