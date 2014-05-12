@@ -53,8 +53,7 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 		super.onCreate(b);
 
 		// Your Google Play License Key for this app should be inserted here
-		// String base64EncodedPublicKey = "<your license key here>";
-		String base64EncodedPublicKey = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlBuvJ8y8E9w7vo1PJ4jpEqE0MbEU6ieeipWiD91N3lCHUGkUDhW28+urRTUPOgVHNCdbrmn2pasRT1GH/+K+Wi2gZR+MztMPLS1fSPfdonIA+c32AJTUOm+Pt2vaIT4qNuJlycl06akSe18ubPasGf4bbbeTe9gur1Ryb80onKGtMPKp9REvGNiC5LJm3Yycqcc8MdJnbAru/OLKzRZ57tMabtZlonQbng7vbpdv77iGo4cObvCoJ3N6ee2ifnHa/mpVke/Yp+yMbNSeijBluJOX7wc3tdmq8erjCfCe9Tz1MGMGTPgSnL5ntV1sjVIARNy1HVhO0CQLZWaJ+/czPQIDAQAB";
+		String base64EncodedPublicKey = "<your license key here>";
 
 		// Setting up Google Play Billing in the Application
 		mHelper = new IabHelper(this, base64EncodedPublicKey);
@@ -230,15 +229,8 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	@Override
 	public void onClick(DialogInterface dialog, int which) {
-
-		if (getSharedPreferences("purchased", Context.MODE_PRIVATE).edit().putBoolean(Integer.toString(teamId), true)
-				.commit()) {
-
-			// Initiating a Google Play In-app Billing Purchase
-			mHelper.launchPurchaseFlow(this, lookup.lookupSKU(teamId), 10001, this, "testpurchase1");
-
-		} else
-			Toast.makeText(TeamActivity.this, "Something went wrong! Try again later.", Toast.LENGTH_LONG).show();
+		// Initiating a Google Play In-app Billing Purchase
+		mHelper.launchPurchaseFlow(this, lookup.lookupSKU(teamId), 10001, this, "edu.umd.nflc");
 	}
 
 	@Override
@@ -250,13 +242,16 @@ public class TeamActivity extends ActionBarActivity implements ListView.OnItemCl
 
 	@Override
 	public void onIabPurchaseFinished(IabResult result, Purchase purchase) {
-		if (result.isFailure()) {
-			Log.d(TAG, "In-app Billing failed in PurchaseFinishedListener" + result);
-			return;
-		} else if (purchase.getSku().equals(lookup.lookupSKU(teamId))) {
+		if (result.isFailure() && result.getResponse() != 7) {
+			Toast.makeText(this, "Something went wrong! Try again later.", Toast.LENGTH_LONG).show();
+
+		} else if (result.getResponse() == 7 || purchase.getSku().equals(lookup.lookupSKU(teamId))) {
+			// already purchased OR purchase successful
+			getSharedPreferences("purchased", Context.MODE_PRIVATE).edit().putBoolean(Integer.toString(teamId), true)
+					.commit();
 			finish();
 			startActivity(getIntent().addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION));
+
 		}
 	}
-
 }

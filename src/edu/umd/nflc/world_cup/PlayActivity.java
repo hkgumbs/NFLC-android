@@ -315,17 +315,13 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 
 					try {
 						String source;
-						switch (type) {
-						case 2:
-							source = songTransliterations[position];
-							break;
-						case 1:
+						if (type == Lookup.TRANSLATION)
 							source = songTranslations[position];
-							break;
-						default:
+						else if (type == Lookup.TRANSLITERATION)
+							source = songTransliterations[position];
+						else
 							source = songLyrics[position];
-							break;
-						}
+						
 						Reader reader;
 
 						if (lookup.isDownloaded(teamIds[position], songIds[position]))

@@ -120,6 +120,7 @@ public class MainFragments {
 
 		@Override
 		public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+			chants.stop();
 			Intent i = new Intent(getActivity(), PlayActivity.class);
 
 			i.putExtra("iconIds", iconIds);
