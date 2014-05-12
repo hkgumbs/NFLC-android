@@ -33,8 +33,6 @@ import android.widget.Toast;
 
 public class PlayActivity extends ActionBarActivity implements OnPageChangeListener, OnNavigationListener {
 
-	private static final String[] TYPES = new String[] { "Lyrics", "Translation", "Transliteration" };
-
 	private static String[] songNames;
 	private static String[] songSources;
 	private static String[] songLyrics;
@@ -91,7 +89,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 		actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
 		actionBar.setDisplayShowTitleEnabled(false);
 		actionBar.setListNavigationCallbacks(actionBarAdapter, this);
-		actionBar.setSubtitle(TYPES[type]);
+		actionBar.setSubtitle(Lookup.TYPES[type]);
 
 		pagerAdapter = new ScreenSlidePagerAdapter(getSupportFragmentManager());
 		chants = new ChantPlayer(songSources);
@@ -240,7 +238,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	private class ActionBarAdapter extends ArrayAdapter<String> {
 
 		public ActionBarAdapter() {
-			super(PlayActivity.this, android.R.layout.simple_spinner_dropdown_item, TYPES);
+			super(PlayActivity.this, android.R.layout.simple_spinner_dropdown_item, Lookup.TYPES);
 		}
 
 		@Override
@@ -261,7 +259,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 			}
 
 			holder.title.setText(songNames[current]);
-			holder.subtitle.setText(TYPES[position]);
+			holder.subtitle.setText(Lookup.TYPES[position]);
 
 			return convertView;
 		}

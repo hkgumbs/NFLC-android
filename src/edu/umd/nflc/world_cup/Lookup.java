@@ -20,6 +20,8 @@ public class Lookup {
 	public static final int TRANSLITERATION = 2;
 	public static final int SONG = 3;
 
+	public static final String[] TYPES = new String[] { "Native text", "Translation", "Transliteration" };
+
 	// Standard filenames for downloaded files
 	public static final String[] FILENAMES = new String[] { "lyrics.txt", "translation.txt", "transliteration.txt",
 			"song.mp3" };
@@ -641,7 +643,7 @@ public class Lookup {
 		case 20: // ITALY
 			result = context.getResources().getStringArray(R.array.italy_translations);
 			break;
-		case 21: // JAPAN 
+		case 21: // JAPAN
 			result = context.getResources().getStringArray(R.array.japan_translations);
 			break;
 		case 22: // SOUTH KOREA (KOREA REPUBLIC)
