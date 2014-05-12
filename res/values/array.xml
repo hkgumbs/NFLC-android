@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <integer-array name="prices">
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-        <item>199</item>
-    </integer-array>
-
     <!-- ALGERIA -->
     <string-array name="algeria_songs">
         <item>Oh! Algeria 1</item>

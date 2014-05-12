@@ -35,9 +35,6 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 
 	private static final String[] TYPES = new String[] { "Lyrics", "Translation", "Transliteration" };
 
-	private static boolean downloadResult = false;
-	private static boolean favoriteResult = false;
-
 	private static String[] songNames;
 	private static String[] songSources;
 	private static String[] songLyrics;
@@ -219,10 +216,7 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 	@Override
 	public boolean onNavigationItemSelected(int itemPosition, long itemId) {
 		type = itemPosition;
-
-		// TODO not sure if this is working
 		pagerAdapter.notifyDataSetChanged();
-
 		return true;
 	}
 
@@ -297,6 +291,12 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 		public int getCount() {
 			return numSongs;
 		}
+
+		@Override
+		public int getItemPosition(Object object) {
+			// allows notifyDataSetChanged() to redraw
+			return POSITION_NONE;
+		}
 	}
 
 	public static class ContentFragment extends Fragment implements OnClickListener {
@@ -308,13 +308,24 @@ public class PlayActivity extends ActionBarActivity implements OnPageChangeListe
 			final View frame = inflater.inflate(R.layout.fragment_play, container, false);
 			final int position = getArguments().getInt("position");
 
-			// get lyrics
+			// get text
 			new AsyncTask<Void, Void, String>() {
 				@Override
 				protected String doInBackground(Void... params) {
 
 					try {
-						String source = songLyrics[position];
+						String source;
+						switch (type) {
+						case 2:
+							source = songTransliterations[position];
+							break;
+						case 1:
+							source = songTranslations[position];
+							break;
+						default:
+							source = songLyrics[position];
+							break;
+						}
 						Reader reader;
 
 						if (lookup.isDownloaded(teamIds[position], songIds[position]))

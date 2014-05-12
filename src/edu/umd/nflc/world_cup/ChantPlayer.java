@@ -13,6 +13,9 @@ import android.widget.ImageView;
 
 public class ChantPlayer implements OnClickListener {
 
+	// This class handles media playback for app while doubling as a button
+	// listener for play buttons
+
 	private static final int NOT_PREPARED = 0;
 	private static final int PREPARING = 1;
 	private static final int OK = 2;
@@ -24,6 +27,7 @@ public class ChantPlayer implements OnClickListener {
 	private ImageView lastButton;
 	private int playing = -1;
 
+	// String array of URLs or file paths of media
 	public ChantPlayer(String[] sources) {
 		players = new MediaPlayer[sources.length];
 		prepared = new int[sources.length];
@@ -117,6 +121,7 @@ public class ChantPlayer implements OnClickListener {
 		}).start();
 	}
 
+	// Queues event listeners
 	private class Listener implements OnPreparedListener, OnErrorListener {
 
 		private List<OnPreparedListener> preparedListeners = new ArrayList<OnPreparedListener>();

@@ -17,235 +17,234 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040005;
     }
     public static final class array {
-        public static final int algeria_audios=0x7f0c0002;
-        public static final int algeria_lyrics=0x7f0c0003;
+        public static final int algeria_audios=0x7f0c0001;
+        public static final int algeria_lyrics=0x7f0c0002;
         /**  ALGERIA 
          */
-        public static final int algeria_songs=0x7f0c0001;
-        public static final int algeria_translations=0x7f0c0004;
-        public static final int algeria_transliterations=0x7f0c0005;
-        public static final int argentina_audios=0x7f0c0007;
-        public static final int argentina_lyrics=0x7f0c0008;
+        public static final int algeria_songs=0x7f0c0000;
+        public static final int algeria_translations=0x7f0c0003;
+        public static final int algeria_transliterations=0x7f0c0004;
+        public static final int argentina_audios=0x7f0c0006;
+        public static final int argentina_lyrics=0x7f0c0007;
         /**  ARGENTINA 
          */
-        public static final int argentina_songs=0x7f0c0006;
-        public static final int argentina_translations=0x7f0c0009;
-        public static final int argentina_transliterations=0x7f0c000a;
-        public static final int australia_audios=0x7f0c000c;
-        public static final int australia_lyrics=0x7f0c000d;
+        public static final int argentina_songs=0x7f0c0005;
+        public static final int argentina_translations=0x7f0c0008;
+        public static final int argentina_transliterations=0x7f0c0009;
+        public static final int australia_audios=0x7f0c000b;
+        public static final int australia_lyrics=0x7f0c000c;
         /**  AUSTRALIA 
          */
-        public static final int australia_songs=0x7f0c000b;
-        public static final int australia_translations=0x7f0c000e;
-        public static final int australia_transliterations=0x7f0c000f;
-        public static final int belgium_audios=0x7f0c0011;
-        public static final int belgium_lyrics=0x7f0c0012;
+        public static final int australia_songs=0x7f0c000a;
+        public static final int australia_translations=0x7f0c000d;
+        public static final int australia_transliterations=0x7f0c000e;
+        public static final int belgium_audios=0x7f0c0010;
+        public static final int belgium_lyrics=0x7f0c0011;
         /**  BELGIUM 
          */
-        public static final int belgium_songs=0x7f0c0010;
-        public static final int belgium_translations=0x7f0c0013;
-        public static final int belgium_transliterations=0x7f0c0014;
-        public static final int bosnia_audios=0x7f0c0016;
-        public static final int bosnia_lyrics=0x7f0c0017;
+        public static final int belgium_songs=0x7f0c000f;
+        public static final int belgium_translations=0x7f0c0012;
+        public static final int belgium_transliterations=0x7f0c0013;
+        public static final int bosnia_audios=0x7f0c0015;
+        public static final int bosnia_lyrics=0x7f0c0016;
         /**  BOSNIA AND HERZEGOVINA 
          */
-        public static final int bosnia_songs=0x7f0c0015;
-        public static final int bosnia_translations=0x7f0c0018;
-        public static final int bosnia_transliterations=0x7f0c0019;
-        public static final int brazil_audios=0x7f0c001b;
-        public static final int brazil_lyrics=0x7f0c001c;
+        public static final int bosnia_songs=0x7f0c0014;
+        public static final int bosnia_translations=0x7f0c0017;
+        public static final int bosnia_transliterations=0x7f0c0018;
+        public static final int brazil_audios=0x7f0c001a;
+        public static final int brazil_lyrics=0x7f0c001b;
         /**  BRAZIL 
          */
-        public static final int brazil_songs=0x7f0c001a;
-        public static final int brazil_translations=0x7f0c001d;
-        public static final int brazil_transliterations=0x7f0c001e;
-        public static final int cameroon_audios=0x7f0c0020;
-        public static final int cameroon_lyrics=0x7f0c0021;
+        public static final int brazil_songs=0x7f0c0019;
+        public static final int brazil_translations=0x7f0c001c;
+        public static final int brazil_transliterations=0x7f0c001d;
+        public static final int cameroon_audios=0x7f0c001f;
+        public static final int cameroon_lyrics=0x7f0c0020;
         /**  CAMEROON 
          */
-        public static final int cameroon_songs=0x7f0c001f;
-        public static final int cameroon_translations=0x7f0c0022;
-        public static final int cameroon_transliterations=0x7f0c0023;
-        public static final int chile_audios=0x7f0c0025;
-        public static final int chile_lyrics=0x7f0c0026;
+        public static final int cameroon_songs=0x7f0c001e;
+        public static final int cameroon_translations=0x7f0c0021;
+        public static final int cameroon_transliterations=0x7f0c0022;
+        public static final int chile_audios=0x7f0c0024;
+        public static final int chile_lyrics=0x7f0c0025;
         /**  CHILE 
          */
-        public static final int chile_songs=0x7f0c0024;
-        public static final int chile_translations=0x7f0c0027;
-        public static final int chile_transliterations=0x7f0c0028;
-        public static final int colombia_audios=0x7f0c002a;
-        public static final int colombia_lyrics=0x7f0c002b;
+        public static final int chile_songs=0x7f0c0023;
+        public static final int chile_translations=0x7f0c0026;
+        public static final int chile_transliterations=0x7f0c0027;
+        public static final int colombia_audios=0x7f0c0029;
+        public static final int colombia_lyrics=0x7f0c002a;
         /**  COLOMBIA 
          */
-        public static final int colombia_songs=0x7f0c0029;
-        public static final int colombia_translations=0x7f0c002c;
-        public static final int colombia_transliterations=0x7f0c002d;
-        public static final int costa_rica_audios=0x7f0c002f;
-        public static final int costa_rica_lyrics=0x7f0c0030;
+        public static final int colombia_songs=0x7f0c0028;
+        public static final int colombia_translations=0x7f0c002b;
+        public static final int colombia_transliterations=0x7f0c002c;
+        public static final int costa_rica_audios=0x7f0c002e;
+        public static final int costa_rica_lyrics=0x7f0c002f;
         /**  COSTA RICA 
          */
-        public static final int costa_rica_songs=0x7f0c002e;
-        public static final int costa_rica_translations=0x7f0c0031;
-        public static final int costa_rica_transliterations=0x7f0c0032;
-        public static final int cote_d_audios=0x7f0c0034;
-        public static final int cote_d_lyrics=0x7f0c0035;
+        public static final int costa_rica_songs=0x7f0c002d;
+        public static final int costa_rica_translations=0x7f0c0030;
+        public static final int costa_rica_transliterations=0x7f0c0031;
+        public static final int cote_d_audios=0x7f0c0033;
+        public static final int cote_d_lyrics=0x7f0c0034;
         /**  Côte d’Ivoire 
          */
-        public static final int cote_d_songs=0x7f0c0033;
-        public static final int cote_d_translations=0x7f0c0036;
-        public static final int cote_d_transliterations=0x7f0c0037;
-        public static final int croatia_audios=0x7f0c0039;
-        public static final int croatia_lyrics=0x7f0c003a;
+        public static final int cote_d_songs=0x7f0c0032;
+        public static final int cote_d_translations=0x7f0c0035;
+        public static final int cote_d_transliterations=0x7f0c0036;
+        public static final int croatia_audios=0x7f0c0038;
+        public static final int croatia_lyrics=0x7f0c0039;
         /**  CROATIA 
          */
-        public static final int croatia_songs=0x7f0c0038;
-        public static final int croatia_translations=0x7f0c003b;
-        public static final int croatia_transliterations=0x7f0c003c;
-        public static final int ecuador_audios=0x7f0c003e;
-        public static final int ecuador_lyrics=0x7f0c003f;
+        public static final int croatia_songs=0x7f0c0037;
+        public static final int croatia_translations=0x7f0c003a;
+        public static final int croatia_transliterations=0x7f0c003b;
+        public static final int ecuador_audios=0x7f0c003d;
+        public static final int ecuador_lyrics=0x7f0c003e;
         /**  ECUADOR 
          */
-        public static final int ecuador_songs=0x7f0c003d;
-        public static final int ecuador_translations=0x7f0c0040;
-        public static final int ecuador_transliterations=0x7f0c0041;
-        public static final int england_audios=0x7f0c0043;
-        public static final int england_lyrics=0x7f0c0044;
+        public static final int ecuador_songs=0x7f0c003c;
+        public static final int ecuador_translations=0x7f0c003f;
+        public static final int ecuador_transliterations=0x7f0c0040;
+        public static final int england_audios=0x7f0c0042;
+        public static final int england_lyrics=0x7f0c0043;
         /**  ENGLAND 
          */
-        public static final int england_songs=0x7f0c0042;
-        public static final int england_translations=0x7f0c0045;
-        public static final int england_transliterations=0x7f0c0046;
-        public static final int france_audios=0x7f0c0048;
-        public static final int france_lyrics=0x7f0c0049;
+        public static final int england_songs=0x7f0c0041;
+        public static final int england_translations=0x7f0c0044;
+        public static final int england_transliterations=0x7f0c0045;
+        public static final int france_audios=0x7f0c0047;
+        public static final int france_lyrics=0x7f0c0048;
         /**  FRANCE 
          */
-        public static final int france_songs=0x7f0c0047;
-        public static final int france_translations=0x7f0c004a;
-        public static final int france_transliterations=0x7f0c004b;
-        public static final int germany_audios=0x7f0c004d;
-        public static final int germany_lyrics=0x7f0c004e;
+        public static final int france_songs=0x7f0c0046;
+        public static final int france_translations=0x7f0c0049;
+        public static final int france_transliterations=0x7f0c004a;
+        public static final int germany_audios=0x7f0c004c;
+        public static final int germany_lyrics=0x7f0c004d;
         /**  GERMANY 
          */
-        public static final int germany_songs=0x7f0c004c;
-        public static final int germany_translations=0x7f0c004f;
-        public static final int germany_transliterations=0x7f0c0050;
-        public static final int ghana_audios=0x7f0c0052;
-        public static final int ghana_lyrics=0x7f0c0053;
+        public static final int germany_songs=0x7f0c004b;
+        public static final int germany_translations=0x7f0c004e;
+        public static final int germany_transliterations=0x7f0c004f;
+        public static final int ghana_audios=0x7f0c0051;
+        public static final int ghana_lyrics=0x7f0c0052;
         /**  GHANA 
          */
-        public static final int ghana_songs=0x7f0c0051;
-        public static final int ghana_translations=0x7f0c0054;
-        public static final int ghana_transliterations=0x7f0c0055;
-        public static final int greece_audios=0x7f0c0057;
-        public static final int greece_lyrics=0x7f0c0058;
+        public static final int ghana_songs=0x7f0c0050;
+        public static final int ghana_translations=0x7f0c0053;
+        public static final int ghana_transliterations=0x7f0c0054;
+        public static final int greece_audios=0x7f0c0056;
+        public static final int greece_lyrics=0x7f0c0057;
         /**  GREECE 
          */
-        public static final int greece_songs=0x7f0c0056;
-        public static final int greece_translations=0x7f0c0059;
-        public static final int greece_transliterations=0x7f0c005a;
-        public static final int honduras_audios=0x7f0c005c;
-        public static final int honduras_lyrics=0x7f0c005d;
+        public static final int greece_songs=0x7f0c0055;
+        public static final int greece_translations=0x7f0c0058;
+        public static final int greece_transliterations=0x7f0c0059;
+        public static final int honduras_audios=0x7f0c005b;
+        public static final int honduras_lyrics=0x7f0c005c;
         /**  HONDURAS 
          */
-        public static final int honduras_songs=0x7f0c005b;
-        public static final int honduras_translations=0x7f0c005e;
-        public static final int honduras_transliterations=0x7f0c005f;
-        public static final int iran_audios=0x7f0c0061;
-        public static final int iran_lyrics=0x7f0c0062;
+        public static final int honduras_songs=0x7f0c005a;
+        public static final int honduras_translations=0x7f0c005d;
+        public static final int honduras_transliterations=0x7f0c005e;
+        public static final int iran_audios=0x7f0c0060;
+        public static final int iran_lyrics=0x7f0c0061;
         /**  IRAN 
          */
-        public static final int iran_songs=0x7f0c0060;
-        public static final int iran_translations=0x7f0c0063;
-        public static final int iran_transliterations=0x7f0c0064;
-        public static final int italy_audios=0x7f0c0066;
-        public static final int italy_lyrics=0x7f0c0067;
+        public static final int iran_songs=0x7f0c005f;
+        public static final int iran_translations=0x7f0c0062;
+        public static final int iran_transliterations=0x7f0c0063;
+        public static final int italy_audios=0x7f0c0065;
+        public static final int italy_lyrics=0x7f0c0066;
         /**  ITALY 
          */
-        public static final int italy_songs=0x7f0c0065;
-        public static final int italy_translations=0x7f0c0068;
-        public static final int italy_transliterations=0x7f0c0069;
-        public static final int japan_audios=0x7f0c006b;
-        public static final int japan_lyrics=0x7f0c006c;
+        public static final int italy_songs=0x7f0c0064;
+        public static final int italy_translations=0x7f0c0067;
+        public static final int italy_transliterations=0x7f0c0068;
+        public static final int japan_audios=0x7f0c006a;
+        public static final int japan_lyrics=0x7f0c006b;
         /**  JAPAN 
          */
-        public static final int japan_songs=0x7f0c006a;
-        public static final int japan_translations=0x7f0c006d;
-        public static final int japan_transliterations=0x7f0c006e;
-        public static final int mexico_audios=0x7f0c0070;
-        public static final int mexico_lyrics=0x7f0c0071;
+        public static final int japan_songs=0x7f0c0069;
+        public static final int japan_translations=0x7f0c006c;
+        public static final int japan_transliterations=0x7f0c006d;
+        public static final int mexico_audios=0x7f0c006f;
+        public static final int mexico_lyrics=0x7f0c0070;
         /**  MEXICO 
          */
-        public static final int mexico_songs=0x7f0c006f;
-        public static final int mexico_translations=0x7f0c0072;
-        public static final int mexico_transliterations=0x7f0c0073;
-        public static final int netherlands_audios=0x7f0c0075;
-        public static final int netherlands_lyrics=0x7f0c0076;
+        public static final int mexico_songs=0x7f0c006e;
+        public static final int mexico_translations=0x7f0c0071;
+        public static final int mexico_transliterations=0x7f0c0072;
+        public static final int netherlands_audios=0x7f0c0074;
+        public static final int netherlands_lyrics=0x7f0c0075;
         /**  NETHERLANDS 
          */
-        public static final int netherlands_songs=0x7f0c0074;
-        public static final int netherlands_translations=0x7f0c0077;
-        public static final int netherlands_transliterations=0x7f0c0078;
-        public static final int nigeria_audios=0x7f0c007a;
-        public static final int nigeria_lyrics=0x7f0c007b;
+        public static final int netherlands_songs=0x7f0c0073;
+        public static final int netherlands_translations=0x7f0c0076;
+        public static final int netherlands_transliterations=0x7f0c0077;
+        public static final int nigeria_audios=0x7f0c0079;
+        public static final int nigeria_lyrics=0x7f0c007a;
         /**  NIGERIA 
          */
-        public static final int nigeria_songs=0x7f0c0079;
-        public static final int nigeria_translations=0x7f0c007c;
-        public static final int nigeria_transliterations=0x7f0c007d;
-        public static final int portugal_audios=0x7f0c007f;
-        public static final int portugal_lyrics=0x7f0c0080;
+        public static final int nigeria_songs=0x7f0c0078;
+        public static final int nigeria_translations=0x7f0c007b;
+        public static final int nigeria_transliterations=0x7f0c007c;
+        public static final int portugal_audios=0x7f0c007e;
+        public static final int portugal_lyrics=0x7f0c007f;
         /**  PORTUGAL 
          */
-        public static final int portugal_songs=0x7f0c007e;
-        public static final int portugal_translations=0x7f0c0081;
-        public static final int portugal_transliterations=0x7f0c0082;
-        public static final int prices=0x7f0c0000;
-        public static final int russia_audios=0x7f0c0084;
-        public static final int russia_lyrics=0x7f0c0085;
+        public static final int portugal_songs=0x7f0c007d;
+        public static final int portugal_translations=0x7f0c0080;
+        public static final int portugal_transliterations=0x7f0c0081;
+        public static final int russia_audios=0x7f0c0083;
+        public static final int russia_lyrics=0x7f0c0084;
         /**  RUSSIA 
          */
-        public static final int russia_songs=0x7f0c0083;
-        public static final int russia_translations=0x7f0c0086;
-        public static final int russia_transliterations=0x7f0c0087;
-        public static final int south_korea_audios=0x7f0c0089;
-        public static final int south_korea_lyrics=0x7f0c008a;
+        public static final int russia_songs=0x7f0c0082;
+        public static final int russia_translations=0x7f0c0085;
+        public static final int russia_transliterations=0x7f0c0086;
+        public static final int south_korea_audios=0x7f0c0088;
+        public static final int south_korea_lyrics=0x7f0c0089;
         /**  SOUTH KOREA 
          */
-        public static final int south_korea_songs=0x7f0c0088;
-        public static final int south_korea_translations=0x7f0c008b;
-        public static final int south_korea_transliterations=0x7f0c008c;
-        public static final int spain_audios=0x7f0c008e;
-        public static final int spain_lyrics=0x7f0c008f;
+        public static final int south_korea_songs=0x7f0c0087;
+        public static final int south_korea_translations=0x7f0c008a;
+        public static final int south_korea_transliterations=0x7f0c008b;
+        public static final int spain_audios=0x7f0c008d;
+        public static final int spain_lyrics=0x7f0c008e;
         /**  SPAIN 
          */
-        public static final int spain_songs=0x7f0c008d;
-        public static final int spain_translations=0x7f0c0090;
-        public static final int spain_transliterations=0x7f0c0091;
-        public static final int switzerland_audios=0x7f0c0093;
-        public static final int switzerland_lyrics=0x7f0c0094;
+        public static final int spain_songs=0x7f0c008c;
+        public static final int spain_translations=0x7f0c008f;
+        public static final int spain_transliterations=0x7f0c0090;
+        public static final int switzerland_audios=0x7f0c0092;
+        public static final int switzerland_lyrics=0x7f0c0093;
         /**  SWITZERLAND 
          */
-        public static final int switzerland_songs=0x7f0c0092;
-        public static final int switzerland_translations=0x7f0c0095;
-        public static final int switzerland_transliterations=0x7f0c0096;
-        public static final int team_flags=0x7f0c00a2;
+        public static final int switzerland_songs=0x7f0c0091;
+        public static final int switzerland_translations=0x7f0c0094;
+        public static final int switzerland_transliterations=0x7f0c0095;
+        public static final int team_flags=0x7f0c00a1;
         /**  Teams 
          */
-        public static final int team_names=0x7f0c00a1;
-        public static final int uruguay_audios=0x7f0c0098;
-        public static final int uruguay_lyrics=0x7f0c0099;
+        public static final int team_names=0x7f0c00a0;
+        public static final int uruguay_audios=0x7f0c0097;
+        public static final int uruguay_lyrics=0x7f0c0098;
         /**  URUGUAY 
          */
-        public static final int uruguay_songs=0x7f0c0097;
-        public static final int uruguay_translations=0x7f0c009a;
-        public static final int uruguay_transliterations=0x7f0c009b;
-        public static final int usa_audios=0x7f0c009d;
-        public static final int usa_lyrics=0x7f0c009e;
+        public static final int uruguay_songs=0x7f0c0096;
+        public static final int uruguay_translations=0x7f0c0099;
+        public static final int uruguay_transliterations=0x7f0c009a;
+        public static final int usa_audios=0x7f0c009c;
+        public static final int usa_lyrics=0x7f0c009d;
         /**  USA 
          */
-        public static final int usa_songs=0x7f0c009c;
-        public static final int usa_translations=0x7f0c009f;
-        public static final int usa_transliterations=0x7f0c00a0;
+        public static final int usa_songs=0x7f0c009b;
+        public static final int usa_translations=0x7f0c009e;
+        public static final int usa_transliterations=0x7f0c009f;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
